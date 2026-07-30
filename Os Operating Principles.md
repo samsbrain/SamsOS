@@ -7,7 +7,7 @@
 - Modular over monolithic.
 - Design for attending life, not just residency.
 
-#Development Standards
+# Development Standards
 
 Documentation
 -------------
