@@ -1,5 +1,19 @@
 # SamOS Architecture
-Architecture evolves. Principles are stable.
+> Architecture evolves. Principles are stable.
+## Table of Contents
+1. Purpose
+2. Architectural Goals
+3. Source of Truth
+4. System Architecture
+5. Design Philosophy
+6. System Components
+7. Data Flow
+8. Feedback Loops
+9. Inputs & Outputs
+10. Object Hierarchy
+11. Design Principles
+12. Future Expansion
+    
 ## Purpose
 
 SamOS is a personal operating system designed to reduce cognitive load by transforming structured information about life into actionable daily plans.
@@ -28,34 +42,33 @@ Outputs such as calendars, dashboards, and reminders are generated from this sou
 
 ---
 
-# System Architecture
-                         INPUTS
-                           │
-       ┌───────────────────┼────────────────────┐
-       │                   │                    │
-   Master.yaml        Monthly.yaml           Knowledge
-       │                   │                    │
-       └───────────────────┼────────────────────┘
-                           │
-                      Rules Engine
-                           │
-                      Planning Engine
-                           │
-                 Context / Prioritization
-                           │
-              ┌────────────┼─────────────┐
-              │            │             │
-         Calendar     Dashboard     Reminders
-              │
-        Daily Reflection
-              │
-        Knowledge Engine
-              │
-        Updated Knowledge Base 
+## System Architecture
+                Configuration
+        ┌────────────┬────────────┐
+        │            │            │
+   master.yaml  monthly.yaml  knowledge.yaml
+        │            │            │
+        └────────────┴────────────┘
+                     │
+                Rules Engine
+                     │
+               Planning Engine
+                     │
+               Context Engine
+                     │
+         ┌───────────┼────────────┐
+         │           │            │
+     Calendar    Dashboard   Reminders
+                     │
+              Daily Reflection
+                     │
+             Knowledge Engine
+                     │
+             knowledge.yaml
 
 ---
 
-# Design Philosophy
+## Design Philosophy
 
 Everything is an object.
 
@@ -73,9 +86,11 @@ Everything has one source of truth.
 
 Every piece of information should exist only in one place.
 
+SamOS is designed around data, not interfaces. Interfaces may change; the data model should remain stable.
+
 ---
 
-# System Components
+## System Components
 | Component | Responsibility |
 |-----------|----------------|
 | Identity Engine | Defines who the user is and long-term defaults |
@@ -86,10 +101,10 @@ Every piece of information should exist only in one place.
 
 ---
 
-# Data Flow
-Configuration
+## Data Flow
+Configuration Files
         ↓
-Objects
+Domain Objects
         ↓
 Planning Engine
         ↓
@@ -105,7 +120,7 @@ Future Planning
                      
 ---
 
-# Feedback Loops
+## Feedback Loops
 1. Learning Loop
    Study
    ↓
@@ -133,48 +148,54 @@ Future Planning
     ↓
     Adjust Plan
 ---
-#Inputs & Outputs
-| Input |
-|--------|
-| Master |
-| Rules |
-| Monthly |
-| Cases |
-| Knowledge |
+##Inputs & Outputs
+| Input | Description |
+|--------|-------------|
+| master.yaml | Identity and long-term defaults |
+| rules.yaml | Decision logic |
+| monthly.yaml | Monthly schedule and events |
+| knowledge.yaml | Accumulated knowledge |
+| Templates | Presentation rules |
 
-| Output |
-|---------|
-| Calendar |
-| Dashboard |
-| Reminders |
-| Weekly Brief |
-| Reflection Prompts |
+| Output | Purpose |
+|---------|---------|
+| Calendar | Daily execution |
+| Dashboard | Situational awareness |
+| Reminders | Action prompts |
+| Weekly Brief | Planning summary |
+| Reflection Prompts | Continuous learning |
 ---
 
-# Object Hierarchy
+## Object Hierarchy
 
 SamOS
 │
-├── Person
-├── Role
-├── Domain
-├── Rule
-├── Event
-├── Case
-├── StudyBlock
-├── Workout
-├── Reminder
-├── Reflection
-├── Knowledge
-├── Goal
-├── Rotation
-├── Call
-├── Vacation
-└── Template
+├── Core
+│   ├── Person
+│   ├── Role
+│   ├── Domain
+│   └── Rule
+│
+├── Planning
+│   ├── Event
+│   ├── Case
+│   ├── Call
+│   ├── Rotation
+│   └── Vacation
+│
+├── Growth
+│   ├── StudyBlock
+│   ├── Workout
+│   ├── Reflection
+│   ├── Knowledge
+│   └── Goal
+│
+└── Presentation
+    └── Template
 
 ---
 
-# Design Principles
+## Design Principles
 - Every object has a single source of truth.
 - Behavior belongs in rules, not data.
 - Presentation belongs in templates.
@@ -183,8 +204,6 @@ SamOS
 - New features should reuse existing objects whenever possible.
 
 ---
-
-# Future Expansion
 
 ## Future Expansion
 
@@ -199,6 +218,7 @@ Potential future outputs include:
 - Travel planning
 - Team collaboration
 
+## Edit History
 Version: 0.1
 Status: Draft
 Last Updated: 2026-07-30
