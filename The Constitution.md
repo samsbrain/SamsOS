@@ -1,4 +1,3 @@
-The_Constitution.md
 #Purpose
 SamOS exists to reduce cognitive load so that I can devote my attention to becoming an exceptional surgeon while living a life I am proud of.
 Its purpose is not to maximize productivity.
