@@ -1,5 +1,7 @@
 # SamOS Architecture
 > Architecture evolves. Principles are stable.
+> SamOS is event-driven but knowledge-centered.
+
 ## Table of Contents
 1. Purpose
 2. Architectural Goals
@@ -68,7 +70,7 @@ Outputs such as calendars, dashboards, and reminders are generated from this sou
 
 ---
 
-## Design Philosophy
+## Architectural Principles
 
 Everything is an object.
 
@@ -89,8 +91,18 @@ Every piece of information should exist only in one place.
 SamOS is designed around data, not interfaces. Interfaces may change; the data model should remain stable.
 
 ---
+## Architectural Layers
+Presentation Layer
+↓
+Planning Layer
+↓
+Knowledge Layer
+↓
+Configuration Layer
 
 ## System Components
+> The SamOS architecture is composed of several independent engines, each responsible for a specific stage of planning or execution.
+
 | Component | Responsibility |
 |-----------|----------------|
 | Identity Engine | Defines who the user is and long-term defaults |
@@ -102,6 +114,8 @@ SamOS is designed around data, not interfaces. Interfaces may change; the data m
 ---
 
 ## Data Flow
+> Information flows through SamOS in a predictable pipeline from configuration to execution and back into knowledge.
+
 Configuration Files
         ↓
 Domain Objects
@@ -148,7 +162,8 @@ Future Planning
     ↓
     Adjust Plan
 ---
-##Inputs & Outputs
+## Inputs & Outputs
+### Inputs
 | Input | Description |
 |--------|-------------|
 | master.yaml | Identity and long-term defaults |
@@ -157,6 +172,7 @@ Future Planning
 | knowledge.yaml | Accumulated knowledge |
 | Templates | Presentation rules |
 
+### Outputs
 | Output | Purpose |
 |---------|---------|
 | Calendar | Daily execution |
@@ -205,7 +221,7 @@ SamOS
 
 ---
 
-## Future Expansion
+## Future Directions
 
 The architecture is designed to support future integrations without changing the underlying data model.
 
@@ -218,7 +234,10 @@ Potential future outputs include:
 - Travel planning
 - Team collaboration
 
-## Edit History
-Version: 0.1
-Status: Draft
-Last Updated: 2026-07-30
+## Document Metadata
+
+| Property | Value |
+|----------|-------|
+| Version | 0.1 |
+| Status | Draft |
+| Last Updated | 2026-07-30 |
