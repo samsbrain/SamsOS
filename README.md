@@ -1,10 +1,10 @@
 # SamOS
 
-The brain dump for all things residency, life and improving myself.
+The organizer for all things residency, life and improving myself.
 
 ## Mission
 
-Reduce decision fatigue by organizing every aspect of life, residency (and attending life), and training into one place.
+Reduce decision fatigue by organizing every aspect of life, work, and training into one place.
 
 ## Areas
 
