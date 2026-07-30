@@ -42,6 +42,13 @@ These files are the authoritative source of all planning, scheduling, knowledge,
 
 Outputs such as calendars, dashboards, and reminders are generated from this source and should never become independent sources of information.
 
+SamOS organizes information into four categories:
+
+- Configuration — who you are and your defaults.
+- Behavior — how decisions are made.
+- State — what is currently happening.
+- Knowledge — what has been learned.
+  
 ---
 
 ## System Architecture
@@ -54,9 +61,9 @@ Outputs such as calendars, dashboards, and reminders are generated from this sou
                      │
                 Rules Engine
                      │
-               Planning Engine
-                     │
                Context Engine
+                     │
+               Planning Engine
                      │
          ┌───────────┼────────────┐
          │           │            │
@@ -92,20 +99,20 @@ SamOS is designed around data, not interfaces. Interfaces may change; the data m
 
 ---
 ## Architectural Layers
-Presentation Layer
-↓
-Planning Layer
-↓
-Knowledge Layer
-↓
 Configuration Layer
+        ↓
+Knowledge Layer
+        ↓
+Planning Layer
+        ↓
+Presentation Layer
 
 ## System Components
 > The SamOS architecture is composed of several independent engines, each responsible for a specific stage of planning or execution.
 
 | Component | Responsibility |
-|-----------|----------------|
-| Identity Engine | Defines who the user is and long-term defaults |
+| Context Engine | Determines what matters right now based on current circumstances |
+| Identity Engine | Defines the user's identity, long-term goals, preferences, and system defaults. |
 | Rules Engine | Applies behavioral logic |
 | Planning Engine | Generates the optimal schedule |
 | Knowledge Engine | Stores and retrieves accumulated knowledge |
@@ -122,7 +129,7 @@ Domain Objects
         ↓
 Planning Engine
         ↓
-Output Generators
+Generated Outputs
         ↓
 Execution
         ↓
@@ -191,7 +198,8 @@ SamOS
 │   ├── Role
 │   ├── Domain
 │   └── Rule
-│
+    |__ Knowledge
+    
 ├── Planning
 │   ├── Event
 │   ├── Case
@@ -203,7 +211,6 @@ SamOS
 │   ├── StudyBlock
 │   ├── Workout
 │   ├── Reflection
-│   ├── Knowledge
 │   └── Goal
 │
 └── Presentation
