@@ -1,0 +1,1 @@
+To create an integrated life operating system that reduces cognitive load by generating my weekly plan, surfacing what matters most, preventing important things from being overlooked, and connecting my calendar, knowledge, reminders, and long-term goals into one cohesive system.
