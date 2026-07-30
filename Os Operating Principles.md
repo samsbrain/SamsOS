@@ -47,10 +47,10 @@ Title Case
 
 Examples
 --------
-Config/
-Knowledge/
-Templates/
-Monthly/
-Generator/
-Dashboard/
-Docs/
+- Config/
+- Knowledge/
+- Templates/
+- Monthly/
+- Generator/
+- Dashboard/
+- Docs/
