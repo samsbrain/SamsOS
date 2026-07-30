@@ -8,6 +8,7 @@
 - Design for attending life, not just residency.
 
 #Development Standards
+
 Documentation
 -------------
 Title Case.md
