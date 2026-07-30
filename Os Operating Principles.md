@@ -16,10 +16,10 @@ Title Case.md
 Examples
 --------
 README.md
-The Constitution.md
-Vision.md
-Architecture.md
-Roadmap.md
+- The Constitution.md
+- Vision.md
+- Architecture.md
+- Roadmap.md
 
 Configuration
 -------------
@@ -27,9 +27,9 @@ lowercase.yaml
 
 Examples
 --------
-master.yaml
-rules.yaml
-settings.yaml
+- master.yaml
+- rules.yaml
+- settings.yaml
 
 Python
 ------
@@ -37,9 +37,9 @@ snake_case.py
 
 Examples
 --------
-build_calendar.py
-decision_engine.py
-calendar_compiler.py
+- build_calendar.py
+- decision_engine.py
+- calendar_compiler.py
 
 Folders
 -------
