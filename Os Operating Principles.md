@@ -1,4 +1,3 @@
-Operating_Principles.md
 #Operational principles
 - Automate recurring decisions.
 - Capture knowledge once; reuse forever.
