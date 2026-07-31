@@ -201,13 +201,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 SUMMARY:Optional study: Biliary Neoplasms and Jaundice
-DESCRIPTION:Call-day minimum: 5 SCORE questions only if patient care allows
- \nWeekly topic: Biliary Neoplasms and Jaundice\nTWIS: Benign Biliary Obstr
- uction\; Primary Biliary Neoplasms\; Extended Cholecystectomy for Gallblad
- der Cancer\; Gallbladder Neoplasms\; Procedures for Bile Duct Cancer\; Pro
- cedures for Bile Duct Neoplasm\nSCORE focus: Biliary\nAnki: 10 minutes\; m
- ake up to 3 cards from missed or guessed questions\nReview explanations an
- d record the management detail that changes the answer
+DESCRIPTION:Only if patient care allows: 5 SCORE questions\nWeekly topic: B
+ iliary Neoplasms and Jaundice\nTWIS: Benign Biliary Obstruction\; Primary
+  Biliary Neoplasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gal
+ lbladder Neoplasms\; Procedures for Bile Duct Cancer\; Procedures for Bile
+  Duct Neoplasm\nSCORE focus: Biliary\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -299,13 +299,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Optional study: Biliary Neoplasms and Jaundice
-DESCRIPTION:Call-day minimum: 5 SCORE questions only if patient care allows
- \nWeekly topic: Biliary Neoplasms and Jaundice\nTWIS: Benign Biliary Obstr
- uction\; Primary Biliary Neoplasms\; Extended Cholecystectomy for Gallblad
- der Cancer\; Gallbladder Neoplasms\; Procedures for Bile Duct Cancer\; Pro
- cedures for Bile Duct Neoplasm\nSCORE focus: Biliary\nAnki: 10 minutes\; m
- ake up to 3 cards from missed or guessed questions\nReview explanations an
- d record the management detail that changes the answer
+DESCRIPTION:Only if patient care allows: 5 SCORE questions\nWeekly topic: B
+ iliary Neoplasms and Jaundice\nTWIS: Benign Biliary Obstruction\; Primary
+  Biliary Neoplasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gal
+ lbladder Neoplasms\; Procedures for Bile Duct Cancer\; Procedures for Bile
+  Duct Neoplasm\nSCORE focus: Biliary\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -452,12 +452,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Optional study: Nutrition
-DESCRIPTION:Call-day minimum: 5 SCORE questions only if patient care allows
- \nWeekly topic: Nutrition\nTWIS: Access Procedures for Nutritional Support
- \; Nutritional Support\; Nutritional Assessment\; Nutritional Requirements
- \nSCORE focus: Nutrition and Metabolism\; Surgical Critical Care\nAnki: 10
-  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
- lanations and record the management detail that changes the answer
+DESCRIPTION:Only if patient care allows: 5 SCORE questions\nWeekly topic: N
+ utrition\nTWIS: Access Procedures for Nutritional Support\; Nutritional Su
+ pport\; Nutritional Assessment\; Nutritional Requirements\nSCORE focus: Nu
+ trition and Metabolism\; Surgical Critical Care\nAnki: 10 minutes\; make u
+ p to 3 cards from missed or guessed questions\nReview explanations and rec
+ ord the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -579,12 +579,16 @@ DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:Weekly case review: Full-thickness rectal prolapse with fecal incon
  tinence
-DESCRIPTION:Vacation rule: optional\; skip without catch-up guilt\nCase: Fu
- ll-thickness rectal prolapse with fecal incontinence\nOperation: Hemorrhoi
- dectomy\nAnatomy: Anal canal\, sphincter complex\, and hemorrhoidal column
- s\nComplication: Post-hemorrhoidectomy bleeding\nAnswer: What do I do firs
- t? What changes management? When do I call for help?\nCapture one pearl\,
-  one uncertainty\, and one follow-up topic
+DESCRIPTION:Vacation rule: optional\; skip without catch-up guilt\nVacation
+  target: 10 SCORE questions\, then enjoy the day\nModules: Hemorrhoids\; P
+ rocedures for Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas
+  Excision\; Fecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nC
+ ase: Full-thickness rectal prolapse with fecal incontinence\nOperation: He
+ morrhoidectomy\nAnatomy: Anal canal\, sphincter complex\, and hemorrhoidal
+  columns\nComplication: Post-hemorrhoidectomy bleeding\nAnswer: What do I
+  do first? What changes management? When do I call for help?\nCapture one
+  pearl\, one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -637,12 +641,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:Optional study: Liver Neoplasms and Portal Hypertension
-DESCRIPTION:Call-day minimum: 5 SCORE questions only if patient care allows
- \nWeekly topic: Liver Neoplasms and Portal Hypertension\nTWIS: Cirrhosis a
- nd Portal Hypertension\; Metastatic Hepatic Neoplasms\; Segmentectomy and
-  Lobectomy\nSCORE focus: Liver\nAnki: 10 minutes\; make up to 3 cards from
-  missed or guessed questions\nReview explanations and record the managemen
- t detail that changes the answer
+DESCRIPTION:Only if patient care allows: 5 SCORE questions\nWeekly topic: L
+ iver Neoplasms and Portal Hypertension\nTWIS: Cirrhosis and Portal Hyperte
+ nsion\; Metastatic Hepatic Neoplasms\; Segmentectomy and Lobectomy\nSCORE
+  focus: Liver\nAnki: 10 minutes\; make up to 3 cards from missed or guesse
+ d questions\nReview explanations and record the management detail that cha
+ nges the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -701,13 +705,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260829
 DTEND;VALUE=DATE:20260830
 SUMMARY:Deep study: Liver Neoplasms and Portal Hypertension
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Liver Neoplas
- ms and Portal Hypertension\nTWIS: Cirrhosis and Portal Hypertension\; Meta
- static Hepatic Neoplasms\; Segmentectomy and Lobectomy\nSCORE focus: Liver
- \nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\n
- Review explanations and record the management detail that changes the answ
- er\nPreview this week's case: Colorectal liver metastasis in a patient wit
- h portal hypertension
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Li
+ ver Neoplasms and Portal Hypertension\nTWIS: Cirrhosis and Portal Hyperten
+ sion\; Metastatic Hepatic Neoplasms\; Segmentectomy and Lobectomy\nSCORE f
+ ocus: Liver\nAnki: 10 minutes\; make up to 3 cards from missed or guessed
+  questions\nReview explanations and record the management detail that chan
+ ges the answer\nPreview this week's case: Colorectal liver metastasis in a
+  patient with portal hypertension
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -751,11 +755,14 @@ DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:Weekly case review: Colorectal liver metastasis in a patient with p
  ortal hypertension
-DESCRIPTION:Case: Colorectal liver metastasis in a patient with portal hype
- rtension\nOperation: Anatomic hepatic segmentectomy\nAnatomy: Couinaud seg
- ments and hepatic inflow/outflow\nComplication: Post-hepatectomy liver fai
- lure\nAnswer: What do I do first? What changes management? When do I call
-  for help?\nCapture one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: Cirrhosis and Port
+ al Hypertension\; Metastatic Hepatic Neoplasms\; Segmentectomy and Lobecto
+ my\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions
+ \nCase: Colorectal liver metastasis in a patient with portal hypertension\
+ nOperation: Anatomic hepatic segmentectomy\nAnatomy: Couinaud segments and
+  hepatic inflow/outflow\nComplication: Post-hepatectomy liver failure\nAns
+ wer: What do I do first? What changes management? When do I call for help?
+ \nCapture one pearl\, one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -889,12 +896,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:Deep study: Pancreas and Pancreatitis
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Pancreas and
-  Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\; Pancreas
-  Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pancreas\nAn
- ki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRevi
- ew explanations and record the management detail that changes the answer\n
- Preview this week's case: Necrotizing pancreatitis with infected necrosis
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Pa
+ ncreas and Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\;
+  Pancreas Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pan
+ creas\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questi
+ ons\nReview explanations and record the management detail that changes the
+  answer\nPreview this week's case: Necrotizing pancreatitis with infected
+  necrosis
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -925,11 +933,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
 SUMMARY:Weekly case review: Necrotizing pancreatitis with infected necrosis
-DESCRIPTION:Case: Necrotizing pancreatitis with infected necrosis\nOperatio
- n: Necrosectomy and step-up management\nAnatomy: Pancreatic blood supply a
- nd retroperitoneal relationships\nComplication: Postoperative pancreatic f
- istula\nAnswer: What do I do first? What changes management? When do I cal
- l for help?\nCapture one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: Acute Pancreatitis
+ \; Chronic Pancreatitis\; Pancreas Divisum\; Intraoperative Pancreatic Ult
+ rasound\nAnki: 10 minutes\; make up to 3 cards from missed or guessed ques
+ tions\nCase: Necrotizing pancreatitis with infected necrosis\nOperation: N
+ ecrosectomy and step-up management\nAnatomy: Pancreatic blood supply and r
+ etroperitoneal relationships\nComplication: Postoperative pancreatic fistu
+ la\nAnswer: What do I do first? What changes management? When do I call fo
+ r help?\nCapture one pearl\, one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1028,12 +1039,16 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
 SUMMARY:Weekly case review: Perforated peptic ulcer with shock
-DESCRIPTION:Vacation rule: optional\; skip without catch-up guilt\nCase: Pe
- rforated peptic ulcer with shock\nOperation: Distal gastrectomy with lymph
- adenectomy\nAnatomy: Gastric blood supply\, vagal trunks\, and lymphatic s
- tations\nComplication: Duodenal stump leak\nAnswer: What do I do first? Wh
- at changes management? When do I call for help?\nCapture one pearl\, one u
- ncertainty\, and one follow-up topic
+DESCRIPTION:Vacation rule: optional\; skip without catch-up guilt\nVacation
+  target: 10 SCORE questions\, then enjoy the day\nModules: Gastrectomy\; V
+ agotomy and Drainage\; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gas
+ troduodenal Perforation Repair\; Revisional Procedures after Gastrectomy\n
+ Anki: 10 minutes\; make up to 3 cards from missed or guessed questions\nCa
+ se: Perforated peptic ulcer with shock\nOperation: Distal gastrectomy with
+  lymphadenectomy\nAnatomy: Gastric blood supply\, vagal trunks\, and lymph
+ atic stations\nComplication: Duodenal stump leak\nAnswer: What do I do fir
+ st? What changes management? When do I call for help?\nCapture one pearl\,
+  one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1177,14 +1192,15 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Deep study: Small Intestine\, Part 2 of 2
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Small Intesti
- ne\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Meckel Diverticu
- lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
- sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
- nd Thrombectomy\nSCORE focus: Small Intestine\; Arterial Disease\nAnki: 10
-  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
- lanations and record the management detail that changes the answer\nPrevie
- w this week's case: Acute mesenteric ischemia from an SMA embolus
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Sm
+ all Intestine\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Mecke
+ l Diverticulum\; Enteric Infections and Blind Loop Syndrome\; Small Intest
+ inal Neoplasms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Em
+ bolectomy and Thrombectomy\nSCORE focus: Small Intestine\; Arterial Diseas
+ e\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
+ nReview explanations and record the management detail that changes the ans
+ wer\nPreview this week's case: Acute mesenteric ischemia from an SMA embol
+ us
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1215,11 +1231,16 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:Weekly case review: Acute mesenteric ischemia from an SMA embolus
-DESCRIPTION:Case: Acute mesenteric ischemia from an SMA embolus\nOperation:
-  SMA embolectomy with bowel viability assessment\nAnatomy: SMA branches an
- d small-bowel collateral circulation\nComplication: Short bowel syndrome\n
- Answer: What do I do first? What changes management? When do I call for he
- lp?\nCapture one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: Ileostomy and Ileo
+ stomy Closure\; Meckel Diverticulum\; Enteric Infections and Blind Loop Sy
+ ndrome\; Small Intestinal Neoplasms\; Acute Mesenteric Ischemia\; Superior
+  Mesenteric Artery Embolectomy and Thrombectomy\nAnki: 10 minutes\; make u
+ p to 3 cards from missed or guessed questions\nCase: Acute mesenteric isch
+ emia from an SMA embolus\nOperation: SMA embolectomy with bowel viability
+  assessment\nAnatomy: SMA branches and small-bowel collateral circulation\
+ nComplication: Short bowel syndrome\nAnswer: What do I do first? What chan
+ ges management? When do I call for help?\nCapture one pearl\, one uncertai
+ nty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1373,16 +1394,16 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Deep study: Systems-Based Practice
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Systems-Based
-  Practice\nTWIS: Advocating for Quality Patient Care\; Coordinating Patien
- t Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems Er
- rors - Root Cause Analysis\; Working Effectively in Various Healthcare Del
- ivery Settings and Systems\; Working in Interprofessional Teams\; Diversit
- y in the US Surgical Workforce\nSCORE focus: Systems Based Practice\; Dive
- rsity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3 cards from
-  missed or guessed questions\nReview explanations and record the managemen
- t detail that changes the answer\nPreview this week's case: Delayed recogn
- ition of postoperative deterioration
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Sy
+ stems-Based Practice\nTWIS: Advocating for Quality Patient Care\; Coordina
+ ting Patient Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying
+  Systems Errors - Root Cause Analysis\; Working Effectively in Various Hea
+ lthcare Delivery Settings and Systems\; Working in Interprofessional Teams
+ \; Diversity in the US Surgical Workforce\nSCORE focus: Systems Based Prac
+ tice\; Diversity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3
+  cards from missed or guessed questions\nReview explanations and record th
+ e management detail that changes the answer\nPreview this week's case: Del
+ ayed recognition of postoperative deterioration
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1426,11 +1447,17 @@ DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Weekly case review: Delayed recognition of postoperative deteriorat
  ion
-DESCRIPTION:Case: Delayed recognition of postoperative deterioration\nOpera
- tion: Root-cause analysis of a surgical care process\nAnatomy: Care escala
- tion pathways and handoff interfaces\nComplication: Failure to rescue\nAns
- wer: What do I do first? What changes management? When do I call for help?
- \nCapture one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: Advocating for Qua
+ lity Patient Care\; Coordinating Patient Care\; Cost Awareness and Risk-Be
+ nefit Analysis\; Identifying Systems Errors - Root Cause Analysis\; Workin
+ g Effectively in Various Healthcare Delivery Settings and Systems\; Workin
+ g in Interprofessional Teams\; Diversity in the US Surgical Workforce\nAnk
+ i: 10 minutes\; make up to 3 cards from missed or guessed questions\nCase:
+  Delayed recognition of postoperative deterioration\nOperation: Root-cause
+  analysis of a surgical care process\nAnatomy: Care escalation pathways an
+ d handoff interfaces\nComplication: Failure to rescue\nAnswer: What do I d
+ o first? What changes management? When do I call for help?\nCapture one pe
+ arl\, one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1569,13 +1596,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Deep study: Abdominal Trauma\, Part 1 of 3
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Abdominal Tra
- uma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and Pancreatic
-  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
- ury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fro
- m missed or guessed questions\nReview explanations and record the manageme
- nt detail that changes the answer\nPreview this week's case: Penetrating a
- bdominal trauma with multiple hollow-viscus injuries
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Ab
+ dominal Trauma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and
+  Pancreatic Injury\; Gastric and Small Intestinal Injury\; Gastrointestina
+ l Tract Injury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer\nPreview this week's case:
+  Penetrating abdominal trauma with multiple hollow-viscus injuries
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1607,12 +1634,15 @@ DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:Weekly case review: Penetrating abdominal trauma with multiple holl
  ow-viscus injuries
-DESCRIPTION:Case: Penetrating abdominal trauma with multiple hollow-viscus
-  injuries\nOperation: Exploratory laparotomy with gastrointestinal injury
-  repair\nAnatomy: Retroperitoneal zones and duodenopancreatic relationship
- s\nComplication: Missed bowel injury\nAnswer: What do I do first? What cha
- nges management? When do I call for help?\nCapture one pearl\, one uncerta
- inty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: Colon and Rectal I
+ njury\; Duodenal and Pancreatic Injury\; Gastric and Small Intestinal Inju
+ ry\; Gastrointestinal Tract Injury Repair\nAnki: 10 minutes\; make up to 3
+  cards from missed or guessed questions\nCase: Penetrating abdominal traum
+ a with multiple hollow-viscus injuries\nOperation: Exploratory laparotomy
+  with gastrointestinal injury repair\nAnatomy: Retroperitoneal zones and d
+ uodenopancreatic relationships\nComplication: Missed bowel injury\nAnswer:
+  What do I do first? What changes management? When do I call for help?\nCa
+ pture one pearl\, one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1751,13 +1781,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:Deep study: Thyroid
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Thyroid\nTWIS
- : Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; H
- yperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSCORE focus:
-  Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
- uestions\nReview explanations and record the management detail that change
- s the answer\nPreview this week's case: Papillary thyroid cancer with susp
- icious central nodes
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Th
+ yroid\nTWIS: Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroi
+ dectomy\; Hyperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSC
+ ORE focus: Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or
+  guessed questions\nReview explanations and record the management detail t
+ hat changes the answer\nPreview this week's case: Papillary thyroid cancer
+  with suspicious central nodes
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1789,11 +1819,15 @@ DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:Weekly case review: Papillary thyroid cancer with suspicious centra
  l nodes
-DESCRIPTION:Case: Papillary thyroid cancer with suspicious central nodes\nO
- peration: Total thyroidectomy\nAnatomy: Recurrent laryngeal nerve and para
- thyroid blood supply\nComplication: Post-thyroidectomy hypocalcemia\nAnswe
- r: What do I do first? What changes management? When do I call for help?\n
- Capture one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: Thyroid Nodule\; T
+ hyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; Hyperthyroidism\; Thy
+ roiditis\; Postoperative Hypothyroidism\nAnki: 10 minutes\; make up to 3 c
+ ards from missed or guessed questions\nCase: Papillary thyroid cancer with
+  suspicious central nodes\nOperation: Total thyroidectomy\nAnatomy: Recurr
+ ent laryngeal nerve and parathyroid blood supply\nComplication: Post-thyro
+ idectomy hypocalcemia\nAnswer: What do I do first? What changes management
+ ? When do I call for help?\nCapture one pearl\, one uncertainty\, and one
+  follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1937,14 +1971,15 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:Deep study: Breast\, Part 2 of 3
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Breast\, Part
-  2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; Here
- ditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures in
-  Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manageme
- nt of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer\nPreview this we
- ek's case: Invasive breast carcinoma with a clinically negative axilla
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Br
+ east\, Part 2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In
+  Situ\; Hereditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary P
+ rocedures in Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiratio
+ n\; Management of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki:
+  10 minutes\; make up to 3 cards from missed or guessed questions\nReview
+  explanations and record the management detail that changes the answer\nPr
+ eview this week's case: Invasive breast carcinoma with a clinically negati
+ ve axilla
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1976,11 +2011,16 @@ DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Weekly case review: Invasive breast carcinoma with a clinically neg
  ative axilla
-DESCRIPTION:Case: Invasive breast carcinoma with a clinically negative axil
- la\nOperation: Lumpectomy with sentinel lymph node biopsy\nAnatomy: Breast
-  lymphatic drainage and axillary levels\nComplication: Lymphedema\nAnswer:
-  What do I do first? What changes management? When do I call for help?\nCa
- pture one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: Breast Invasive Ca
+ rcinoma\; Ductal Carcinoma In Situ\; Hereditary Breast Cancer\; Inflammato
+ ry Breast Cancer\; Axillary Procedures in Breast Cancer\; Percutaneous Bre
+ ast Biopsy and Cyst Aspiration\; Management of the Axilla in Breast Cancer
+ \nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\n
+ Case: Invasive breast carcinoma with a clinically negative axilla\nOperati
+ on: Lumpectomy with sentinel lymph node biopsy\nAnatomy: Breast lymphatic
+  drainage and axillary levels\nComplication: Lymphedema\nAnswer: What do I
+  do first? What changes management? When do I call for help?\nCapture one
+  pearl\, one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2114,12 +2154,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Deep study: Endoscopy
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Endoscopy\nTW
- IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
- nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
-  3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer\nPreview this week's case:
-  Post-polypectomy bleeding
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: En
+ doscopy\nTWIS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchosc
+ opy and Bronchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer\nPreview this we
+ ek's case: Post-polypectomy bleeding
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2162,11 +2202,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Weekly case review: Post-polypectomy bleeding
-DESCRIPTION:Case: Post-polypectomy bleeding\nOperation: Colonoscopy with po
- lypectomy\nAnatomy: Colonic fixation points and bronchial segment anatomy\
- nComplication: Endoscopic perforation\nAnswer: What do I do first? What ch
- anges management? When do I call for help?\nCapture one pearl\, one uncert
- ainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: Esophagogastroduod
+ enoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bronchoalveolar Lavage\nA
+ nki: 10 minutes\; make up to 3 cards from missed or guessed questions\nCas
+ e: Post-polypectomy bleeding\nOperation: Colonoscopy with polypectomy\nAna
+ tomy: Colonic fixation points and bronchial segment anatomy\nComplication:
+  Endoscopic perforation\nAnswer: What do I do first? What changes manageme
+ nt? When do I call for help?\nCapture one pearl\, one uncertainty\, and on
+ e follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2300,12 +2343,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Deep study: Inflammatory Bowel Disease
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Inflammatory
-  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
- tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
- utes\; make up to 3 cards from missed or guessed questions\nReview explana
- tions and record the management detail that changes the answer\nPreview th
- is week's case: Fulminant ulcerative colitis refractory to medical therapy
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: In
+ flammatory Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures
+  for Ulcerative Colitis\nSCORE focus: Small Intestine\; Large Intestine\nA
+ nki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRev
+ iew explanations and record the management detail that changes the answer\
+ nPreview this week's case: Fulminant ulcerative colitis refractory to medi
+ cal therapy
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2337,11 +2381,14 @@ DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Weekly case review: Fulminant ulcerative colitis refractory to medi
  cal therapy
-DESCRIPTION:Case: Fulminant ulcerative colitis refractory to medical therap
- y\nOperation: Total abdominal colectomy with end ileostomy\nAnatomy: Ileoc
- olic mesentery and colonic blood supply\nComplication: High-output ileosto
- my\nAnswer: What do I do first? What changes management? When do I call fo
- r help?\nCapture one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: Procedures for Cro
+ hn Disease\; Procedures for Ulcerative Colitis\nAnki: 10 minutes\; make up
+  to 3 cards from missed or guessed questions\nCase: Fulminant ulcerative c
+ olitis refractory to medical therapy\nOperation: Total abdominal colectomy
+  with end ileostomy\nAnatomy: Ileocolic mesentery and colonic blood supply
+ \nComplication: High-output ileostomy\nAnswer: What do I do first? What ch
+ anges management? When do I call for help?\nCapture one pearl\, one uncert
+ ainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2475,12 +2522,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:Deep study: Miscellaneous Trauma
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Miscellaneous
-  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
-  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
- o 3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer\nPreview this week's case:
-  Anticoagulated geriatric patient after blunt trauma
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Mi
+ scellaneous Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in
+  Pregnancy\; Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes
+ \; make up to 3 cards from missed or guessed questions\nReview explanation
+ s and record the management detail that changes the answer\nPreview this w
+ eek's case: Anticoagulated geriatric patient after blunt trauma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2512,12 +2559,14 @@ DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Weekly case review: Anticoagulated geriatric patient after blunt tr
  auma
-DESCRIPTION:Case: Anticoagulated geriatric patient after blunt trauma\nOper
- ation: Trauma resuscitation adapted to a special population\nAnatomy: Age-
- related and pregnancy-related physiologic changes\nComplication: Delayed i
- ntracranial hemorrhage\nAnswer: What do I do first? What changes managemen
- t? When do I call for help?\nCapture one pearl\, one uncertainty\, and one
-  follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: Geriatric Trauma\;
+  Pediatric Trauma\; Trauma in Pregnancy\; Traumatic Brain Injury\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nCase: Anti
+ coagulated geriatric patient after blunt trauma\nOperation: Trauma resusci
+ tation adapted to a special population\nAnatomy: Age-related and pregnancy
+ -related physiologic changes\nComplication: Delayed intracranial hemorrhag
+ e\nAnswer: What do I do first? What changes management? When do I call for
+  help?\nCapture one pearl\, one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2651,12 +2700,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Deep study: Pancreatic Tumors
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Pancreatic Tu
- mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
-  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer\nPreview this we
- ek's case: Resectable pancreatic head adenocarcinoma
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Pa
+ ncreatic Tumors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic
+  Neoplasms\; Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 1
+ 0 minutes\; make up to 3 cards from missed or guessed questions\nReview ex
+ planations and record the management detail that changes the answer\nPrevi
+ ew this week's case: Resectable pancreatic head adenocarcinoma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2687,11 +2736,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Weekly case review: Resectable pancreatic head adenocarcinoma
-DESCRIPTION:Case: Resectable pancreatic head adenocarcinoma\nOperation: Pan
- creaticoduodenectomy\nAnatomy: SMA\, SMV\, portal vein\, and pancreatic ne
- ck relationships\nComplication: Postoperative pancreatic fistula\nAnswer:
-  What do I do first? What changes management? When do I call for help?\nCa
- pture one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: Pancreatic Cystic
+  Neoplasms\; Endocrine Pancreatic Neoplasms\; Exocrine Pancreatic Neoplasm
+ s\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
+ nCase: Resectable pancreatic head adenocarcinoma\nOperation: Pancreaticodu
+ odenectomy\nAnatomy: SMA\, SMV\, portal vein\, and pancreatic neck relatio
+ nships\nComplication: Postoperative pancreatic fistula\nAnswer: What do I
+  do first? What changes management? When do I call for help?\nCapture one
+  pearl\, one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2825,12 +2877,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Deep study: Parathyroid
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Parathyroid\n
- TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
- ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
-  up to 3 cards from missed or guessed questions\nReview explanations and r
- ecord the management detail that changes the answer\nPreview this week's c
- ase: Primary hyperparathyroidism with discordant localization
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Pa
+ rathyroid\nTWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Par
+ athyroid Cancer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minu
+ tes\; make up to 3 cards from missed or guessed questions\nReview explanat
+ ions and record the management detail that changes the answer\nPreview thi
+ s week's case: Primary hyperparathyroidism with discordant localization
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2862,11 +2914,14 @@ DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Weekly case review: Primary hyperparathyroidism with discordant loc
  alization
-DESCRIPTION:Case: Primary hyperparathyroidism with discordant localization\
- nOperation: Focused parathyroidectomy\nAnatomy: Parathyroid embryology and
-  recurrent laryngeal nerve\nComplication: Hungry bone syndrome\nAnswer: Wh
- at do I do first? What changes management? When do I call for help?\nCaptu
- re one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: Hyperparathyroidis
+ m\; Multiple Endocrine Neoplasias\; Parathyroid Cancer\; Parathyroidectomy
+ \nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\n
+ Case: Primary hyperparathyroidism with discordant localization\nOperation:
+  Focused parathyroidectomy\nAnatomy: Parathyroid embryology and recurrent
+  laryngeal nerve\nComplication: Hungry bone syndrome\nAnswer: What do I do
+  first? What changes management? When do I call for help?\nCapture one pea
+ rl\, one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3000,12 +3055,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Deep study: OFF - Thanksgiving
-DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: OFF - Thanksg
- iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
- l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
- nReview explanations and record the management detail that changes the ans
- wer\nPreview this week's case: Optional review of the most useful case fro
- m the prior month
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: OF
+ F - Thanksgiving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up on
+ ly if useful\nAnki: 10 minutes\; make up to 3 cards from missed or guessed
+  questions\nReview explanations and record the management detail that chan
+ ges the answer\nPreview this week's case: Optional review of the most usef
+ ul case from the prior month
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3049,11 +3104,13 @@ DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Weekly case review: Optional review of the most useful case from th
  e prior month
-DESCRIPTION:Case: Optional review of the most useful case from the prior mo
- nth\nOperation: No assigned operation\nAnatomy: No assigned anatomy\nCompl
- ication: No assigned complication\nAnswer: What do I do first? What change
- s management? When do I call for help?\nCapture one pearl\, one uncertaint
- y\, and one follow-up topic
+DESCRIPTION:Today's target: 35 SCORE questions\nModules: No assigned TWIS m
+ odules\nAnki: 10 minutes\; make up to 3 cards from missed or guessed quest
+ ions\nCase: Optional review of the most useful case from the prior month\n
+ Operation: No assigned operation\nAnatomy: No assigned anatomy\nComplicati
+ on: No assigned complication\nAnswer: What do I do first? What changes man
+ agement? When do I call for help?\nCapture one pearl\, one uncertainty\, a
+ nd one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

@@ -6,7 +6,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 from planner import events_on, load_events, schedule_training, start_of_week
-from study import build_study_schedule, week_for_day
+from study import build_study_schedule, current_or_next_week
 from validate_config import load_yaml
 
 
@@ -64,6 +64,7 @@ def collect_context(today: date) -> dict:
         path for path in (ROOT / "Finance").iterdir()
         if path.suffix.lower() in {".xlsx", ".xls", ".csv", ".tsv"}
     )
+    study_week, study_week_label = current_or_next_week(plan, today)
     return {
         "master": master,
         "plan": plan,
@@ -75,7 +76,8 @@ def collect_context(today: date) -> dict:
         "active_reminders": active_reminders,
         "upcoming_events": upcoming_events,
         "finance_files": finance_files,
-        "study_week": week_for_day(plan, today),
+        "study_week": study_week,
+        "study_week_label": study_week_label,
     }
 
 
@@ -107,7 +109,12 @@ def build_markdown(context: dict, today: date) -> str:
     if context["study_week"]:
         week = context["study_week"]
         lines.extend([
-            f"- **Weekly topic:** {week['topic']}",
+            f"- **{context['study_week_label']}:** {week['topic']}",
+            "- **Assigned SCORE/TWIS modules:**",
+            *(f"  - {module}" for module in week["twis"]),
+            "- [Open SCORE](https://www.surgicalcore.org/)",
+            f"- **Anki:** {plan['daily_targets']['anki_minutes']} minutes; create up to "
+            f"{plan['daily_targets']['anki_new_cards_cap']} cards from missed or guessed questions",
             f"- **Operation:** {week['operation']}",
             f"- **Case review:** {week['case_review']}",
         ])
@@ -175,6 +182,7 @@ def build_html(context: dict, today: date) -> str:
     today_items = [event["title"] for event in events_on(today, context["events"])]
     today_items.extend(activity_summary(activity) for activity in context["schedule"].get(today, []))
     week = context["study_week"]
+    week_label = context["study_week_label"]
 
     week_rows = "".join(
         f'<div class="day"><strong>{day:%a}<span>{day:%m/%d}</span></strong>'
@@ -199,8 +207,13 @@ def build_html(context: dict, today: date) -> str:
         f'<div class="notice"><strong>Curriculum migration in progress.</strong> {escape(plan["source_note"])}</div>'
         if plan.get("source_status") == "provisional" else ""
     )
+    module_html = render_list(week["twis"], "No assigned modules") if week else ""
     topic_html = (
-        f'<p class="eyebrow">This week</p><h2>{escape(week["topic"])}</h2>'
+        f'<p class="eyebrow">{escape(week_label)}</p><h2>{escape(week["topic"])}</h2>'
+        f'<div class="module-block"><strong>SCORE/TWIS modules</strong>{module_html}'
+        f'<a class="score-link" href="https://www.surgicalcore.org/" target="_blank" rel="noopener">Open SCORE</a></div>'
+        f'<p class="anki"><strong>Anki:</strong> {plan["daily_targets"]["anki_minutes"]} minutes; '
+        f'create up to {plan["daily_targets"]["anki_new_cards_cap"]} cards from missed or guessed questions.</p>'
         f'<p><strong>Operation:</strong> {escape(week["operation"])}</p>'
         f'<p><strong>Case:</strong> {escape(week["case_review"])}</p>'
         f'<p><strong>Anatomy:</strong> {escape(week["anatomy"])}</p>'
@@ -214,17 +227,17 @@ def build_html(context: dict, today: date) -> str:
 *{{box-sizing:border-box}} body{{margin:0;background:linear-gradient(145deg,#eef4ff,#f6f0ff);color:var(--ink);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,sans-serif}}
 .shell{{max-width:1180px;margin:auto;padding:34px 22px 60px}} header{{background:linear-gradient(120deg,var(--navy),#163d86 62%,#5031a5);color:white;border-radius:24px;padding:30px;box-shadow:0 20px 60px #1d3f7926}}
 header p{{margin:4px 0 0;color:#d9e5ff}} h1{{margin:0;font-size:clamp(30px,5vw,52px);letter-spacing:-.04em}} h2{{margin:0 0 12px;font-size:22px;letter-spacing:-.02em}} .date{{font-weight:700;color:#a9c8ff;text-transform:uppercase;letter-spacing:.12em;font-size:12px}}
-.grid{{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:18px}} .card{{grid-column:span 6;background:var(--panel);border:1px solid #fff;border-radius:20px;padding:22px;box-shadow:0 10px 35px #263b6814}} .wide{{grid-column:span 12}} .third{{grid-column:span 4}}
+.grid{{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:18px}} .card{{grid-column:span 6;background:var(--panel);border:1px solid #fff;border-radius:20px;padding:22px;box-shadow:0 10px 35px #263b6814}} .today-card{{grid-column:span 4}} .study-card{{grid-column:span 8}} .wide{{grid-column:span 12}} .third{{grid-column:span 4}}
 .eyebrow{{color:var(--violet);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin:0 0 8px}} ul{{padding-left:19px;margin:10px 0 0}} li{{margin:6px 0}} .muted{{color:var(--muted)}}
 .metrics{{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}} .metric{{background:var(--wash);border-radius:15px;padding:15px}} .metric-label{{font-size:12px;color:var(--muted);font-weight:700}} .metric-value{{font-size:25px;font-weight:850;margin:7px 0}} .metric-value span{{font-size:13px;color:var(--muted)}} .track{{height:7px;border-radius:8px;background:#dde5f7;overflow:hidden}} .fill{{height:100%;background:linear-gradient(90deg,var(--blue),var(--violet))}} .metric-pct{{font-size:11px;color:var(--muted);margin-top:5px}}
-.pace{{display:block;width:fit-content;max-width:100%;background:#e9efff;color:#214ca0;border-radius:18px;padding:8px 12px;font-weight:800;margin-top:10px;overflow-wrap:anywhere}} .week{{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}} .day{{background:var(--wash);border-radius:13px;padding:12px;min-width:0}} .day strong{{display:flex;justify-content:space-between}} .day strong span{{color:var(--muted);font-size:11px}} .day ul{{padding-left:15px;font-size:12px}} .notice{{margin-top:18px;border-left:4px solid var(--violet);background:#f0ebff;padding:13px 15px;border-radius:9px;color:#4c3389}} a{{color:#275fd3}}
-@media(max-width:850px){{.card,.third{{grid-column:span 12}}.metrics{{grid-template-columns:repeat(2,1fr)}}.week{{grid-template-columns:1fr}}}}
+.module-block{{background:var(--wash);border-radius:14px;padding:13px 15px;margin:14px 0}} .module-block ul{{columns:2;column-gap:28px}} .module-block li{{break-inside:avoid}} .score-link{{display:inline-block;margin-top:12px;font-weight:800;text-decoration:none}} .anki{{border-left:3px solid var(--violet);padding-left:12px}} .pace{{display:block;width:fit-content;max-width:100%;background:#e9efff;color:#214ca0;border-radius:18px;padding:8px 12px;font-weight:800;margin-top:10px;overflow-wrap:anywhere}} .week{{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}} .day{{background:var(--wash);border-radius:13px;padding:12px;min-width:0}} .day strong{{display:flex;justify-content:space-between}} .day strong span{{color:var(--muted);font-size:11px}} .day ul{{padding-left:15px;font-size:12px}} .notice{{margin-top:18px;border-left:4px solid var(--violet);background:#f0ebff;padding:13px 15px;border-radius:9px;color:#4c3389}} a{{color:#275fd3}}
+@media(max-width:850px){{.card,.today-card,.study-card,.third{{grid-column:span 12}}.metrics{{grid-template-columns:repeat(2,1fr)}}.week{{grid-template-columns:1fr}}.module-block ul{{columns:1}}}}
 </style></head><body><main class="shell">
 <header><div class="date">{today:%A · %B %d, %Y}</div><h1>SamOS Dashboard</h1><p>One glance. The next good decision.</p></header>
 {provisional}
 <section class="grid">
-<article class="card"><p class="eyebrow">Today</p><h2>Your command list</h2>{render_list(today_items)}</article>
-<article class="card">{topic_html}<div class="pace">Required SCORE pace: {pace} questions/day</div></article>
+<article class="card today-card"><p class="eyebrow">Today</p><h2>Your command list</h2>{render_list(today_items)}</article>
+<article class="card study-card">{topic_html}<div class="pace">Required SCORE pace: {pace} questions/day</div></article>
 <article class="card wide"><p class="eyebrow">Progress</p><div class="metrics">
 {metric_card('SCORE · Pass 1', progress['score']['pass_1_completed'], score_total)}
 {metric_card('SCORE · Pass 2', progress['score']['pass_2_completed'], score_total)}

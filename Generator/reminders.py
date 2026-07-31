@@ -3,7 +3,14 @@
 from datetime import date, timedelta
 from pathlib import Path
 
-from validate_config import load_yaml, validate_reminder_profiles, validate_reminders
+from planner import load_events
+from study import build_score_prompts
+from validate_config import (
+    load_yaml,
+    validate_reminder_profiles,
+    validate_reminders,
+    validate_study_plan,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -53,7 +60,22 @@ def append_folded_line(lines: list[str], line: str, limit: int = 75) -> None:
     lines.append(("" if first else " ") + line)
 
 
-def build_reminder_calendar(profiles: dict, items: dict) -> str:
+def add_all_day_prompt(lines: list[str], uid: str, day: date, title: str,
+                       description: str) -> None:
+    lines.extend([
+        "BEGIN:VEVENT",
+        f"UID:{uid}@samos-reminders",
+        "DTSTAMP:20000101T000000Z",
+        f"DTSTART;VALUE=DATE:{day:%Y%m%d}",
+        f"DTEND;VALUE=DATE:{day + timedelta(days=1):%Y%m%d}",
+    ])
+    append_folded_line(lines, f"SUMMARY:{escape_ics(title)}")
+    append_folded_line(lines, f"DESCRIPTION:{escape_ics(description)}")
+    lines.extend(["TRANSP:TRANSPARENT", "END:VEVENT"])
+
+
+def build_reminder_calendar(profiles: dict, items: dict, study_plan: dict | None = None,
+                            events: list[dict] | None = None) -> str:
     """Create one all-day calendar entry for every configured reminder prompt."""
     lines = [
         "BEGIN:VCALENDAR",
@@ -69,18 +91,23 @@ def build_reminder_calendar(profiles: dict, items: dict) -> str:
         offsets = profiles["profiles"][item["category"]]["reminder_days_before"]
         for offset in offsets:
             reminder_date = item["due"] - timedelta(days=offset)
-            end_date = reminder_date + timedelta(days=1)
             timing = "Due today" if offset == 0 else f"Due in {offset} day{'s' if offset != 1 else ''}"
-            lines.extend([
-                "BEGIN:VEVENT",
-                f"UID:{item['id']}-{offset}@samos-reminders",
-                "DTSTAMP:20000101T000000Z",
-                f"DTSTART;VALUE=DATE:{reminder_date:%Y%m%d}",
-                f"DTEND;VALUE=DATE:{end_date:%Y%m%d}",
-            ])
-            append_folded_line(lines, f"SUMMARY:{escape_ics('Reminder: ' + item['title'])}")
-            append_folded_line(lines, f"DESCRIPTION:{escape_ics(timing + ' - due ' + item['due'].isoformat())}")
-            lines.extend(["TRANSP:TRANSPARENT", "END:VEVENT"])
+            add_all_day_prompt(
+                lines,
+                f"{item['id']}-{offset}",
+                reminder_date,
+                "Reminder: " + item["title"],
+                timing + " - due " + item["due"].isoformat(),
+            )
+    if study_plan:
+        for prompt in build_score_prompts(study_plan, events or []):
+            add_all_day_prompt(
+                lines,
+                prompt["id"],
+                prompt["date"],
+                prompt["title"],
+                prompt["description"],
+            )
     lines.append("END:VCALENDAR")
     return "\r\n".join(lines) + "\r\n"
 
@@ -88,10 +115,14 @@ def build_reminder_calendar(profiles: dict, items: dict) -> str:
 def main() -> None:
     profiles = load_yaml("reminder_profiles.yaml")
     items = load_yaml("Reminders/reminders.yaml")
+    study_plan = load_yaml("Study/plan.yaml")
     validate_reminder_profiles(profiles)
     validate_reminders(items, set(profiles["profiles"]))
+    validate_study_plan(study_plan)
     OUTPUT.write_text(build_reminder_schedule(profiles, items), encoding="utf-8")
-    CALENDAR_OUTPUT.write_bytes(build_reminder_calendar(profiles, items).encode("utf-8"))
+    CALENDAR_OUTPUT.write_bytes(
+        build_reminder_calendar(profiles, items, study_plan, load_events()).encode("utf-8")
+    )
     print(f"Reminder schedule created: {OUTPUT}")
     print(f"Reminder calendar created: {CALENDAR_OUTPUT}")
 

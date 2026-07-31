@@ -142,6 +142,11 @@ week. The generator treats call study as optional, skips post-call study, and
 uses a light vacation target. `Study/progress.yaml` stores manually updated
 SCORE, TWIS, and case-review counters for the dashboard.
 
+The Reminders feed includes one all-day SCORE prompt for every study-plan day.
+Normal, deep-study, vacation, and call targets come from `daily_targets`;
+post-call days display a protected zero-question recovery prompt. Each prompt
+includes that week's module names and the configured Anki rule.
+
 ### Finance files
 
 The monthly finance routine is configured in `Config/master.yaml`. Previous

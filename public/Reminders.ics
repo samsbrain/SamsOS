@@ -103,4 +103,1628 @@ SUMMARY:Reminder: Prepare for M&M presentation
 DESCRIPTION:Due today - due 2026-09-16
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+UID:score-20260803@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+SUMMARY:Optional SCORE: 5 questions (call) - Biliary Neoplasms and Jaundice
+DESCRIPTION:Only if patient care allows: 5 SCORE questions\nWeekly topic: B
+ iliary Neoplasms and Jaundice\nModules: Benign Biliary Obstruction\; Prima
+ ry Biliary Neoplasms\; Extended Cholecystectomy for Gallbladder Cancer\; G
+ allbladder Neoplasms\; Procedures for Bile Duct Cancer\; Procedures for Bi
+ le Duct Neoplasm\nAnki: 10 minutes\; create up to 3 cards from missed or g
+ uessed questions\nReview explanations and capture the management detail th
+ at changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260804@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+SUMMARY:SCORE recovery day - 0 questions
+DESCRIPTION:Post-call recovery is protected\; sleep and resume tomorrow wit
+ hout catch-up guilt\nWeekly topic: Biliary Neoplasms and Jaundice
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260805@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:SCORE: 35 questions - Biliary Neoplasms and Jaundice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Biliary Neopl
+ asms and Jaundice\nModules: Benign Biliary Obstruction\; Primary Biliary N
+ eoplasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gallbladder N
+ eoplasms\; Procedures for Bile Duct Cancer\; Procedures for Bile Duct Neop
+ lasm\nAnki: 10 minutes\; create up to 3 cards from missed or guessed quest
+ ions\nReview explanations and capture the management detail that changes t
+ he answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260806@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+SUMMARY:SCORE: 35 questions - Biliary Neoplasms and Jaundice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Biliary Neopl
+ asms and Jaundice\nModules: Benign Biliary Obstruction\; Primary Biliary N
+ eoplasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gallbladder N
+ eoplasms\; Procedures for Bile Duct Cancer\; Procedures for Bile Duct Neop
+ lasm\nAnki: 10 minutes\; create up to 3 cards from missed or guessed quest
+ ions\nReview explanations and capture the management detail that changes t
+ he answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260807@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:SCORE: 35 questions - Biliary Neoplasms and Jaundice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Biliary Neopl
+ asms and Jaundice\nModules: Benign Biliary Obstruction\; Primary Biliary N
+ eoplasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gallbladder N
+ eoplasms\; Procedures for Bile Duct Cancer\; Procedures for Bile Duct Neop
+ lasm\nAnki: 10 minutes\; create up to 3 cards from missed or guessed quest
+ ions\nReview explanations and capture the management detail that changes t
+ he answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260808@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+SUMMARY:Optional SCORE: 5 questions (call) - Biliary Neoplasms and Jaundice
+DESCRIPTION:Only if patient care allows: 5 SCORE questions\nWeekly topic: B
+ iliary Neoplasms and Jaundice\nModules: Benign Biliary Obstruction\; Prima
+ ry Biliary Neoplasms\; Extended Cholecystectomy for Gallbladder Cancer\; G
+ allbladder Neoplasms\; Procedures for Bile Duct Cancer\; Procedures for Bi
+ le Duct Neoplasm\nAnki: 10 minutes\; create up to 3 cards from missed or g
+ uessed questions\nReview explanations and capture the management detail th
+ at changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260809@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+SUMMARY:SCORE recovery day - 0 questions
+DESCRIPTION:Post-call recovery is protected\; sleep and resume tomorrow wit
+ hout catch-up guilt\nWeekly topic: Biliary Neoplasms and Jaundice
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260810@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+SUMMARY:SCORE: 35 questions - Nutrition
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nMo
+ dules: Access Procedures for Nutritional Support\; Nutritional Support\; N
+ utritional Assessment\; Nutritional Requirements\nAnki: 10 minutes\; creat
+ e up to 3 cards from missed or guessed questions\nReview explanations and
+  capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260811@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+SUMMARY:SCORE: 35 questions - Nutrition
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nMo
+ dules: Access Procedures for Nutritional Support\; Nutritional Support\; N
+ utritional Assessment\; Nutritional Requirements\nAnki: 10 minutes\; creat
+ e up to 3 cards from missed or guessed questions\nReview explanations and
+  capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260812@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:SCORE: 35 questions - Nutrition
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nMo
+ dules: Access Procedures for Nutritional Support\; Nutritional Support\; N
+ utritional Assessment\; Nutritional Requirements\nAnki: 10 minutes\; creat
+ e up to 3 cards from missed or guessed questions\nReview explanations and
+  capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260813@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+SUMMARY:SCORE: 35 questions - Nutrition
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nMo
+ dules: Access Procedures for Nutritional Support\; Nutritional Support\; N
+ utritional Assessment\; Nutritional Requirements\nAnki: 10 minutes\; creat
+ e up to 3 cards from missed or guessed questions\nReview explanations and
+  capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260814@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SUMMARY:SCORE: 35 questions - Nutrition
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nMo
+ dules: Access Procedures for Nutritional Support\; Nutritional Support\; N
+ utritional Assessment\; Nutritional Requirements\nAnki: 10 minutes\; creat
+ e up to 3 cards from missed or guessed questions\nReview explanations and
+  capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260815@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Optional SCORE: 5 questions (call) - Nutrition
+DESCRIPTION:Only if patient care allows: 5 SCORE questions\nWeekly topic: N
+ utrition\nModules: Access Procedures for Nutritional Support\; Nutritional
+  Support\; Nutritional Assessment\; Nutritional Requirements\nAnki: 10 min
+ utes\; create up to 3 cards from missed or guessed questions\nReview expla
+ nations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260816@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:SCORE recovery day - 0 questions
+DESCRIPTION:Post-call recovery is protected\; sleep and resume tomorrow wit
+ hout catch-up guilt\nWeekly topic: Nutrition
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260817@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+SUMMARY:SCORE: 10 questions (vacation) - Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nModules: Hemorrhoids\; Procedures
+  for Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\
+ ; Fecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nAnki: 10
+  minutes\; create up to 3 cards from missed or guessed questions\nReview e
+ xplanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260818@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+SUMMARY:SCORE: 10 questions (vacation) - Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nModules: Hemorrhoids\; Procedures
+  for Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\
+ ; Fecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nAnki: 10
+  minutes\; create up to 3 cards from missed or guessed questions\nReview e
+ xplanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260819@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+SUMMARY:SCORE: 10 questions (vacation) - Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nModules: Hemorrhoids\; Procedures
+  for Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\
+ ; Fecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nAnki: 10
+  minutes\; create up to 3 cards from missed or guessed questions\nReview e
+ xplanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260820@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:SCORE: 10 questions (vacation) - Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nModules: Hemorrhoids\; Procedures
+  for Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\
+ ; Fecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nAnki: 10
+  minutes\; create up to 3 cards from missed or guessed questions\nReview e
+ xplanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260821@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:SCORE: 10 questions (vacation) - Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nModules: Hemorrhoids\; Procedures
+  for Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\
+ ; Fecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nAnki: 10
+  minutes\; create up to 3 cards from missed or guessed questions\nReview e
+ xplanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260822@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:SCORE: 10 questions (vacation) - Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nModules: Hemorrhoids\; Procedures
+  for Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\
+ ; Fecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nAnki: 10
+  minutes\; create up to 3 cards from missed or guessed questions\nReview e
+ xplanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260823@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:SCORE: 10 questions (vacation) - Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nModules: Hemorrhoids\; Procedures
+  for Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\
+ ; Fecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nAnki: 10
+  minutes\; create up to 3 cards from missed or guessed questions\nReview e
+ xplanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260824@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+SUMMARY:SCORE: 35 questions - Liver Neoplasms and Portal Hypertension
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Liver Neoplas
+ ms and Portal Hypertension\nModules: Cirrhosis and Portal Hypertension\; M
+ etastatic Hepatic Neoplasms\; Segmentectomy and Lobectomy\nAnki: 10 minute
+ s\; create up to 3 cards from missed or guessed questions\nReview explanat
+ ions and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260825@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:SCORE: 35 questions - Liver Neoplasms and Portal Hypertension
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Liver Neoplas
+ ms and Portal Hypertension\nModules: Cirrhosis and Portal Hypertension\; M
+ etastatic Hepatic Neoplasms\; Segmentectomy and Lobectomy\nAnki: 10 minute
+ s\; create up to 3 cards from missed or guessed questions\nReview explanat
+ ions and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260826@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+SUMMARY:Optional SCORE: 5 questions (call) - Liver Neoplasms and Portal Hyp
+ ertension
+DESCRIPTION:Only if patient care allows: 5 SCORE questions\nWeekly topic: L
+ iver Neoplasms and Portal Hypertension\nModules: Cirrhosis and Portal Hype
+ rtension\; Metastatic Hepatic Neoplasms\; Segmentectomy and Lobectomy\nAnk
+ i: 10 minutes\; create up to 3 cards from missed or guessed questions\nRev
+ iew explanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260827@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:SCORE recovery day - 0 questions
+DESCRIPTION:Post-call recovery is protected\; sleep and resume tomorrow wit
+ hout catch-up guilt\nWeekly topic: Liver Neoplasms and Portal Hypertension
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260828@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:SCORE: 35 questions - Liver Neoplasms and Portal Hypertension
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Liver Neoplas
+ ms and Portal Hypertension\nModules: Cirrhosis and Portal Hypertension\; M
+ etastatic Hepatic Neoplasms\; Segmentectomy and Lobectomy\nAnki: 10 minute
+ s\; create up to 3 cards from missed or guessed questions\nReview explanat
+ ions and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260829@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:SCORE: 60 questions (deep study) - Liver Neoplasms and Portal Hyper
+ tension
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Li
+ ver Neoplasms and Portal Hypertension\nModules: Cirrhosis and Portal Hyper
+ tension\; Metastatic Hepatic Neoplasms\; Segmentectomy and Lobectomy\nAnki
+ : 10 minutes\; create up to 3 cards from missed or guessed questions\nRevi
+ ew explanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260830@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:SCORE: 35 questions - Liver Neoplasms and Portal Hypertension
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Liver Neoplas
+ ms and Portal Hypertension\nModules: Cirrhosis and Portal Hypertension\; M
+ etastatic Hepatic Neoplasms\; Segmentectomy and Lobectomy\nAnki: 10 minute
+ s\; create up to 3 cards from missed or guessed questions\nReview explanat
+ ions and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260831@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:SCORE: 35 questions - Pancreas and Pancreatitis
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
+  Pancreatitis\nModules: Acute Pancreatitis\; Chronic Pancreatitis\; Pancre
+ as Divisum\; Intraoperative Pancreatic Ultrasound\nAnki: 10 minutes\; crea
+ te up to 3 cards from missed or guessed questions\nReview explanations and
+  capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260901@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:SCORE: 35 questions - Pancreas and Pancreatitis
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
+  Pancreatitis\nModules: Acute Pancreatitis\; Chronic Pancreatitis\; Pancre
+ as Divisum\; Intraoperative Pancreatic Ultrasound\nAnki: 10 minutes\; crea
+ te up to 3 cards from missed or guessed questions\nReview explanations and
+  capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260902@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:SCORE: 35 questions - Pancreas and Pancreatitis
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
+  Pancreatitis\nModules: Acute Pancreatitis\; Chronic Pancreatitis\; Pancre
+ as Divisum\; Intraoperative Pancreatic Ultrasound\nAnki: 10 minutes\; crea
+ te up to 3 cards from missed or guessed questions\nReview explanations and
+  capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260903@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:SCORE: 35 questions - Pancreas and Pancreatitis
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
+  Pancreatitis\nModules: Acute Pancreatitis\; Chronic Pancreatitis\; Pancre
+ as Divisum\; Intraoperative Pancreatic Ultrasound\nAnki: 10 minutes\; crea
+ te up to 3 cards from missed or guessed questions\nReview explanations and
+  capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260904@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:SCORE: 35 questions - Pancreas and Pancreatitis
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
+  Pancreatitis\nModules: Acute Pancreatitis\; Chronic Pancreatitis\; Pancre
+ as Divisum\; Intraoperative Pancreatic Ultrasound\nAnki: 10 minutes\; crea
+ te up to 3 cards from missed or guessed questions\nReview explanations and
+  capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260905@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:SCORE: 60 questions (deep study) - Pancreas and Pancreatitis
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Pa
+ ncreas and Pancreatitis\nModules: Acute Pancreatitis\; Chronic Pancreatiti
+ s\; Pancreas Divisum\; Intraoperative Pancreatic Ultrasound\nAnki: 10 minu
+ tes\; create up to 3 cards from missed or guessed questions\nReview explan
+ ations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260906@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:SCORE: 35 questions - Pancreas and Pancreatitis
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
+  Pancreatitis\nModules: Acute Pancreatitis\; Chronic Pancreatitis\; Pancre
+ as Divisum\; Intraoperative Pancreatic Ultrasound\nAnki: 10 minutes\; crea
+ te up to 3 cards from missed or guessed questions\nReview explanations and
+  capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260907@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:SCORE: 10 questions (vacation) - Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nModules: Gastrectomy\; Vagotomy and Draina
+ ge\; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perfor
+ ation Repair\; Revisional Procedures after Gastrectomy\nAnki: 10 minutes\;
+  create up to 3 cards from missed or guessed questions\nReview explanation
+ s and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260908@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:SCORE: 10 questions (vacation) - Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nModules: Gastrectomy\; Vagotomy and Draina
+ ge\; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perfor
+ ation Repair\; Revisional Procedures after Gastrectomy\nAnki: 10 minutes\;
+  create up to 3 cards from missed or guessed questions\nReview explanation
+ s and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260909@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:SCORE: 10 questions (vacation) - Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nModules: Gastrectomy\; Vagotomy and Draina
+ ge\; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perfor
+ ation Repair\; Revisional Procedures after Gastrectomy\nAnki: 10 minutes\;
+  create up to 3 cards from missed or guessed questions\nReview explanation
+ s and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260910@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:SCORE: 10 questions (vacation) - Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nModules: Gastrectomy\; Vagotomy and Draina
+ ge\; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perfor
+ ation Repair\; Revisional Procedures after Gastrectomy\nAnki: 10 minutes\;
+  create up to 3 cards from missed or guessed questions\nReview explanation
+ s and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260911@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:SCORE: 10 questions (vacation) - Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nModules: Gastrectomy\; Vagotomy and Draina
+ ge\; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perfor
+ ation Repair\; Revisional Procedures after Gastrectomy\nAnki: 10 minutes\;
+  create up to 3 cards from missed or guessed questions\nReview explanation
+ s and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260912@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:SCORE: 10 questions (vacation) - Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nModules: Gastrectomy\; Vagotomy and Draina
+ ge\; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perfor
+ ation Repair\; Revisional Procedures after Gastrectomy\nAnki: 10 minutes\;
+  create up to 3 cards from missed or guessed questions\nReview explanation
+ s and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260913@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:SCORE: 10 questions (vacation) - Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nModules: Gastrectomy\; Vagotomy and Draina
+ ge\; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perfor
+ ation Repair\; Revisional Procedures after Gastrectomy\nAnki: 10 minutes\;
+  create up to 3 cards from missed or guessed questions\nReview explanation
+ s and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260914@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:SCORE: 35 questions - Small Intestine\, Part 2 of 2
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
+ ne\, Part 2 of 2\nModules: Ileostomy and Ileostomy Closure\; Meckel Divert
+ iculum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neo
+ plasms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectom
+ y and Thrombectomy\nAnki: 10 minutes\; create up to 3 cards from missed or
+  guessed questions\nReview explanations and capture the management detail
+  that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260915@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:SCORE: 35 questions - Small Intestine\, Part 2 of 2
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
+ ne\, Part 2 of 2\nModules: Ileostomy and Ileostomy Closure\; Meckel Divert
+ iculum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neo
+ plasms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectom
+ y and Thrombectomy\nAnki: 10 minutes\; create up to 3 cards from missed or
+  guessed questions\nReview explanations and capture the management detail
+  that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260916@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:SCORE: 35 questions - Small Intestine\, Part 2 of 2
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
+ ne\, Part 2 of 2\nModules: Ileostomy and Ileostomy Closure\; Meckel Divert
+ iculum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neo
+ plasms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectom
+ y and Thrombectomy\nAnki: 10 minutes\; create up to 3 cards from missed or
+  guessed questions\nReview explanations and capture the management detail
+  that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260917@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:SCORE: 35 questions - Small Intestine\, Part 2 of 2
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
+ ne\, Part 2 of 2\nModules: Ileostomy and Ileostomy Closure\; Meckel Divert
+ iculum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neo
+ plasms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectom
+ y and Thrombectomy\nAnki: 10 minutes\; create up to 3 cards from missed or
+  guessed questions\nReview explanations and capture the management detail
+  that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260918@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:SCORE: 35 questions - Small Intestine\, Part 2 of 2
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
+ ne\, Part 2 of 2\nModules: Ileostomy and Ileostomy Closure\; Meckel Divert
+ iculum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neo
+ plasms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectom
+ y and Thrombectomy\nAnki: 10 minutes\; create up to 3 cards from missed or
+  guessed questions\nReview explanations and capture the management detail
+  that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260919@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:SCORE: 60 questions (deep study) - Small Intestine\, Part 2 of 2
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Sm
+ all Intestine\, Part 2 of 2\nModules: Ileostomy and Ileostomy Closure\; Me
+ ckel Diverticulum\; Enteric Infections and Blind Loop Syndrome\; Small Int
+ estinal Neoplasms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery
+  Embolectomy and Thrombectomy\nAnki: 10 minutes\; create up to 3 cards fro
+ m missed or guessed questions\nReview explanations and capture the managem
+ ent detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260920@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:SCORE: 35 questions - Small Intestine\, Part 2 of 2
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
+ ne\, Part 2 of 2\nModules: Ileostomy and Ileostomy Closure\; Meckel Divert
+ iculum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neo
+ plasms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectom
+ y and Thrombectomy\nAnki: 10 minutes\; create up to 3 cards from missed or
+  guessed questions\nReview explanations and capture the management detail
+  that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260921@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:SCORE: 35 questions - Systems-Based Practice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
+  Practice\nModules: Advocating for Quality Patient Care\; Coordinating Pat
+ ient Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems
+  Errors - Root Cause Analysis\; Working Effectively in Various Healthcare
+  Delivery Settings and Systems\; Working in Interprofessional Teams\; Dive
+ rsity in the US Surgical Workforce\nAnki: 10 minutes\; create up to 3 card
+ s from missed or guessed questions\nReview explanations and capture the ma
+ nagement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260922@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:SCORE: 35 questions - Systems-Based Practice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
+  Practice\nModules: Advocating for Quality Patient Care\; Coordinating Pat
+ ient Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems
+  Errors - Root Cause Analysis\; Working Effectively in Various Healthcare
+  Delivery Settings and Systems\; Working in Interprofessional Teams\; Dive
+ rsity in the US Surgical Workforce\nAnki: 10 minutes\; create up to 3 card
+ s from missed or guessed questions\nReview explanations and capture the ma
+ nagement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260923@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:SCORE: 35 questions - Systems-Based Practice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
+  Practice\nModules: Advocating for Quality Patient Care\; Coordinating Pat
+ ient Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems
+  Errors - Root Cause Analysis\; Working Effectively in Various Healthcare
+  Delivery Settings and Systems\; Working in Interprofessional Teams\; Dive
+ rsity in the US Surgical Workforce\nAnki: 10 minutes\; create up to 3 card
+ s from missed or guessed questions\nReview explanations and capture the ma
+ nagement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260924@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:SCORE: 35 questions - Systems-Based Practice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
+  Practice\nModules: Advocating for Quality Patient Care\; Coordinating Pat
+ ient Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems
+  Errors - Root Cause Analysis\; Working Effectively in Various Healthcare
+  Delivery Settings and Systems\; Working in Interprofessional Teams\; Dive
+ rsity in the US Surgical Workforce\nAnki: 10 minutes\; create up to 3 card
+ s from missed or guessed questions\nReview explanations and capture the ma
+ nagement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260925@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:SCORE: 35 questions - Systems-Based Practice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
+  Practice\nModules: Advocating for Quality Patient Care\; Coordinating Pat
+ ient Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems
+  Errors - Root Cause Analysis\; Working Effectively in Various Healthcare
+  Delivery Settings and Systems\; Working in Interprofessional Teams\; Dive
+ rsity in the US Surgical Workforce\nAnki: 10 minutes\; create up to 3 card
+ s from missed or guessed questions\nReview explanations and capture the ma
+ nagement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260926@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:SCORE: 60 questions (deep study) - Systems-Based Practice
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Sy
+ stems-Based Practice\nModules: Advocating for Quality Patient Care\; Coord
+ inating Patient Care\; Cost Awareness and Risk-Benefit Analysis\; Identify
+ ing Systems Errors - Root Cause Analysis\; Working Effectively in Various
+  Healthcare Delivery Settings and Systems\; Working in Interprofessional T
+ eams\; Diversity in the US Surgical Workforce\nAnki: 10 minutes\; create u
+ p to 3 cards from missed or guessed questions\nReview explanations and cap
+ ture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260927@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:SCORE: 35 questions - Systems-Based Practice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
+  Practice\nModules: Advocating for Quality Patient Care\; Coordinating Pat
+ ient Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems
+  Errors - Root Cause Analysis\; Working Effectively in Various Healthcare
+  Delivery Settings and Systems\; Working in Interprofessional Teams\; Dive
+ rsity in the US Surgical Workforce\nAnki: 10 minutes\; create up to 3 card
+ s from missed or guessed questions\nReview explanations and capture the ma
+ nagement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260928@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:SCORE: 35 questions - Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
+ uma\, Part 1 of 3\nModules: Colon and Rectal Injury\; Duodenal and Pancrea
+ tic Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract
+  Injury Repair\nAnki: 10 minutes\; create up to 3 cards from missed or gue
+ ssed questions\nReview explanations and capture the management detail that
+  changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260929@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:SCORE: 35 questions - Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
+ uma\, Part 1 of 3\nModules: Colon and Rectal Injury\; Duodenal and Pancrea
+ tic Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract
+  Injury Repair\nAnki: 10 minutes\; create up to 3 cards from missed or gue
+ ssed questions\nReview explanations and capture the management detail that
+  changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20260930@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:SCORE: 35 questions - Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
+ uma\, Part 1 of 3\nModules: Colon and Rectal Injury\; Duodenal and Pancrea
+ tic Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract
+  Injury Repair\nAnki: 10 minutes\; create up to 3 cards from missed or gue
+ ssed questions\nReview explanations and capture the management detail that
+  changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261001@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:SCORE: 35 questions - Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
+ uma\, Part 1 of 3\nModules: Colon and Rectal Injury\; Duodenal and Pancrea
+ tic Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract
+  Injury Repair\nAnki: 10 minutes\; create up to 3 cards from missed or gue
+ ssed questions\nReview explanations and capture the management detail that
+  changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261002@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:SCORE: 35 questions - Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
+ uma\, Part 1 of 3\nModules: Colon and Rectal Injury\; Duodenal and Pancrea
+ tic Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract
+  Injury Repair\nAnki: 10 minutes\; create up to 3 cards from missed or gue
+ ssed questions\nReview explanations and capture the management detail that
+  changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261003@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:SCORE: 60 questions (deep study) - Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Ab
+ dominal Trauma\, Part 1 of 3\nModules: Colon and Rectal Injury\; Duodenal
+  and Pancreatic Injury\; Gastric and Small Intestinal Injury\; Gastrointes
+ tinal Tract Injury Repair\nAnki: 10 minutes\; create up to 3 cards from mi
+ ssed or guessed questions\nReview explanations and capture the management
+  detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261004@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:SCORE: 35 questions - Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
+ uma\, Part 1 of 3\nModules: Colon and Rectal Injury\; Duodenal and Pancrea
+ tic Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract
+  Injury Repair\nAnki: 10 minutes\; create up to 3 cards from missed or gue
+ ssed questions\nReview explanations and capture the management detail that
+  changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261005@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:SCORE: 35 questions - Thyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nModu
+ les: Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\
+ ; Hyperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nAnki: 10 m
+ inutes\; create up to 3 cards from missed or guessed questions\nReview exp
+ lanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261006@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:SCORE: 35 questions - Thyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nModu
+ les: Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\
+ ; Hyperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nAnki: 10 m
+ inutes\; create up to 3 cards from missed or guessed questions\nReview exp
+ lanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261007@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:SCORE: 35 questions - Thyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nModu
+ les: Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\
+ ; Hyperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nAnki: 10 m
+ inutes\; create up to 3 cards from missed or guessed questions\nReview exp
+ lanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261008@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:SCORE: 35 questions - Thyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nModu
+ les: Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\
+ ; Hyperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nAnki: 10 m
+ inutes\; create up to 3 cards from missed or guessed questions\nReview exp
+ lanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261009@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:SCORE: 35 questions - Thyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nModu
+ les: Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\
+ ; Hyperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nAnki: 10 m
+ inutes\; create up to 3 cards from missed or guessed questions\nReview exp
+ lanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261010@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:SCORE: 60 questions (deep study) - Thyroid
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Th
+ yroid\nModules: Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thy
+ roidectomy\; Hyperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\
+ nAnki: 10 minutes\; create up to 3 cards from missed or guessed questions\
+ nReview explanations and capture the management detail that changes the an
+ swer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261011@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:SCORE: 35 questions - Thyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nModu
+ les: Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\
+ ; Hyperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nAnki: 10 m
+ inutes\; create up to 3 cards from missed or guessed questions\nReview exp
+ lanations and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261012@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:SCORE: 35 questions - Breast\, Part 2 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
+  2 of 3\nModules: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; H
+ ereditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures
+  in Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manag
+ ement of the Axilla in Breast Cancer\nAnki: 10 minutes\; create up to 3 ca
+ rds from missed or guessed questions\nReview explanations and capture the
+  management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261013@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:SCORE: 35 questions - Breast\, Part 2 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
+  2 of 3\nModules: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; H
+ ereditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures
+  in Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manag
+ ement of the Axilla in Breast Cancer\nAnki: 10 minutes\; create up to 3 ca
+ rds from missed or guessed questions\nReview explanations and capture the
+  management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261014@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:SCORE: 35 questions - Breast\, Part 2 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
+  2 of 3\nModules: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; H
+ ereditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures
+  in Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manag
+ ement of the Axilla in Breast Cancer\nAnki: 10 minutes\; create up to 3 ca
+ rds from missed or guessed questions\nReview explanations and capture the
+  management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261015@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:SCORE: 35 questions - Breast\, Part 2 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
+  2 of 3\nModules: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; H
+ ereditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures
+  in Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manag
+ ement of the Axilla in Breast Cancer\nAnki: 10 minutes\; create up to 3 ca
+ rds from missed or guessed questions\nReview explanations and capture the
+  management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261016@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:SCORE: 35 questions - Breast\, Part 2 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
+  2 of 3\nModules: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; H
+ ereditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures
+  in Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manag
+ ement of the Axilla in Breast Cancer\nAnki: 10 minutes\; create up to 3 ca
+ rds from missed or guessed questions\nReview explanations and capture the
+  management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261017@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:SCORE: 60 questions (deep study) - Breast\, Part 2 of 3
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Br
+ east\, Part 2 of 3\nModules: Breast Invasive Carcinoma\; Ductal Carcinoma
+  In Situ\; Hereditary Breast Cancer\; Inflammatory Breast Cancer\; Axillar
+ y Procedures in Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspira
+ tion\; Management of the Axilla in Breast Cancer\nAnki: 10 minutes\; creat
+ e up to 3 cards from missed or guessed questions\nReview explanations and
+  capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261018@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:SCORE: 35 questions - Breast\, Part 2 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
+  2 of 3\nModules: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; H
+ ereditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures
+  in Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manag
+ ement of the Axilla in Breast Cancer\nAnki: 10 minutes\; create up to 3 ca
+ rds from missed or guessed questions\nReview explanations and capture the
+  management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261019@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:SCORE: 35 questions - Endoscopy
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nMo
+ dules: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and
+  Bronchoalveolar Lavage\nAnki: 10 minutes\; create up to 3 cards from miss
+ ed or guessed questions\nReview explanations and capture the management de
+ tail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261020@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:SCORE: 35 questions - Endoscopy
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nMo
+ dules: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and
+  Bronchoalveolar Lavage\nAnki: 10 minutes\; create up to 3 cards from miss
+ ed or guessed questions\nReview explanations and capture the management de
+ tail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261021@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:SCORE: 35 questions - Endoscopy
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nMo
+ dules: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and
+  Bronchoalveolar Lavage\nAnki: 10 minutes\; create up to 3 cards from miss
+ ed or guessed questions\nReview explanations and capture the management de
+ tail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261022@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:SCORE: 35 questions - Endoscopy
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nMo
+ dules: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and
+  Bronchoalveolar Lavage\nAnki: 10 minutes\; create up to 3 cards from miss
+ ed or guessed questions\nReview explanations and capture the management de
+ tail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261023@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:SCORE: 35 questions - Endoscopy
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nMo
+ dules: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and
+  Bronchoalveolar Lavage\nAnki: 10 minutes\; create up to 3 cards from miss
+ ed or guessed questions\nReview explanations and capture the management de
+ tail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261024@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:SCORE: 60 questions (deep study) - Endoscopy
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: En
+ doscopy\nModules: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronch
+ oscopy and Bronchoalveolar Lavage\nAnki: 10 minutes\; create up to 3 cards
+  from missed or guessed questions\nReview explanations and capture the man
+ agement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261025@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:SCORE: 35 questions - Endoscopy
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nMo
+ dules: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and
+  Bronchoalveolar Lavage\nAnki: 10 minutes\; create up to 3 cards from miss
+ ed or guessed questions\nReview explanations and capture the management de
+ tail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261026@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:SCORE: 35 questions - Inflammatory Bowel Disease
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
+  Bowel Disease\nModules: Procedures for Crohn Disease\; Procedures for Ulc
+ erative Colitis\nAnki: 10 minutes\; create up to 3 cards from missed or gu
+ essed questions\nReview explanations and capture the management detail tha
+ t changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261027@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:SCORE: 35 questions - Inflammatory Bowel Disease
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
+  Bowel Disease\nModules: Procedures for Crohn Disease\; Procedures for Ulc
+ erative Colitis\nAnki: 10 minutes\; create up to 3 cards from missed or gu
+ essed questions\nReview explanations and capture the management detail tha
+ t changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261028@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:SCORE: 35 questions - Inflammatory Bowel Disease
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
+  Bowel Disease\nModules: Procedures for Crohn Disease\; Procedures for Ulc
+ erative Colitis\nAnki: 10 minutes\; create up to 3 cards from missed or gu
+ essed questions\nReview explanations and capture the management detail tha
+ t changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261029@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:SCORE: 35 questions - Inflammatory Bowel Disease
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
+  Bowel Disease\nModules: Procedures for Crohn Disease\; Procedures for Ulc
+ erative Colitis\nAnki: 10 minutes\; create up to 3 cards from missed or gu
+ essed questions\nReview explanations and capture the management detail tha
+ t changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261030@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:SCORE: 35 questions - Inflammatory Bowel Disease
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
+  Bowel Disease\nModules: Procedures for Crohn Disease\; Procedures for Ulc
+ erative Colitis\nAnki: 10 minutes\; create up to 3 cards from missed or gu
+ essed questions\nReview explanations and capture the management detail tha
+ t changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261031@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:SCORE: 60 questions (deep study) - Inflammatory Bowel Disease
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: In
+ flammatory Bowel Disease\nModules: Procedures for Crohn Disease\; Procedur
+ es for Ulcerative Colitis\nAnki: 10 minutes\; create up to 3 cards from mi
+ ssed or guessed questions\nReview explanations and capture the management
+  detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261101@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SCORE: 35 questions - Inflammatory Bowel Disease
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
+  Bowel Disease\nModules: Procedures for Crohn Disease\; Procedures for Ulc
+ erative Colitis\nAnki: 10 minutes\; create up to 3 cards from missed or gu
+ essed questions\nReview explanations and capture the management detail tha
+ t changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261102@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:SCORE: 35 questions - Miscellaneous Trauma
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
+  Trauma\nModules: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnanc
+ y\; Traumatic Brain Injury\nAnki: 10 minutes\; create up to 3 cards from m
+ issed or guessed questions\nReview explanations and capture the management
+  detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261103@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:SCORE: 35 questions - Miscellaneous Trauma
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
+  Trauma\nModules: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnanc
+ y\; Traumatic Brain Injury\nAnki: 10 minutes\; create up to 3 cards from m
+ issed or guessed questions\nReview explanations and capture the management
+  detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261104@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:SCORE: 35 questions - Miscellaneous Trauma
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
+  Trauma\nModules: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnanc
+ y\; Traumatic Brain Injury\nAnki: 10 minutes\; create up to 3 cards from m
+ issed or guessed questions\nReview explanations and capture the management
+  detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261105@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:SCORE: 35 questions - Miscellaneous Trauma
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
+  Trauma\nModules: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnanc
+ y\; Traumatic Brain Injury\nAnki: 10 minutes\; create up to 3 cards from m
+ issed or guessed questions\nReview explanations and capture the management
+  detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261106@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:SCORE: 35 questions - Miscellaneous Trauma
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
+  Trauma\nModules: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnanc
+ y\; Traumatic Brain Injury\nAnki: 10 minutes\; create up to 3 cards from m
+ issed or guessed questions\nReview explanations and capture the management
+  detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261107@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:SCORE: 60 questions (deep study) - Miscellaneous Trauma
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Mi
+ scellaneous Trauma\nModules: Geriatric Trauma\; Pediatric Trauma\; Trauma
+  in Pregnancy\; Traumatic Brain Injury\nAnki: 10 minutes\; create up to 3
+  cards from missed or guessed questions\nReview explanations and capture t
+ he management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261108@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:SCORE: 35 questions - Miscellaneous Trauma
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
+  Trauma\nModules: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnanc
+ y\; Traumatic Brain Injury\nAnki: 10 minutes\; create up to 3 cards from m
+ issed or guessed questions\nReview explanations and capture the management
+  detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261109@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:SCORE: 35 questions - Pancreatic Tumors
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
+ mors\nModules: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasm
+ s\; Exocrine Pancreatic Neoplasms\nAnki: 10 minutes\; create up to 3 cards
+  from missed or guessed questions\nReview explanations and capture the man
+ agement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261110@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:SCORE: 35 questions - Pancreatic Tumors
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
+ mors\nModules: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasm
+ s\; Exocrine Pancreatic Neoplasms\nAnki: 10 minutes\; create up to 3 cards
+  from missed or guessed questions\nReview explanations and capture the man
+ agement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261111@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:SCORE: 35 questions - Pancreatic Tumors
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
+ mors\nModules: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasm
+ s\; Exocrine Pancreatic Neoplasms\nAnki: 10 minutes\; create up to 3 cards
+  from missed or guessed questions\nReview explanations and capture the man
+ agement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261112@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:SCORE: 35 questions - Pancreatic Tumors
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
+ mors\nModules: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasm
+ s\; Exocrine Pancreatic Neoplasms\nAnki: 10 minutes\; create up to 3 cards
+  from missed or guessed questions\nReview explanations and capture the man
+ agement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261113@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:SCORE: 35 questions - Pancreatic Tumors
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
+ mors\nModules: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasm
+ s\; Exocrine Pancreatic Neoplasms\nAnki: 10 minutes\; create up to 3 cards
+  from missed or guessed questions\nReview explanations and capture the man
+ agement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261114@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:SCORE: 60 questions (deep study) - Pancreatic Tumors
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Pa
+ ncreatic Tumors\nModules: Pancreatic Cystic Neoplasms\; Endocrine Pancreat
+ ic Neoplasms\; Exocrine Pancreatic Neoplasms\nAnki: 10 minutes\; create up
+  to 3 cards from missed or guessed questions\nReview explanations and capt
+ ure the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261115@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:SCORE: 35 questions - Pancreatic Tumors
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
+ mors\nModules: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasm
+ s\; Exocrine Pancreatic Neoplasms\nAnki: 10 minutes\; create up to 3 cards
+  from missed or guessed questions\nReview explanations and capture the man
+ agement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261116@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:SCORE: 35 questions - Parathyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
+ Modules: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid
+  Cancer\; Parathyroidectomy\nAnki: 10 minutes\; create up to 3 cards from
+  missed or guessed questions\nReview explanations and capture the manageme
+ nt detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261117@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:SCORE: 35 questions - Parathyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
+ Modules: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid
+  Cancer\; Parathyroidectomy\nAnki: 10 minutes\; create up to 3 cards from
+  missed or guessed questions\nReview explanations and capture the manageme
+ nt detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261118@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:SCORE: 35 questions - Parathyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
+ Modules: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid
+  Cancer\; Parathyroidectomy\nAnki: 10 minutes\; create up to 3 cards from
+  missed or guessed questions\nReview explanations and capture the manageme
+ nt detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261119@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:SCORE: 35 questions - Parathyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
+ Modules: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid
+  Cancer\; Parathyroidectomy\nAnki: 10 minutes\; create up to 3 cards from
+  missed or guessed questions\nReview explanations and capture the manageme
+ nt detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261120@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:SCORE: 35 questions - Parathyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
+ Modules: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid
+  Cancer\; Parathyroidectomy\nAnki: 10 minutes\; create up to 3 cards from
+  missed or guessed questions\nReview explanations and capture the manageme
+ nt detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261121@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:SCORE: 60 questions (deep study) - Parathyroid
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Pa
+ rathyroid\nModules: Hyperparathyroidism\; Multiple Endocrine Neoplasias\;
+  Parathyroid Cancer\; Parathyroidectomy\nAnki: 10 minutes\; create up to 3
+  cards from missed or guessed questions\nReview explanations and capture t
+ he management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261122@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:SCORE: 35 questions - Parathyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
+ Modules: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid
+  Cancer\; Parathyroidectomy\nAnki: 10 minutes\; create up to 3 cards from
+  missed or guessed questions\nReview explanations and capture the manageme
+ nt detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261123@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:SCORE: 35 questions - OFF - Thanksgiving
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
+ iving\nModules: No assigned TWIS modules\nAnki: 10 minutes\; create up to
+  3 cards from missed or guessed questions\nReview explanations and capture
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261124@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:SCORE: 35 questions - OFF - Thanksgiving
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
+ iving\nModules: No assigned TWIS modules\nAnki: 10 minutes\; create up to
+  3 cards from missed or guessed questions\nReview explanations and capture
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261125@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:SCORE: 35 questions - OFF - Thanksgiving
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
+ iving\nModules: No assigned TWIS modules\nAnki: 10 minutes\; create up to
+  3 cards from missed or guessed questions\nReview explanations and capture
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261126@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:SCORE: 35 questions - OFF - Thanksgiving
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
+ iving\nModules: No assigned TWIS modules\nAnki: 10 minutes\; create up to
+  3 cards from missed or guessed questions\nReview explanations and capture
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261127@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:SCORE: 35 questions - OFF - Thanksgiving
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
+ iving\nModules: No assigned TWIS modules\nAnki: 10 minutes\; create up to
+  3 cards from missed or guessed questions\nReview explanations and capture
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261128@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:SCORE: 60 questions (deep study) - OFF - Thanksgiving
+DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: OF
+ F - Thanksgiving\nModules: No assigned TWIS modules\nAnki: 10 minutes\; cr
+ eate up to 3 cards from missed or guessed questions\nReview explanations a
+ nd capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261129@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:SCORE: 35 questions - OFF - Thanksgiving
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
+ iving\nModules: No assigned TWIS modules\nAnki: 10 minutes\; create up to
+  3 cards from missed or guessed questions\nReview explanations and capture
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:score-20261130@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:SCORE: 35 questions - Soft Tissue Infection
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Soft Tissue I
+ nfection\nModules: Soft Tissue Infections\; Hidradenitis Suppurativa\; Pro
+ cedures for Soft Tissue Infections\; Paronychia and Felon\nAnki: 10 minute
+ s\; create up to 3 cards from missed or guessed questions\nReview explanat
+ ions and capture the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

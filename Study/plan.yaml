@@ -18,6 +18,7 @@ daily_targets:
   vacation_score_questions: 10
   call_score_questions: 5
   anki_minutes: 10
+  anki_new_cards_cap: 3
   twis_minutes: 30
   deep_study_day: saturday
   case_review_day: sunday
