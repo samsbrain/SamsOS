@@ -17,6 +17,7 @@
 ## Project next actions
 
 - [ ] **Complete this week's trauma review:** Choose and review one trauma topic
+- [ ] **Plan Mirna's 13 Going on 30 birthday party:** Confirm the party date, budget, and guest list
 
 ## Daily plan
 
@@ -44,14 +45,41 @@
 
 - **VA** (rotation)
 - [ ] Weight training: Legs and abs (90 minutes)
+  - Romanian deadlifts - 4 x 6-8
+  - Hip thrusts - 4 x 8-10
+  - Single-leg Romanian deadlifts - 3 x 8 each side
+  - Hamstring curls - 3 x 12
+  - Calf raises - 4 x 15
+  - Tibialis raises - 3 x 15
+  - Mobility: 90/90 hips, couch stretch, thoracic rotations, world's greatest stretch, and a 60-second deep squat hold
+  - Finish: 10-minute BJJ flow - shrimp, reverse shrimp, bridges, technical stand-ups, sit-throughs, sprawls, and Granby rolls
 
 ### Saturday, August 01
 
 - **VA** (rotation)
 - [ ] Weight training: Chest and shoulders (90 minutes)
+  - Pike push-ups or handstand push-up progression - 4 x 8
+  - Dips - 4 x 8-12
+  - Leaning lateral raises - 5 x 15
+  - Rear delt fly - 4 x 15
+  - Hammer curls - 4 x 10
+  - Incline dumbbell curls - 3 x 12
+  - Rope pushdowns - 4 x 12
+  - Farmer carries - 3 x 40 seconds
+  - Towel pull-ups - 3 sets, stopping 1-2 reps before failure
+  - Finish: 10-minute BJJ flow - shrimp, reverse shrimp, bridges, technical stand-ups, sit-throughs, sprawls, and Granby rolls
 
 ### Sunday, August 02
 
 - **VA** (rotation)
 - [ ] Plan the upcoming week (20 minutes)
 - [ ] Weight training: Back and arms (90 minutes)
+  - Weighted pull-ups - 5 x 5
+  - Bodyweight pull-ups - 3 sets, stopping 1-2 reps before failure
+  - Chest-supported rows - 4 x 8-12
+  - One-arm dumbbell rows - 3 x 10 each side
+  - Face pulls - 4 x 20
+  - Leaning lateral raises - 5 x 15
+  - Dead hangs - 3 x 60 seconds
+  - Hanging leg raises - 3 x 15
+  - Finish: 10-minute BJJ flow - shrimp, reverse shrimp, bridges, technical stand-ups, sit-throughs, sprawls, and Granby rolls

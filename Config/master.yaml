@@ -95,6 +95,12 @@ projects:
     status: active
     next_action: Choose and review one trauma topic
 
+  - id: plan_mirna_birthday_2026
+    title: Plan Mirna's 13 Going on 30 birthday party
+    goal: nurture_relationships
+    status: active
+    next_action: Confirm the party date, budget, and guest list
+
 routines:
   - id: sunday_planning
     title: Plan the upcoming week
@@ -129,9 +135,39 @@ training_plan:
   avoid_bjj_days: true
   avoid_yoga_days: true
   sessions:
-    - Legs and abs
-    - Chest and shoulders
-    - Back and arms
+    - name: Legs and abs
+      notes:
+        - Romanian deadlifts - 4 x 6-8
+        - Hip thrusts - 4 x 8-10
+        - Single-leg Romanian deadlifts - 3 x 8 each side
+        - Hamstring curls - 3 x 12
+        - Calf raises - 4 x 15
+        - Tibialis raises - 3 x 15
+        - "Mobility: 90/90 hips, couch stretch, thoracic rotations, world's greatest stretch, and a 60-second deep squat hold"
+        - "Finish: 10-minute BJJ flow - shrimp, reverse shrimp, bridges, technical stand-ups, sit-throughs, sprawls, and Granby rolls"
+    - name: Chest and shoulders
+      notes:
+        - Pike push-ups or handstand push-up progression - 4 x 8
+        - Dips - 4 x 8-12
+        - Leaning lateral raises - 5 x 15
+        - Rear delt fly - 4 x 15
+        - Hammer curls - 4 x 10
+        - Incline dumbbell curls - 3 x 12
+        - Rope pushdowns - 4 x 12
+        - Farmer carries - 3 x 40 seconds
+        - Towel pull-ups - 3 sets, stopping 1-2 reps before failure
+        - "Finish: 10-minute BJJ flow - shrimp, reverse shrimp, bridges, technical stand-ups, sit-throughs, sprawls, and Granby rolls"
+    - name: Back and arms
+      notes:
+        - Weighted pull-ups - 5 x 5
+        - Bodyweight pull-ups - 3 sets, stopping 1-2 reps before failure
+        - Chest-supported rows - 4 x 8-12
+        - One-arm dumbbell rows - 3 x 10 each side
+        - Face pulls - 4 x 20
+        - Leaning lateral raises - 5 x 15
+        - Dead hangs - 3 x 60 seconds
+        - Hanging leg raises - 3 x 15
+        - "Finish: 10-minute BJJ flow - shrimp, reverse shrimp, bridges, technical stand-ups, sit-throughs, sprawls, and Granby rolls"
 
 preferences:
   week_starts_on: monday
