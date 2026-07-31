@@ -44,6 +44,7 @@ def build_reminder_calendar(profiles: dict, items: dict) -> str:
         "VERSION:2.0",
         "PRODID:-//SamOS//Reminders//EN",
         "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
         "X-WR-CALNAME:SamOS Reminders",
     ]
     for item in items["reminders"]:
@@ -57,6 +58,7 @@ def build_reminder_calendar(profiles: dict, items: dict) -> str:
             lines.extend([
                 "BEGIN:VEVENT",
                 f"UID:{item['id']}-{offset}@samos-reminders",
+                "DTSTAMP:20000101T000000Z",
                 f"DTSTART;VALUE=DATE:{reminder_date:%Y%m%d}",
                 f"DTEND;VALUE=DATE:{end_date:%Y%m%d}",
                 f"SUMMARY:{escape_ics('Reminder: ' + item['title'])}",
@@ -74,7 +76,7 @@ def main() -> None:
     validate_reminder_profiles(profiles)
     validate_reminders(items, set(profiles["profiles"]))
     OUTPUT.write_text(build_reminder_schedule(profiles, items), encoding="utf-8")
-    CALENDAR_OUTPUT.write_text(build_reminder_calendar(profiles, items), encoding="utf-8")
+    CALENDAR_OUTPUT.write_bytes(build_reminder_calendar(profiles, items).encode("utf-8"))
     print(f"Reminder schedule created: {OUTPUT}")
     print(f"Reminder calendar created: {CALENDAR_OUTPUT}")
 
