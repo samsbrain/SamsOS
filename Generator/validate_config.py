@@ -230,7 +230,7 @@ def validate_study_plan(data: dict) -> None:
     targets = data["daily_targets"]
     target_fields = (
         "weekday_score_questions", "deep_study_score_questions", "vacation_score_questions",
-        "call_score_questions", "anki_minutes", "twis_minutes",
+        "call_score_questions", "anki_minutes", "anki_new_cards_cap", "twis_minutes",
     )
     require_fields(targets, target_fields + ("deep_study_day", "case_review_day"), "Study/plan.yaml > daily_targets")
     for field in target_fields:

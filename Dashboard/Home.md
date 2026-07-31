@@ -11,6 +11,18 @@
 
 ## Study command center
 
+- **Starts August 3:** Biliary Neoplasms and Jaundice
+- **Assigned SCORE/TWIS modules:**
+  - Benign Biliary Obstruction
+  - Primary Biliary Neoplasms
+  - Extended Cholecystectomy for Gallbladder Cancer
+  - Gallbladder Neoplasms
+  - Procedures for Bile Duct Cancer
+  - Procedures for Bile Duct Neoplasm
+- [Open SCORE](https://www.surgicalcore.org/)
+- **Anki:** 10 minutes; create up to 3 cards from missed or guessed questions
+- **Operation:** Extended cholecystectomy
+- **Case review:** Hilar cholangiocarcinoma with obstructive jaundice
 - SCORE Pass 1: `░░░░░░░░░░░░░░░░` 0/2200
 - SCORE Pass 2: `░░░░░░░░░░░░░░░░` 0/2200
 - TWIS weeks: `░░░░░░░░░░░░░░░░` 0/17
