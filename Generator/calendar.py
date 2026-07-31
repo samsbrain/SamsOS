@@ -16,22 +16,41 @@ def escape_ics(text: str) -> str:
     return text.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
 
 
-def add_all_day(lines: list[str], uid: str, title: str, start: date, end_inclusive: date) -> None:
-    lines.extend([
+def append_folded_line(lines: list[str], line: str, limit: int = 75) -> None:
+    """Append one RFC 5545 content line, folding long UTF-8 values safely."""
+    first = True
+    while len(line.encode("utf-8")) > (limit if first else limit - 1):
+        available = limit if first else limit - 1
+        split = min(len(line), available)
+        while len(line[:split].encode("utf-8")) > available:
+            split -= 1
+        while split > 0 and line[split - 1] in {" ", "\t"}:
+            split -= 1
+        lines.append(("" if first else " ") + line[:split])
+        line = line[split:]
+        first = False
+    lines.append(("" if first else " ") + line)
+
+
+def add_all_day(lines: list[str], uid: str, title: str, start: date, end_inclusive: date,
+                description: str = "") -> None:
+    event_lines = [
         "BEGIN:VEVENT",
         f"UID:{uid}@samos",
         "DTSTAMP:20000101T000000Z",
         f"DTSTART;VALUE=DATE:{start:%Y%m%d}",
         f"DTEND;VALUE=DATE:{end_inclusive + timedelta(days=1):%Y%m%d}",
         f"SUMMARY:{escape_ics(title)}",
-        "TRANSP:TRANSPARENT",
-        "END:VEVENT",
-    ])
+    ]
+    lines.extend(event_lines)
+    if description:
+        append_folded_line(lines, f"DESCRIPTION:{escape_ics(description)}")
+    lines.extend(["TRANSP:TRANSPARENT", "END:VEVENT"])
 
 
 def add_timed(lines: list[str], uid: str, title: str, day: date, start_time: str,
               duration_minutes: int, timezone_name: str, location: str = "",
-              floating_times: bool = False) -> None:
+              floating_times: bool = False, description: str = "") -> None:
     hour, minute = (int(part) for part in start_time.split(":"))
     local_timezone = ZoneInfo(timezone_name)
     start = datetime.combine(day, datetime.min.time(), local_timezone).replace(hour=hour, minute=minute)
@@ -52,8 +71,10 @@ def add_timed(lines: list[str], uid: str, title: str, day: date, start_time: str
         end_line,
         f"SUMMARY:{escape_ics(title)}",
         f"LOCATION:{escape_ics(location)}",
-        "END:VEVENT",
     ])
+    if description:
+        append_folded_line(lines, f"DESCRIPTION:{escape_ics(description)}")
+    lines.append("END:VEVENT")
 
 
 def load_cases() -> list[dict]:
@@ -90,12 +111,13 @@ def build_calendar(data: dict, today: date | None = None, *, floating_times: boo
                 continue
             for activity in activities:
                 uid = f"{activity['id']}-{day:%Y%m%d}"
+                description = "\n".join(activity.get("notes", []))
                 if "start_time" in activity:
                     add_timed(lines, uid, activity["title"], day, activity["start_time"],
                               activity["duration_minutes"], timezone_name, activity.get("location", ""),
-                              floating_times)
+                              floating_times, description)
                 else:
-                    add_all_day(lines, uid, activity["title"], day, day)
+                    add_all_day(lines, uid, activity["title"], day, day, description)
         week += timedelta(days=7)
 
     for case in load_cases():

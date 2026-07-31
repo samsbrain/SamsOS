@@ -42,7 +42,9 @@ def format_activity(activity: dict) -> str:
     details.append(f"{activity['duration_minutes']} minutes")
     if "location" in activity:
         details.append(activity["location"])
-    return f"- [ ] {activity['title']} ({' / '.join(details)})"
+    lines = [f"- [ ] {activity['title']} ({' / '.join(details)})"]
+    lines.extend(f"  - {note}" for note in activity.get("notes", []))
+    return "\n".join(lines)
 
 
 def schedule_training(data: dict, dates: list[date], events: list[dict]) -> tuple[dict, list[str]]:
@@ -75,10 +77,12 @@ def schedule_training(data: dict, dates: list[date], events: list[dict]) -> tupl
     warnings = []
     sessions = training["sessions"]
     for session, day in zip(sessions, eligible):
+        session_name = session["name"]
         schedule[day].append({
-            "id": f"weight_training_{session.lower().replace(' ', '_')}",
-            "title": f"Weight training: {session}",
+            "id": f"weight_training_{session_name.lower().replace(' ', '_')}",
+            "title": f"Weight training: {session_name}",
             "duration_minutes": training["duration_minutes"],
+            "notes": session.get("notes", []),
         })
     if len(eligible) < len(sessions):
         shortfall = len(sessions) - len(eligible)

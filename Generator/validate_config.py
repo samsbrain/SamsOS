@@ -128,7 +128,17 @@ def validate_master(data: dict) -> None:
     if not isinstance(target, int) or isinstance(target, bool) or target < 0 or target > 7:
         raise ValueError("master.yaml > training_plan > weight_sessions_per_week: use 0 through 7")
     if not isinstance(training["sessions"], list) or len(training["sessions"]) != target:
-        raise ValueError("master.yaml > training_plan > sessions: list one name per weekly session")
+        raise ValueError("master.yaml > training_plan > sessions: list one workout per weekly session")
+    for index, session in enumerate(training["sessions"]):
+        location = f"master.yaml > training_plan > sessions > item {index + 1}"
+        if not isinstance(session, dict):
+            raise ValueError(f"{location}: use a name with an optional notes list")
+        require_fields(session, ("name",), location)
+        if not isinstance(session["name"], str) or not session["name"].strip():
+            raise ValueError(f"{location} > name: use non-empty text")
+        notes = session.get("notes", [])
+        if not isinstance(notes, list) or any(not isinstance(note, str) or not note.strip() for note in notes):
+            raise ValueError(f"{location} > notes: use a list of non-empty text items")
     for field in ("avoid_bjj_days", "avoid_yoga_days"):
         if not isinstance(training[field], bool):
             raise ValueError(f"master.yaml > training_plan > {field}: use true or false")

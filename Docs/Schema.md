@@ -82,9 +82,11 @@ external calendar event.
 ### Training plan
 
 `training_plan` defines a flexible weekly target rather than fixed weekdays.
-`weight_sessions_per_week` is the target count, `sessions` names each workout,
-and `duration_minutes` includes the full gym commitment. The two `avoid_*`
-switches tell the planner not to place weights on BJJ or yoga days.
+`weight_sessions_per_week` is the target count, and `duration_minutes` includes
+the full gym commitment. Each item in `sessions` has a `name` and may include a
+`notes` list. Those notes appear beneath the workout in the weekly plan and in
+the subscribed calendar event's notes. The two `avoid_*` switches tell the
+planner not to place weights on BJJ or yoga days.
 
 ### Monthly event
 

@@ -6,4 +6,9 @@
 #     due: 2026-10-15
 #     status: active
 
-reminders: []
+reminders:
+  - id: schedule_fls_fes_2026
+    title: Schedule FLS and FES
+    category: general
+    due: 2026-08-31
+    status: active
