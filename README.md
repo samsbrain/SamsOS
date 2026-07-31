@@ -72,10 +72,12 @@ GitHub Actions runs that build on every push to `main` and once daily. GitHub
 Pages publishes only the safe files under `public/`; it does not publish the
 knowledge repository through the Pages workflow.
 
-Subscribe to these addresses in iCloud Calendar after GitHub Pages is enabled:
+Subscribe to these addresses after GitHub Pages is enabled:
 
-- `https://samsbrain.github.io/SamsOS/SamOS.ics`
+- Apple Calendar: `https://samsbrain.github.io/SamsOS/calendar.ics`
+- Standards feed: `https://samsbrain.github.io/SamsOS/SamOS.ics`
 - `https://samsbrain.github.io/SamsOS/Reminders.ics`
 
-The first feed contains safe schedule information. The second contains
-non-blocking, all-day deadline prompts. Never add PHI to calendar or case files.
+The first two addresses contain the same safe schedule information in different
+timestamp formats. The final feed contains non-blocking, all-day deadline
+prompts. Never add PHI to calendar or case files.

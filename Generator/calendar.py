@@ -30,19 +30,26 @@ def add_all_day(lines: list[str], uid: str, title: str, start: date, end_inclusi
 
 
 def add_timed(lines: list[str], uid: str, title: str, day: date, start_time: str,
-              duration_minutes: int, timezone_name: str, location: str = "") -> None:
+              duration_minutes: int, timezone_name: str, location: str = "",
+              floating_times: bool = False) -> None:
     hour, minute = (int(part) for part in start_time.split(":"))
     local_timezone = ZoneInfo(timezone_name)
     start = datetime.combine(day, datetime.min.time(), local_timezone).replace(hour=hour, minute=minute)
     end = start + timedelta(minutes=duration_minutes)
     start_utc = start.astimezone(timezone.utc)
     end_utc = end.astimezone(timezone.utc)
+    if floating_times:
+        start_line = f"DTSTART:{start:%Y%m%dT%H%M%S}"
+        end_line = f"DTEND:{end:%Y%m%dT%H%M%S}"
+    else:
+        start_line = f"DTSTART:{start_utc:%Y%m%dT%H%M%SZ}"
+        end_line = f"DTEND:{end_utc:%Y%m%dT%H%M%SZ}"
     lines.extend([
         "BEGIN:VEVENT",
         f"UID:{uid}@samos",
         "DTSTAMP:20000101T000000Z",
-        f"DTSTART:{start_utc:%Y%m%dT%H%M%SZ}",
-        f"DTEND:{end_utc:%Y%m%dT%H%M%SZ}",
+        start_line,
+        end_line,
         f"SUMMARY:{escape_ics(title)}",
         f"LOCATION:{escape_ics(location)}",
         "END:VEVENT",
@@ -58,14 +65,15 @@ def load_cases() -> list[dict]:
     return cases
 
 
-def build_calendar(data: dict, today: date | None = None) -> str:
+def build_calendar(data: dict, today: date | None = None, *, floating_times: bool = False,
+                   calendar_name: str = "SamOS") -> str:
     today = today or date.today()
     end = today + timedelta(days=data["preferences"]["calendar_horizon_days"])
     timezone_name = data["person"]["timezone"]
     events = load_events()
     lines = [
         "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//SamOS//Calendar//EN",
-        "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:SamOS",
+        "CALSCALE:GREGORIAN", "METHOD:PUBLISH", f"X-WR-CALNAME:{calendar_name}",
     ]
 
     for event in events:
@@ -84,7 +92,8 @@ def build_calendar(data: dict, today: date | None = None) -> str:
                 uid = f"{activity['id']}-{day:%Y%m%d}"
                 if "start_time" in activity:
                     add_timed(lines, uid, activity["title"], day, activity["start_time"],
-                              activity["duration_minutes"], timezone_name, activity.get("location", ""))
+                              activity["duration_minutes"], timezone_name, activity.get("location", ""),
+                              floating_times)
                 else:
                     add_all_day(lines, uid, activity["title"], day, day)
         week += timedelta(days=7)
@@ -93,7 +102,7 @@ def build_calendar(data: dict, today: date | None = None) -> str:
         if today <= case["date"] <= end:
             add_timed(lines, f"case-{case['id']}", case["procedure"], case["date"],
                       case["start_time"], case["duration_minutes"], timezone_name,
-                      case.get("location", ""))
+                      case.get("location", ""), floating_times)
 
     lines.append("END:VCALENDAR")
     return "\r\n".join(lines) + "\r\n"
@@ -106,6 +115,13 @@ def main() -> None:
     output = PUBLIC / "SamOS.ics"
     output.write_bytes(build_calendar(data).encode("utf-8"))
     print(f"Public calendar created: {output}")
+    compatibility_output = PUBLIC / "calendar.ics"
+    compatibility_output.write_bytes(build_calendar(
+        data,
+        floating_times=True,
+        calendar_name="SamOS Residency Calendar",
+    ).encode("utf-8"))
+    print(f"Apple compatibility calendar created: {compatibility_output}")
 
 
 if __name__ == "__main__":
