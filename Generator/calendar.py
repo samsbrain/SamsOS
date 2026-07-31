@@ -1,6 +1,6 @@
 """Build the public SamOS calendar feed from safe scheduling data."""
 
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -32,15 +32,17 @@ def add_all_day(lines: list[str], uid: str, title: str, start: date, end_inclusi
 def add_timed(lines: list[str], uid: str, title: str, day: date, start_time: str,
               duration_minutes: int, timezone_name: str, location: str = "") -> None:
     hour, minute = (int(part) for part in start_time.split(":"))
-    timezone = ZoneInfo(timezone_name)
-    start = datetime.combine(day, datetime.min.time(), timezone).replace(hour=hour, minute=minute)
+    local_timezone = ZoneInfo(timezone_name)
+    start = datetime.combine(day, datetime.min.time(), local_timezone).replace(hour=hour, minute=minute)
     end = start + timedelta(minutes=duration_minutes)
+    start_utc = start.astimezone(timezone.utc)
+    end_utc = end.astimezone(timezone.utc)
     lines.extend([
         "BEGIN:VEVENT",
         f"UID:{uid}@samos",
         "DTSTAMP:20000101T000000Z",
-        f"DTSTART;TZID={timezone_name}:{start:%Y%m%dT%H%M%S}",
-        f"DTEND;TZID={timezone_name}:{end:%Y%m%dT%H%M%S}",
+        f"DTSTART:{start_utc:%Y%m%dT%H%M%SZ}",
+        f"DTEND:{end_utc:%Y%m%dT%H%M%SZ}",
         f"SUMMARY:{escape_ics(title)}",
         f"LOCATION:{escape_ics(location)}",
         "END:VEVENT",
@@ -63,7 +65,7 @@ def build_calendar(data: dict, today: date | None = None) -> str:
     events = load_events()
     lines = [
         "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//SamOS//Calendar//EN",
-        "CALSCALE:GREGORIAN", "X-WR-CALNAME:SamOS",
+        "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:SamOS",
     ]
 
     for event in events:
@@ -102,7 +104,7 @@ def main() -> None:
     validate_master(data)
     PUBLIC.mkdir(exist_ok=True)
     output = PUBLIC / "SamOS.ics"
-    output.write_text(build_calendar(data), encoding="utf-8")
+    output.write_bytes(build_calendar(data).encode("utf-8"))
     print(f"Public calendar created: {output}")
 
 
