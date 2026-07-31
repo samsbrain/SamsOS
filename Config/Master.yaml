@@ -1,1 +1,138 @@
-master.yaml
+# The stable facts and priorities that describe SamOS's owner.
+person:
+  name: Sam
+  timezone: America/New_York
+
+roles:
+  - id: surgeon
+    name: Surgeon
+  - id: athlete
+    name: Athlete
+  - id: learner
+    name: Lifelong learner
+  - id: family_member
+    name: Husband, son, brother, and friend
+
+domains:
+  - id: surgery
+    name: Surgery
+    role: surgeon
+  - id: relationships
+    name: Relationships
+    role: family_member
+  - id: fitness
+    name: Fitness
+    role: athlete
+  - id: learning
+    name: Learning
+    role: learner
+  - id: finances
+    name: Finances
+  - id: food
+    name: Cooking and nutrition
+  - id: travel
+    name: Travel
+
+goals:
+  - id: advance_surgical_skills
+    title: Advance my surgical skills
+    domain: surgery
+    priority: high
+    status: active
+
+  - id: document_surgical_knowledge
+    title: Document and preserve my surgical knowledge
+    domain: surgery
+    priority: high
+    status: active
+
+  - id: nurture_relationships
+    title: Be a good, present husband, son, brother, and friend
+    domain: relationships
+    priority: high
+    status: active
+
+  - id: train_when_recovered
+    title: Train BJJ or weights every possible day without sacrificing recovery
+    domain: fitness
+    priority: high
+    status: active
+
+  - id: advance_bjj_skills
+    title: Advance my BJJ skills
+    domain: fitness
+    priority: medium
+    status: active
+
+  - id: improve_body_composition
+    title: Lose 15 pounds of fat while preserving muscle
+    domain: fitness
+    priority: medium
+    status: active
+
+  - id: cook_world_class_healthy_food
+    title: Cook consistently and make healthy recipes that are world-class delicious
+    domain: food
+    priority: medium
+    status: active
+
+  - id: plan_travel
+    title: Plan vacations and travel
+    domain: travel
+    priority: medium
+    status: active
+
+  - id: learn_language
+    title: Learn a new language
+    domain: learning
+    priority: medium
+    status: active
+
+projects:
+  - id: weekly_trauma_review
+    title: Complete this week's trauma review
+    goal: advance_surgical_skills
+    status: active
+    next_action: Choose and review one trauma topic
+
+routines:
+  - id: sunday_planning
+    title: Plan the upcoming week
+    domain: learning
+    days:
+      - sunday
+    duration_minutes: 20
+
+  - id: bjj_training
+    title: BJJ training
+    domain: fitness
+    scheduling: fixed
+    days:
+      - monday
+      - tuesday
+      - thursday
+    start_time: "19:00"
+    duration_minutes: 90
+    location: Bushidokan Martial Arts
+
+  - id: yoga
+    title: Yoga
+    domain: fitness
+    scheduling: preferred
+    days:
+      - wednesday
+    duration_minutes: 60
+
+training_plan:
+  weight_sessions_per_week: 3
+  duration_minutes: 90
+  avoid_bjj_days: true
+  avoid_yoga_days: true
+  sessions:
+    - Legs and abs
+    - Chest and shoulders
+    - Back and arms
+
+preferences:
+  week_starts_on: monday
+  planning_horizon_days: 7

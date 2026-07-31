@@ -1,0 +1,8 @@
+month: 2026-11
+
+events:
+  - id: general_surgery_harper_d_2026_11
+    type: rotation
+    title: General Surgery (Harper D)
+    start: 2026-11-02
+    end: 2026-12-10

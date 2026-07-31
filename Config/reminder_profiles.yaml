@@ -1,0 +1,12 @@
+# Numbers are days before the due date. Larger numbers create earlier warnings.
+profiles:
+  bill:
+    reminder_days_before: [14, 7, 3, 1, 0]
+  presentation:
+    reminder_days_before: [60, 30, 21, 14, 7, 3, 1, 0]
+  date_planning:
+    reminder_days_before: [21, 14, 7, 3, 1]
+  job_application:
+    reminder_days_before: [180, 120, 90, 60, 30, 14, 7, 3, 1, 0]
+  general:
+    reminder_days_before: [30, 14, 7, 3, 1, 0]

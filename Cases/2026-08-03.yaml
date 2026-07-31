@@ -1,0 +1,15 @@
+week_of: 2026-08-03
+
+# Replace this empty list when the week's non-identifying case schedule is known.
+cases: []
+
+# Example shape (do not include patient identifiers):
+# cases:
+#   - id: lap_chole_2026_08_04
+#     procedure: Laparoscopic cholecystectomy
+#     date: 2026-08-04
+#     start_time: "07:30"
+#     duration_minutes: 120
+#     location: Main OR
+#     tags: [biliary, laparoscopy]
+#     knowledge_topics: [laparoscopic_cholecystectomy]

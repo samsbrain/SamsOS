@@ -1,0 +1,14 @@
+month: 2026-09
+
+events:
+  - id: gold_trauma_2026_09
+    type: rotation
+    title: Gold Trauma
+    start: 2026-09-21
+    end: 2026-11-01
+
+  - id: vacation_2026_09_07
+    type: vacation
+    title: Vacation
+    start: 2026-09-07
+    end: 2026-09-13

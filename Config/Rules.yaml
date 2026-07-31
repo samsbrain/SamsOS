@@ -1,1 +1,21 @@
-rules.yaml
+# Decision rules belong here; personal facts belong in master.yaml.
+rules:
+  - id: patient_care_first
+    description: Patient care takes priority over flexible personal plans.
+    enabled: true
+
+  - id: protect_recovery
+    description: Recovery is part of sustainable performance.
+    enabled: true
+
+  - id: protect_bjj
+    description: Keep scheduled BJJ unless it conflicts with call or vacation.
+    enabled: true
+
+  - id: separate_bjj_and_weights
+    description: Never schedule weight training and BJJ on the same day.
+    enabled: true
+
+  - id: weights_are_flexible
+    description: Move weight training to another eligible day when the schedule changes.
+    enabled: true

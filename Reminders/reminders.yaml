@@ -1,0 +1,9 @@
+# Add real items beneath reminders. The generator ignores these comments.
+# Example:
+#   - id: submit_conference_slides
+#     title: Submit conference slides
+#     category: presentation
+#     due: 2026-10-15
+#     status: active
+
+reminders: []

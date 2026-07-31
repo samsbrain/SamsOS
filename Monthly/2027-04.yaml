@@ -1,0 +1,8 @@
+month: 2027-04
+
+events:
+  - id: vascular_2027_04
+    type: rotation
+    title: Vascular
+    start: 2027-04-12
+    end: 2027-05-23

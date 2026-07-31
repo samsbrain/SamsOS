@@ -1,0 +1,8 @@
+month: 2027-05
+
+events:
+  - id: general_mis_troy_beaumont_2027_05
+    type: rotation
+    title: General / Minimally Invasive Surgery (Troy Beaumont)
+    start: 2027-05-24
+    end: 2027-06-30

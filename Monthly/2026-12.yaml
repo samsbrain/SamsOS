@@ -1,0 +1,8 @@
+month: 2026-12
+
+events:
+  - id: drh_float_2026_12
+    type: rotation
+    title: DRH Float
+    start: 2026-12-11
+    end: 2027-03-02

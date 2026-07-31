@@ -19,3 +19,43 @@ Reduce decision fatigue by organizing every aspect of life, work, and training i
 
 Current Version:
 v0.1
+
+## Current workflow
+
+SamOS now has one complete, intentionally small workflow:
+
+```text
+Config/master.yaml -> validation -> Dashboard/WeeklyPlan.md
+```
+
+From the repository folder, install the YAML reader once:
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+Then check the configuration and generate the plan:
+
+```powershell
+python Generator/validate_config.py
+python Generator/planner.py
+python Generator/reminders.py
+python Generator/cases.py 2026-08-03
+```
+
+To generate a different week, pass any date inside that week:
+
+```powershell
+python Generator/planner.py --week 2026-08-03
+```
+
+Edit `Config/master.yaml`, run the planner again, and open
+`Dashboard/WeeklyPlan.md` to see the updated result.
+
+Add deadlines to `Reminders/reminders.yaml`, then run the reminder generator to
+update `Dashboard/Reminders.md` and the subscribable `Dashboard/Reminders.ics`.
+
+Each Sunday, add the next week's non-identifying cases to a dated file under
+`Cases/`, then run the case generator. It builds a cross-referenced case brief
+and an importable calendar file. Never put protected patient information in the
+repository.

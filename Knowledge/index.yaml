@@ -1,0 +1,8 @@
+# The index connects case topics to durable Markdown notes.
+topics: []
+
+# Example:
+#   - id: laparoscopic_cholecystectomy
+#     title: Laparoscopic Cholecystectomy
+#     tags: [biliary, laparoscopy]
+#     note: Surgery/Laparoscopic Cholecystectomy.md

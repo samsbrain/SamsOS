@@ -1,0 +1,8 @@
+month: 2027-03
+
+events:
+  - id: blue_green_trauma_2027_03
+    type: rotation
+    title: Blue/Green Trauma
+    start: 2027-03-03
+    end: 2027-04-11

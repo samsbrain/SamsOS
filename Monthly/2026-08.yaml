@@ -1,0 +1,38 @@
+month: 2026-08
+
+events:
+  - id: surgical_oncology_2026_08
+    type: rotation
+    title: Surgical Oncology
+    start: 2026-08-11
+    end: 2026-09-20
+
+  - id: call_2026_08_03
+    type: call
+    title: On call
+    start: 2026-08-03
+    end: 2026-08-03
+
+  - id: call_2026_08_08
+    type: call
+    title: On call
+    start: 2026-08-08
+    end: 2026-08-08
+
+  - id: call_2026_08_15
+    type: call
+    title: On call
+    start: 2026-08-15
+    end: 2026-08-15
+
+  - id: vacation_2026_08_17
+    type: vacation
+    title: Vacation
+    start: 2026-08-17
+    end: 2026-08-23
+
+  - id: call_2026_08_26
+    type: call
+    title: On call
+    start: 2026-08-26
+    end: 2026-08-26
