@@ -33,16 +33,16 @@ def events_on(day: date, events: list[dict]) -> list[dict]:
     return [event for event in events if event["start"] <= day <= event["end"]]
 
 
-def format_routine(routine: dict) -> str:
+def format_activity(activity: dict) -> str:
     details = []
-    if "start_time" in routine:
-        hour, minute = (int(part) for part in routine["start_time"].split(":"))
+    if "start_time" in activity:
+        hour, minute = (int(part) for part in activity["start_time"].split(":"))
         suffix = "AM" if hour < 12 else "PM"
         details.append(f"{hour % 12 or 12}:{minute:02d} {suffix}")
-    details.append(f"{routine['duration_minutes']} minutes")
-    if "location" in routine:
-        details.append(routine["location"])
-    return f"- [ ] {routine['title']} ({' / '.join(details)})"
+    details.append(f"{activity['duration_minutes']} minutes")
+    if "location" in activity:
+        details.append(activity["location"])
+    return f"- [ ] {activity['title']} ({' / '.join(details)})"
 
 
 def schedule_training(data: dict, dates: list[date], events: list[dict]) -> tuple[dict, list[str]]:
@@ -58,12 +58,12 @@ def schedule_training(data: dict, dates: list[date], events: list[dict]) -> tupl
         for day in dates:
             if day in blocked or day.strftime("%A").lower() not in routine["days"]:
                 continue
-            schedule[day].append((routine["id"], format_routine(routine)))
+            schedule[day].append(dict(routine))
 
     training = data["training_plan"]
     eligible = []
     for day in dates:
-        activity_ids = {activity_id for activity_id, _ in schedule[day]}
+        activity_ids = {activity["id"] for activity in schedule[day]}
         if day in blocked:
             continue
         if training["avoid_bjj_days"] and "bjj_training" in activity_ids:
@@ -75,8 +75,11 @@ def schedule_training(data: dict, dates: list[date], events: list[dict]) -> tupl
     warnings = []
     sessions = training["sessions"]
     for session, day in zip(sessions, eligible):
-        line = f"- [ ] Weight training: {session} ({training['duration_minutes']} minutes)"
-        schedule[day].append(("weight_training", line))
+        schedule[day].append({
+            "id": f"weight_training_{session.lower().replace(' ', '_')}",
+            "title": f"Weight training: {session}",
+            "duration_minutes": training["duration_minutes"],
+        })
     if len(eligible) < len(sessions):
         shortfall = len(sessions) - len(eligible)
         warnings.append(
@@ -112,7 +115,7 @@ def build_weekly_plan(data: dict, events: list[dict], today: date | None = None)
         lines.extend([f"### {day:%A, %B %d}", ""])
         day_events = events_on(day, events)
         lines.extend(f"- **{event['title']}** ({event['type']})" for event in day_events)
-        lines.extend(line for _, line in schedule[day])
+        lines.extend(format_activity(activity) for activity in schedule[day])
         if not day_events and not schedule[day]:
             lines.append("- No scheduled activities")
         lines.append("")

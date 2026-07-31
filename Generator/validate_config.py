@@ -136,7 +136,7 @@ def validate_master(data: dict) -> None:
     preferences = data["preferences"]
     require_fields(
         preferences,
-        ("week_starts_on", "planning_horizon_days"),
+        ("week_starts_on", "planning_horizon_days", "calendar_horizon_days"),
         "master.yaml > preferences",
     )
     if preferences["week_starts_on"] not in {"monday", "sunday"}:
@@ -144,6 +144,9 @@ def validate_master(data: dict) -> None:
     days = preferences["planning_horizon_days"]
     if not isinstance(days, int) or isinstance(days, bool) or days < 1:
         raise ValueError("master.yaml > preferences > planning_horizon_days: use a positive integer")
+    horizon = preferences["calendar_horizon_days"]
+    if not isinstance(horizon, int) or isinstance(horizon, bool) or horizon < 1:
+        raise ValueError("master.yaml > preferences > calendar_horizon_days: use a positive integer")
 
 
 def validate_rules(data: dict) -> None:

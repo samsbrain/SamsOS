@@ -59,3 +59,23 @@ Each Sunday, add the next week's non-identifying cases to a dated file under
 `Cases/`, then run the case generator. It builds a cross-referenced case brief
 and an importable calendar file. Never put protected patient information in the
 repository.
+
+## Build and calendar subscriptions
+
+Build every validated output with one command:
+
+```powershell
+python Generator/build_samos.py
+```
+
+GitHub Actions runs that build on every push to `main` and once daily. GitHub
+Pages publishes only the safe files under `public/`; it does not publish the
+knowledge repository through the Pages workflow.
+
+Subscribe to these addresses in iCloud Calendar after GitHub Pages is enabled:
+
+- `https://samsbrain.github.io/SamsOS/SamOS.ics`
+- `https://samsbrain.github.io/SamsOS/Reminders.ics`
+
+The first feed contains safe schedule information. The second contains
+non-blocking, all-day deadline prompts. Never add PHI to calendar or case files.
