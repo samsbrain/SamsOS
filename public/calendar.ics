@@ -53,11 +53,30 @@ SUMMARY:Vacation
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:parents_visit_2026_08_21@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260824
+SUMMARY:Parents visiting
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:call_2026_08_26@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:On call
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mirna_birthday_party_2026@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:Mirna's 13 Going on 30 birthday party
+DESCRIPTION:Theme: 13 Going on 30\nConfirm venue\, guest list\, invitations
+ \, food\, cake\, decorations\, playlist\, and photos\nKeep September 7-13
+  vacation low-pressure after the party
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -74,6 +93,16 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260914
 SUMMARY:Vacation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:m_and_m_2026_09_16@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:M&M presentation
+DESCRIPTION:Finalize the case timeline and learning objectives\nRehearse th
+ e presentation and discussion questions
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -167,6 +196,21 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260803_monday-20260803@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+SUMMARY:Optional study: Biliary Neoplasms and Jaundice
+DESCRIPTION:Call-day minimum: 5 SCORE questions only if patient care allows
+ \nWeekly topic: Biliary Neoplasms and Jaundice\nTWIS: Benign Biliary Obstr
+ uction\; Primary Biliary Neoplasms\; Extended Cholecystectomy for Gallblad
+ der Cancer\; Gallbladder Neoplasms\; Procedures for Bile Duct Cancer\; Pro
+ cedures for Bile Duct Neoplasm\nSCORE focus: Biliary\nAnki: 10 minutes\; m
+ ake up to 3 cards from missed or guessed questions\nReview explanations an
+ d record the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20260804@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20260804T190000
@@ -183,12 +227,42 @@ SUMMARY:Yoga
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260803_wednesday-20260805@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:Study: Biliary Neoplasms and Jaundice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Biliary Neopl
+ asms and Jaundice\nTWIS: Benign Biliary Obstruction\; Primary Biliary Neop
+ lasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gallbladder Neop
+ lasms\; Procedures for Bile Duct Cancer\; Procedures for Bile Duct Neoplas
+ m\nSCORE focus: Biliary\nAnki: 10 minutes\; make up to 3 cards from missed
+  or guessed questions\nReview explanations and record the management detai
+ l that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20260806@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20260806T190000
 DTEND:20260806T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260803_thursday-20260806@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+SUMMARY:Study: Biliary Neoplasms and Jaundice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Biliary Neopl
+ asms and Jaundice\nTWIS: Benign Biliary Obstruction\; Primary Biliary Neop
+ lasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gallbladder Neop
+ lasms\; Procedures for Bile Duct Cancer\; Procedures for Bile Duct Neoplas
+ m\nSCORE focus: Biliary\nAnki: 10 minutes\; make up to 3 cards from missed
+  or guessed questions\nReview explanations and record the management detai
+ l that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20260807@samos
@@ -202,6 +276,36 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
  ch\, thoracic rotations\, world's greatest stretch\, and a 60-second deep
   squat hold\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\, bridge
  s\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260803_friday-20260807@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:Study: Biliary Neoplasms and Jaundice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Biliary Neopl
+ asms and Jaundice\nTWIS: Benign Biliary Obstruction\; Primary Biliary Neop
+ lasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gallbladder Neop
+ lasms\; Procedures for Bile Duct Cancer\; Procedures for Bile Duct Neoplas
+ m\nSCORE focus: Biliary\nAnki: 10 minutes\; make up to 3 cards from missed
+  or guessed questions\nReview explanations and record the management detai
+ l that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260803_saturday-20260808@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+SUMMARY:Optional study: Biliary Neoplasms and Jaundice
+DESCRIPTION:Call-day minimum: 5 SCORE questions only if patient care allows
+ \nWeekly topic: Biliary Neoplasms and Jaundice\nTWIS: Benign Biliary Obstr
+ uction\; Primary Biliary Neoplasms\; Extended Cholecystectomy for Gallblad
+ der Cancer\; Gallbladder Neoplasms\; Procedures for Bile Duct Cancer\; Pro
+ cedures for Bile Duct Neoplasm\nSCORE focus: Biliary\nAnki: 10 minutes\; m
+ ake up to 3 cards from missed or guessed questions\nReview explanations an
+ d record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -235,12 +339,40 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260810_monday-20260810@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+SUMMARY:Study: Nutrition
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nTW
+ IS: Access Procedures for Nutritional Support\; Nutritional Support\; Nutr
+ itional Assessment\; Nutritional Requirements\nSCORE focus: Nutrition and
+  Metabolism\; Surgical Critical Care\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20260811@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20260811T190000
 DTEND:20260811T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260810_tuesday-20260811@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+SUMMARY:Study: Nutrition
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nTW
+ IS: Access Procedures for Nutritional Support\; Nutritional Support\; Nutr
+ itional Assessment\; Nutritional Requirements\nSCORE focus: Nutrition and
+  Metabolism\; Surgical Critical Care\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:yoga-20260812@samos
@@ -251,12 +383,40 @@ SUMMARY:Yoga
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260810_wednesday-20260812@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:Study: Nutrition
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nTW
+ IS: Access Procedures for Nutritional Support\; Nutritional Support\; Nutr
+ itional Assessment\; Nutritional Requirements\nSCORE focus: Nutrition and
+  Metabolism\; Surgical Critical Care\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20260813@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20260813T190000
 DTEND:20260813T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260810_thursday-20260813@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+SUMMARY:Study: Nutrition
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nTW
+ IS: Access Procedures for Nutritional Support\; Nutritional Support\; Nutr
+ itional Assessment\; Nutritional Requirements\nSCORE focus: Nutrition and
+  Metabolism\; Surgical Critical Care\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20260814@samos
@@ -270,6 +430,34 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
  ch\, thoracic rotations\, world's greatest stretch\, and a 60-second deep
   squat hold\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\, bridge
  s\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260810_friday-20260814@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SUMMARY:Study: Nutrition
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nTW
+ IS: Access Procedures for Nutritional Support\; Nutritional Support\; Nutr
+ itional Assessment\; Nutritional Requirements\nSCORE focus: Nutrition and
+  Metabolism\; Surgical Critical Care\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260810_saturday-20260815@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Optional study: Nutrition
+DESCRIPTION:Call-day minimum: 5 SCORE questions only if patient care allows
+ \nWeekly topic: Nutrition\nTWIS: Access Procedures for Nutritional Support
+ \; Nutritional Support\; Nutritional Assessment\; Nutritional Requirements
+ \nSCORE focus: Nutrition and Metabolism\; Surgical Critical Care\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
+ lanations and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -295,6 +483,111 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260817_monday-20260817@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+SUMMARY:Light study: Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nTWIS: Hemorrhoids\; Procedures fo
+ r Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\; F
+ ecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nSCORE focus:
+  Anorectal\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260817_tuesday-20260818@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+SUMMARY:Light study: Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nTWIS: Hemorrhoids\; Procedures fo
+ r Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\; F
+ ecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nSCORE focus:
+  Anorectal\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260817_wednesday-20260819@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+SUMMARY:Light study: Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nTWIS: Hemorrhoids\; Procedures fo
+ r Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\; F
+ ecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nSCORE focus:
+  Anorectal\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260817_thursday-20260820@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:Light study: Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nTWIS: Hemorrhoids\; Procedures fo
+ r Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\; F
+ ecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nSCORE focus:
+  Anorectal\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260817_friday-20260821@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:Light study: Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nTWIS: Hemorrhoids\; Procedures fo
+ r Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\; F
+ ecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nSCORE focus:
+  Anorectal\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260817_saturday-20260822@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:Light study: Benign Anorectal\, Part 2 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Benign Anorectal\, Part 2 of 2\nTWIS: Hemorrhoids\; Procedures fo
+ r Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\; F
+ ecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nSCORE focus:
+  Anorectal\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weekly_case_review_20260817-20260823@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:Weekly case review: Full-thickness rectal prolapse with fecal incon
+ tinence
+DESCRIPTION:Vacation rule: optional\; skip without catch-up guilt\nCase: Fu
+ ll-thickness rectal prolapse with fecal incontinence\nOperation: Hemorrhoi
+ dectomy\nAnatomy: Anal canal\, sphincter complex\, and hemorrhoidal column
+ s\nComplication: Post-hemorrhoidectomy bleeding\nAnswer: What do I do firs
+ t? What changes management? When do I call for help?\nCapture one pearl\,
+  one uncertainty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20260824@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20260824T190000
@@ -303,12 +596,54 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260824_monday-20260824@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+SUMMARY:Study: Liver Neoplasms and Portal Hypertension
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Liver Neoplas
+ ms and Portal Hypertension\nTWIS: Cirrhosis and Portal Hypertension\; Meta
+ static Hepatic Neoplasms\; Segmentectomy and Lobectomy\nSCORE focus: Liver
+ \nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\n
+ Review explanations and record the management detail that changes the answ
+ er
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20260825@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20260825T190000
 DTEND:20260825T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260824_tuesday-20260825@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:Study: Liver Neoplasms and Portal Hypertension
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Liver Neoplas
+ ms and Portal Hypertension\nTWIS: Cirrhosis and Portal Hypertension\; Meta
+ static Hepatic Neoplasms\; Segmentectomy and Lobectomy\nSCORE focus: Liver
+ \nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\n
+ Review explanations and record the management detail that changes the answ
+ er
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260824_wednesday-20260826@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+SUMMARY:Optional study: Liver Neoplasms and Portal Hypertension
+DESCRIPTION:Call-day minimum: 5 SCORE questions only if patient care allows
+ \nWeekly topic: Liver Neoplasms and Portal Hypertension\nTWIS: Cirrhosis a
+ nd Portal Hypertension\; Metastatic Hepatic Neoplasms\; Segmentectomy and
+  Lobectomy\nSCORE focus: Liver\nAnki: 10 minutes\; make up to 3 cards from
+  missed or guessed questions\nReview explanations and record the managemen
+ t detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20260827@samos
@@ -333,6 +668,20 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260824_friday-20260828@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:Study: Liver Neoplasms and Portal Hypertension
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Liver Neoplas
+ ms and Portal Hypertension\nTWIS: Cirrhosis and Portal Hypertension\; Meta
+ static Hepatic Neoplasms\; Segmentectomy and Lobectomy\nSCORE focus: Liver
+ \nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\n
+ Review explanations and record the management detail that changes the answ
+ er
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_chest_and_shoulders-20260829@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260829
@@ -347,11 +696,38 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260824_saturday-20260829@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:Deep study: Liver Neoplasms and Portal Hypertension
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Liver Neoplas
+ ms and Portal Hypertension\nTWIS: Cirrhosis and Portal Hypertension\; Meta
+ static Hepatic Neoplasms\; Segmentectomy and Lobectomy\nSCORE focus: Liver
+ \nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\n
+ Review explanations and record the management detail that changes the answ
+ er\nPreview this week's case: Colorectal liver metastasis in a patient wit
+ h portal hypertension
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:sunday_planning-20260830@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:Plan the upcoming week
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:monthly_finance_meeting-20260830@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:Monthly finance meeting
+DESCRIPTION:Review checking\, savings\, brokerage\, and retirement balances
+ \nReview bills\, debt\, and the prior month's spending\nUpdate net worth a
+ nd identify upcoming large expenses\nChoose one financial action for the n
+ ext month\nLink the newest finance worksheet after it is added to SamOS
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -369,12 +745,39 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20260824-20260830@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:Weekly case review: Colorectal liver metastasis in a patient with p
+ ortal hypertension
+DESCRIPTION:Case: Colorectal liver metastasis in a patient with portal hype
+ rtension\nOperation: Anatomic hepatic segmentectomy\nAnatomy: Couinaud seg
+ ments and hepatic inflow/outflow\nComplication: Post-hepatectomy liver fai
+ lure\nAnswer: What do I do first? What changes management? When do I call
+  for help?\nCapture one pearl\, one uncertainty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20260831@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20260831T190000
 DTEND:20260831T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260831_monday-20260831@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:Study: Pancreas and Pancreatitis
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
+  Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\; Pancreas
+  Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pancreas\nAn
+ ki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRevi
+ ew explanations and record the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20260901@samos
@@ -385,11 +788,37 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260831_tuesday-20260901@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Study: Pancreas and Pancreatitis
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
+  Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\; Pancreas
+  Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pancreas\nAn
+ ki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRevi
+ ew explanations and record the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-20260902@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Yoga
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260831_wednesday-20260902@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:Study: Pancreas and Pancreatitis
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
+  Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\; Pancreas
+  Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pancreas\nAn
+ ki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRevi
+ ew explanations and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -399,6 +828,19 @@ DTSTART:20260903T190000
 DTEND:20260903T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260831_thursday-20260903@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Study: Pancreas and Pancreatitis
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
+  Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\; Pancreas
+  Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pancreas\nAn
+ ki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRevi
+ ew explanations and record the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20260904@samos
@@ -415,6 +857,19 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260831_friday-20260904@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Study: Pancreas and Pancreatitis
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
+  Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\; Pancreas
+  Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pancreas\nAn
+ ki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRevi
+ ew explanations and record the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_chest_and_shoulders-20260905@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260905
@@ -426,6 +881,20 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
  nFarmer carries - 3 x 40 seconds\nTowel pull-ups - 3 sets\, stopping 1-2 r
  eps before failure\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\,
   bridges\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260831_saturday-20260905@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:Deep study: Pancreas and Pancreatitis
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Pancreas and
+  Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\; Pancreas
+  Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pancreas\nAn
+ ki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRevi
+ ew explanations and record the management detail that changes the answer\n
+ Preview this week's case: Necrotizing pancreatitis with infected necrosis
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -451,12 +920,144 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20260831-20260906@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:Weekly case review: Necrotizing pancreatitis with infected necrosis
+DESCRIPTION:Case: Necrotizing pancreatitis with infected necrosis\nOperatio
+ n: Necrosectomy and step-up management\nAnatomy: Pancreatic blood supply a
+ nd retroperitoneal relationships\nComplication: Postoperative pancreatic f
+ istula\nAnswer: What do I do first? What changes management? When do I cal
+ l for help?\nCapture one pearl\, one uncertainty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260907_monday-20260907@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Light study: Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nTWIS: Gastrectomy\; Vagotomy and Drainage\
+ ; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforati
+ on Repair\; Revisional Procedures after Gastrectomy\nSCORE focus: Stomach\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260907_tuesday-20260908@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Light study: Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nTWIS: Gastrectomy\; Vagotomy and Drainage\
+ ; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforati
+ on Repair\; Revisional Procedures after Gastrectomy\nSCORE focus: Stomach\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260907_wednesday-20260909@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:Light study: Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nTWIS: Gastrectomy\; Vagotomy and Drainage\
+ ; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforati
+ on Repair\; Revisional Procedures after Gastrectomy\nSCORE focus: Stomach\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260907_thursday-20260910@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Light study: Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nTWIS: Gastrectomy\; Vagotomy and Drainage\
+ ; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforati
+ on Repair\; Revisional Procedures after Gastrectomy\nSCORE focus: Stomach\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260907_friday-20260911@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Light study: Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nTWIS: Gastrectomy\; Vagotomy and Drainage\
+ ; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforati
+ on Repair\; Revisional Procedures after Gastrectomy\nSCORE focus: Stomach\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260907_saturday-20260912@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Light study: Stomach\, Part 1 of 2
+DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
+ y topic: Stomach\, Part 1 of 2\nTWIS: Gastrectomy\; Vagotomy and Drainage\
+ ; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforati
+ on Repair\; Revisional Procedures after Gastrectomy\nSCORE focus: Stomach\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weekly_case_review_20260907-20260913@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Weekly case review: Perforated peptic ulcer with shock
+DESCRIPTION:Vacation rule: optional\; skip without catch-up guilt\nCase: Pe
+ rforated peptic ulcer with shock\nOperation: Distal gastrectomy with lymph
+ adenectomy\nAnatomy: Gastric blood supply\, vagal trunks\, and lymphatic s
+ tations\nComplication: Duodenal stump leak\nAnswer: What do I do first? Wh
+ at changes management? When do I call for help?\nCapture one pearl\, one u
+ ncertainty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20260914@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20260914T190000
 DTEND:20260914T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260914_monday-20260914@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Study: Small Intestine\, Part 2 of 2
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
+ ne\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Meckel Diverticu
+ lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
+ sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
+ nd Thrombectomy\nSCORE focus: Small Intestine\; Arterial Disease\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
+ lanations and record the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20260915@samos
@@ -467,11 +1068,41 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260914_tuesday-20260915@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Study: Small Intestine\, Part 2 of 2
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
+ ne\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Meckel Diverticu
+ lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
+ sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
+ nd Thrombectomy\nSCORE focus: Small Intestine\; Arterial Disease\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
+ lanations and record the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-20260916@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:Yoga
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260914_wednesday-20260916@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Study: Small Intestine\, Part 2 of 2
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
+ ne\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Meckel Diverticu
+ lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
+ sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
+ nd Thrombectomy\nSCORE focus: Small Intestine\; Arterial Disease\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
+ lanations and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -481,6 +1112,21 @@ DTSTART:20260917T190000
 DTEND:20260917T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260914_thursday-20260917@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Study: Small Intestine\, Part 2 of 2
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
+ ne\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Meckel Diverticu
+ lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
+ sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
+ nd Thrombectomy\nSCORE focus: Small Intestine\; Arterial Disease\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
+ lanations and record the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20260918@samos
@@ -497,6 +1143,21 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260914_friday-20260918@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Study: Small Intestine\, Part 2 of 2
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
+ ne\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Meckel Diverticu
+ lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
+ sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
+ nd Thrombectomy\nSCORE focus: Small Intestine\; Arterial Disease\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
+ lanations and record the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_chest_and_shoulders-20260919@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260919
@@ -508,6 +1169,22 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
  nFarmer carries - 3 x 40 seconds\nTowel pull-ups - 3 sets\, stopping 1-2 r
  eps before failure\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\,
   bridges\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260914_saturday-20260919@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Deep study: Small Intestine\, Part 2 of 2
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Small Intesti
+ ne\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Meckel Diverticu
+ lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
+ sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
+ nd Thrombectomy\nSCORE focus: Small Intestine\; Arterial Disease\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
+ lanations and record the management detail that changes the answer\nPrevie
+ w this week's case: Acute mesenteric ischemia from an SMA embolus
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -533,12 +1210,42 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20260914-20260920@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Weekly case review: Acute mesenteric ischemia from an SMA embolus
+DESCRIPTION:Case: Acute mesenteric ischemia from an SMA embolus\nOperation:
+  SMA embolectomy with bowel viability assessment\nAnatomy: SMA branches an
+ d small-bowel collateral circulation\nComplication: Short bowel syndrome\n
+ Answer: What do I do first? What changes management? When do I call for he
+ lp?\nCapture one pearl\, one uncertainty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20260921@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20260921T190000
 DTEND:20260921T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260921_monday-20260921@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Study: Systems-Based Practice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
+  Practice\nTWIS: Advocating for Quality Patient Care\; Coordinating Patien
+ t Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems Er
+ rors - Root Cause Analysis\; Working Effectively in Various Healthcare Del
+ ivery Settings and Systems\; Working in Interprofessional Teams\; Diversit
+ y in the US Surgical Workforce\nSCORE focus: Systems Based Practice\; Dive
+ rsity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3 cards from
+  missed or guessed questions\nReview explanations and record the managemen
+ t detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20260922@samos
@@ -549,11 +1256,45 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260921_tuesday-20260922@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Study: Systems-Based Practice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
+  Practice\nTWIS: Advocating for Quality Patient Care\; Coordinating Patien
+ t Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems Er
+ rors - Root Cause Analysis\; Working Effectively in Various Healthcare Del
+ ivery Settings and Systems\; Working in Interprofessional Teams\; Diversit
+ y in the US Surgical Workforce\nSCORE focus: Systems Based Practice\; Dive
+ rsity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3 cards from
+  missed or guessed questions\nReview explanations and record the managemen
+ t detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-20260923@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:Yoga
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260921_wednesday-20260923@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Study: Systems-Based Practice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
+  Practice\nTWIS: Advocating for Quality Patient Care\; Coordinating Patien
+ t Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems Er
+ rors - Root Cause Analysis\; Working Effectively in Various Healthcare Del
+ ivery Settings and Systems\; Working in Interprofessional Teams\; Diversit
+ y in the US Surgical Workforce\nSCORE focus: Systems Based Practice\; Dive
+ rsity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3 cards from
+  missed or guessed questions\nReview explanations and record the managemen
+ t detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -563,6 +1304,23 @@ DTSTART:20260924T190000
 DTEND:20260924T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260921_thursday-20260924@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Study: Systems-Based Practice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
+  Practice\nTWIS: Advocating for Quality Patient Care\; Coordinating Patien
+ t Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems Er
+ rors - Root Cause Analysis\; Working Effectively in Various Healthcare Del
+ ivery Settings and Systems\; Working in Interprofessional Teams\; Diversit
+ y in the US Surgical Workforce\nSCORE focus: Systems Based Practice\; Dive
+ rsity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3 cards from
+  missed or guessed questions\nReview explanations and record the managemen
+ t detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20260925@samos
@@ -576,6 +1334,23 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
  ch\, thoracic rotations\, world's greatest stretch\, and a 60-second deep
   squat hold\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\, bridge
  s\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260921_friday-20260925@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Study: Systems-Based Practice
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
+  Practice\nTWIS: Advocating for Quality Patient Care\; Coordinating Patien
+ t Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems Er
+ rors - Root Cause Analysis\; Working Effectively in Various Healthcare Del
+ ivery Settings and Systems\; Working in Interprofessional Teams\; Diversit
+ y in the US Surgical Workforce\nSCORE focus: Systems Based Practice\; Dive
+ rsity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3 cards from
+  missed or guessed questions\nReview explanations and record the managemen
+ t detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -593,11 +1368,41 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260921_saturday-20260926@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Deep study: Systems-Based Practice
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Systems-Based
+  Practice\nTWIS: Advocating for Quality Patient Care\; Coordinating Patien
+ t Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems Er
+ rors - Root Cause Analysis\; Working Effectively in Various Healthcare Del
+ ivery Settings and Systems\; Working in Interprofessional Teams\; Diversit
+ y in the US Surgical Workforce\nSCORE focus: Systems Based Practice\; Dive
+ rsity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3 cards from
+  missed or guessed questions\nReview explanations and record the managemen
+ t detail that changes the answer\nPreview this week's case: Delayed recogn
+ ition of postoperative deterioration
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:sunday_planning-20260927@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Plan the upcoming week
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:monthly_finance_meeting-20260927@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Monthly finance meeting
+DESCRIPTION:Review checking\, savings\, brokerage\, and retirement balances
+ \nReview bills\, debt\, and the prior month's spending\nUpdate net worth a
+ nd identify upcoming large expenses\nChoose one financial action for the n
+ ext month\nLink the newest finance worksheet after it is added to SamOS
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -615,12 +1420,40 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20260921-20260927@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Weekly case review: Delayed recognition of postoperative deteriorat
+ ion
+DESCRIPTION:Case: Delayed recognition of postoperative deterioration\nOpera
+ tion: Root-cause analysis of a surgical care process\nAnatomy: Care escala
+ tion pathways and handoff interfaces\nComplication: Failure to rescue\nAns
+ wer: What do I do first? What changes management? When do I call for help?
+ \nCapture one pearl\, one uncertainty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20260928@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20260928T190000
 DTEND:20260928T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260928_monday-20260928@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Study: Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
+ uma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and Pancreatic
+  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
+ ury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fro
+ m missed or guessed questions\nReview explanations and record the manageme
+ nt detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20260929@samos
@@ -631,11 +1464,39 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260928_tuesday-20260929@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Study: Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
+ uma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and Pancreatic
+  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
+ ury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fro
+ m missed or guessed questions\nReview explanations and record the manageme
+ nt detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-20260930@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Yoga
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260928_wednesday-20260930@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Study: Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
+ uma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and Pancreatic
+  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
+ ury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fro
+ m missed or guessed questions\nReview explanations and record the manageme
+ nt detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -645,6 +1506,20 @@ DTSTART:20261001T190000
 DTEND:20261001T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260928_thursday-20261001@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Study: Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
+ uma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and Pancreatic
+  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
+ ury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fro
+ m missed or guessed questions\nReview explanations and record the manageme
+ nt detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20261002@samos
@@ -661,6 +1536,20 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20260928_friday-20261002@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Study: Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
+ uma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and Pancreatic
+  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
+ ury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fro
+ m missed or guessed questions\nReview explanations and record the manageme
+ nt detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_chest_and_shoulders-20261003@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261003
@@ -672,6 +1561,21 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
  nFarmer carries - 3 x 40 seconds\nTowel pull-ups - 3 sets\, stopping 1-2 r
  eps before failure\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\,
   bridges\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20260928_saturday-20261003@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Deep study: Abdominal Trauma\, Part 1 of 3
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Abdominal Tra
+ uma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and Pancreatic
+  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
+ ury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fro
+ m missed or guessed questions\nReview explanations and record the manageme
+ nt detail that changes the answer\nPreview this week's case: Penetrating a
+ bdominal trauma with multiple hollow-viscus injuries
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -697,12 +1601,41 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20260928-20261004@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Weekly case review: Penetrating abdominal trauma with multiple holl
+ ow-viscus injuries
+DESCRIPTION:Case: Penetrating abdominal trauma with multiple hollow-viscus
+  injuries\nOperation: Exploratory laparotomy with gastrointestinal injury
+  repair\nAnatomy: Retroperitoneal zones and duodenopancreatic relationship
+ s\nComplication: Missed bowel injury\nAnswer: What do I do first? What cha
+ nges management? When do I call for help?\nCapture one pearl\, one uncerta
+ inty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20261005@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20261005T190000
 DTEND:20261005T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261005_monday-20261005@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Study: Thyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nTWIS
+ : Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; H
+ yperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSCORE focus:
+  Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20261006@samos
@@ -713,11 +1646,39 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261005_tuesday-20261006@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Study: Thyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nTWIS
+ : Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; H
+ yperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSCORE focus:
+  Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-20261007@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Yoga
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261005_wednesday-20261007@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Study: Thyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nTWIS
+ : Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; H
+ yperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSCORE focus:
+  Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -727,6 +1688,20 @@ DTSTART:20261008T190000
 DTEND:20261008T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261005_thursday-20261008@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Study: Thyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nTWIS
+ : Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; H
+ yperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSCORE focus:
+  Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20261009@samos
@@ -743,6 +1718,20 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261005_friday-20261009@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Study: Thyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nTWIS
+ : Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; H
+ yperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSCORE focus:
+  Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_chest_and_shoulders-20261010@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261010
@@ -754,6 +1743,21 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
  nFarmer carries - 3 x 40 seconds\nTowel pull-ups - 3 sets\, stopping 1-2 r
  eps before failure\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\,
   bridges\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261005_saturday-20261010@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Deep study: Thyroid
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Thyroid\nTWIS
+ : Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; H
+ yperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSCORE focus:
+  Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer\nPreview this week's case: Papillary thyroid cancer with susp
+ icious central nodes
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -779,12 +1783,41 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20261005-20261011@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Weekly case review: Papillary thyroid cancer with suspicious centra
+ l nodes
+DESCRIPTION:Case: Papillary thyroid cancer with suspicious central nodes\nO
+ peration: Total thyroidectomy\nAnatomy: Recurrent laryngeal nerve and para
+ thyroid blood supply\nComplication: Post-thyroidectomy hypocalcemia\nAnswe
+ r: What do I do first? What changes management? When do I call for help?\n
+ Capture one pearl\, one uncertainty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20261012@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20261012T190000
 DTEND:20261012T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261012_monday-20261012@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Study: Breast\, Part 2 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
+  2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; Here
+ ditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures in
+  Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manageme
+ nt of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20261013@samos
@@ -795,11 +1828,41 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261012_tuesday-20261013@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Study: Breast\, Part 2 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
+  2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; Here
+ ditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures in
+  Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manageme
+ nt of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-20261014@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Yoga
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261012_wednesday-20261014@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Study: Breast\, Part 2 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
+  2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; Here
+ ditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures in
+  Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manageme
+ nt of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -809,6 +1872,21 @@ DTSTART:20261015T190000
 DTEND:20261015T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261012_thursday-20261015@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Study: Breast\, Part 2 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
+  2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; Here
+ ditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures in
+  Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manageme
+ nt of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20261016@samos
@@ -825,6 +1903,21 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261012_friday-20261016@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Study: Breast\, Part 2 of 3
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
+  2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; Here
+ ditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures in
+  Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manageme
+ nt of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_chest_and_shoulders-20261017@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261017
@@ -836,6 +1929,22 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
  nFarmer carries - 3 x 40 seconds\nTowel pull-ups - 3 sets\, stopping 1-2 r
  eps before failure\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\,
   bridges\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261012_saturday-20261017@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Deep study: Breast\, Part 2 of 3
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Breast\, Part
+  2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; Here
+ ditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures in
+  Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manageme
+ nt of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer\nPreview this we
+ ek's case: Invasive breast carcinoma with a clinically negative axilla
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -861,12 +1970,39 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20261012-20261018@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Weekly case review: Invasive breast carcinoma with a clinically neg
+ ative axilla
+DESCRIPTION:Case: Invasive breast carcinoma with a clinically negative axil
+ la\nOperation: Lumpectomy with sentinel lymph node biopsy\nAnatomy: Breast
+  lymphatic drainage and axillary levels\nComplication: Lymphedema\nAnswer:
+  What do I do first? What changes management? When do I call for help?\nCa
+ pture one pearl\, one uncertainty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20261019@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20261019T190000
 DTEND:20261019T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261019_monday-20261019@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Study: Endoscopy
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nTW
+ IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
+ nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20261020@samos
@@ -877,11 +2013,37 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261019_tuesday-20261020@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Study: Endoscopy
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nTW
+ IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
+ nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-20261021@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:Yoga
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261019_wednesday-20261021@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Study: Endoscopy
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nTW
+ IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
+ nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -891,6 +2053,19 @@ DTSTART:20261022T190000
 DTEND:20261022T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261019_thursday-20261022@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Study: Endoscopy
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nTW
+ IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
+ nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20261023@samos
@@ -904,6 +2079,19 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
  ch\, thoracic rotations\, world's greatest stretch\, and a 60-second deep
   squat hold\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\, bridge
  s\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261019_friday-20261023@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Study: Endoscopy
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nTW
+ IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
+ nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -921,11 +2109,37 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261019_saturday-20261024@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Deep study: Endoscopy
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Endoscopy\nTW
+ IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
+ nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer\nPreview this week's case:
+  Post-polypectomy bleeding
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:sunday_planning-20261025@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Plan the upcoming week
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:monthly_finance_meeting-20261025@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Monthly finance meeting
+DESCRIPTION:Review checking\, savings\, brokerage\, and retirement balances
+ \nReview bills\, debt\, and the prior month's spending\nUpdate net worth a
+ nd identify upcoming large expenses\nChoose one financial action for the n
+ ext month\nLink the newest finance worksheet after it is added to SamOS
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -943,12 +2157,38 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20261019-20261025@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Weekly case review: Post-polypectomy bleeding
+DESCRIPTION:Case: Post-polypectomy bleeding\nOperation: Colonoscopy with po
+ lypectomy\nAnatomy: Colonic fixation points and bronchial segment anatomy\
+ nComplication: Endoscopic perforation\nAnswer: What do I do first? What ch
+ anges management? When do I call for help?\nCapture one pearl\, one uncert
+ ainty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20261026@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20261026T190000
 DTEND:20261026T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261026_monday-20261026@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Study: Inflammatory Bowel Disease
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
+  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
+ tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
+ utes\; make up to 3 cards from missed or guessed questions\nReview explana
+ tions and record the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20261027@samos
@@ -959,11 +2199,37 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261026_tuesday-20261027@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Study: Inflammatory Bowel Disease
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
+  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
+ tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
+ utes\; make up to 3 cards from missed or guessed questions\nReview explana
+ tions and record the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-20261028@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:Yoga
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261026_wednesday-20261028@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Study: Inflammatory Bowel Disease
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
+  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
+ tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
+ utes\; make up to 3 cards from missed or guessed questions\nReview explana
+ tions and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -973,6 +2239,19 @@ DTSTART:20261029T190000
 DTEND:20261029T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261026_thursday-20261029@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Study: Inflammatory Bowel Disease
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
+  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
+ tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
+ utes\; make up to 3 cards from missed or guessed questions\nReview explana
+ tions and record the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20261030@samos
@@ -989,6 +2268,19 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261026_friday-20261030@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Study: Inflammatory Bowel Disease
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
+  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
+ tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
+ utes\; make up to 3 cards from missed or guessed questions\nReview explana
+ tions and record the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_chest_and_shoulders-20261031@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261031
@@ -1000,6 +2292,20 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
  nFarmer carries - 3 x 40 seconds\nTowel pull-ups - 3 sets\, stopping 1-2 r
  eps before failure\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\,
   bridges\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261026_saturday-20261031@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Deep study: Inflammatory Bowel Disease
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Inflammatory
+  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
+ tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
+ utes\; make up to 3 cards from missed or guessed questions\nReview explana
+ tions and record the management detail that changes the answer\nPreview th
+ is week's case: Fulminant ulcerative colitis refractory to medical therapy
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1025,12 +2331,39 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20261026-20261101@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Weekly case review: Fulminant ulcerative colitis refractory to medi
+ cal therapy
+DESCRIPTION:Case: Fulminant ulcerative colitis refractory to medical therap
+ y\nOperation: Total abdominal colectomy with end ileostomy\nAnatomy: Ileoc
+ olic mesentery and colonic blood supply\nComplication: High-output ileosto
+ my\nAnswer: What do I do first? What changes management? When do I call fo
+ r help?\nCapture one pearl\, one uncertainty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20261102@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20261102T190000
 DTEND:20261102T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261102_monday-20261102@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Study: Miscellaneous Trauma
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
+  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
+  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
+ o 3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20261103@samos
@@ -1041,11 +2374,37 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261102_tuesday-20261103@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Study: Miscellaneous Trauma
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
+  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
+  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
+ o 3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-20261104@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Yoga
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261102_wednesday-20261104@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Study: Miscellaneous Trauma
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
+  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
+  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
+ o 3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1055,6 +2414,19 @@ DTSTART:20261105T190000
 DTEND:20261105T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261102_thursday-20261105@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Study: Miscellaneous Trauma
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
+  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
+  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
+ o 3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20261106@samos
@@ -1071,6 +2443,19 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261102_friday-20261106@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Study: Miscellaneous Trauma
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
+  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
+  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
+ o 3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_chest_and_shoulders-20261107@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261107
@@ -1082,6 +2467,20 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
  nFarmer carries - 3 x 40 seconds\nTowel pull-ups - 3 sets\, stopping 1-2 r
  eps before failure\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\,
   bridges\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261102_saturday-20261107@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Deep study: Miscellaneous Trauma
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Miscellaneous
+  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
+  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
+ o 3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer\nPreview this week's case:
+  Anticoagulated geriatric patient after blunt trauma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1107,12 +2506,40 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20261102-20261108@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Weekly case review: Anticoagulated geriatric patient after blunt tr
+ auma
+DESCRIPTION:Case: Anticoagulated geriatric patient after blunt trauma\nOper
+ ation: Trauma resuscitation adapted to a special population\nAnatomy: Age-
+ related and pregnancy-related physiologic changes\nComplication: Delayed i
+ ntracranial hemorrhage\nAnswer: What do I do first? What changes managemen
+ t? When do I call for help?\nCapture one pearl\, one uncertainty\, and one
+  follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20261109@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20261109T190000
 DTEND:20261109T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261109_monday-20261109@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Study: Pancreatic Tumors
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
+ mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
+  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20261110@samos
@@ -1123,11 +2550,37 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261109_tuesday-20261110@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Study: Pancreatic Tumors
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
+ mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
+  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-20261111@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Yoga
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261109_wednesday-20261111@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Study: Pancreatic Tumors
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
+ mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
+  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1137,6 +2590,19 @@ DTSTART:20261112T190000
 DTEND:20261112T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261109_thursday-20261112@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Study: Pancreatic Tumors
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
+ mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
+  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20261113@samos
@@ -1153,6 +2619,19 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261109_friday-20261113@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Study: Pancreatic Tumors
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
+ mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
+  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_chest_and_shoulders-20261114@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261114
@@ -1164,6 +2643,20 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
  nFarmer carries - 3 x 40 seconds\nTowel pull-ups - 3 sets\, stopping 1-2 r
  eps before failure\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\,
   bridges\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261109_saturday-20261114@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Deep study: Pancreatic Tumors
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Pancreatic Tu
+ mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
+  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer\nPreview this we
+ ek's case: Resectable pancreatic head adenocarcinoma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1189,12 +2682,38 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20261109-20261115@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Weekly case review: Resectable pancreatic head adenocarcinoma
+DESCRIPTION:Case: Resectable pancreatic head adenocarcinoma\nOperation: Pan
+ creaticoduodenectomy\nAnatomy: SMA\, SMV\, portal vein\, and pancreatic ne
+ ck relationships\nComplication: Postoperative pancreatic fistula\nAnswer:
+  What do I do first? What changes management? When do I call for help?\nCa
+ pture one pearl\, one uncertainty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20261116@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20261116T190000
 DTEND:20261116T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261116_monday-20261116@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Study: Parathyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
+ TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
+ ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
+  up to 3 cards from missed or guessed questions\nReview explanations and r
+ ecord the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20261117@samos
@@ -1205,11 +2724,37 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261116_tuesday-20261117@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Study: Parathyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
+ TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
+ ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
+  up to 3 cards from missed or guessed questions\nReview explanations and r
+ ecord the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-20261118@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Yoga
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261116_wednesday-20261118@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Study: Parathyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
+ TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
+ ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
+  up to 3 cards from missed or guessed questions\nReview explanations and r
+ ecord the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1219,6 +2764,19 @@ DTSTART:20261119T190000
 DTEND:20261119T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261116_thursday-20261119@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Study: Parathyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
+ TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
+ ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
+  up to 3 cards from missed or guessed questions\nReview explanations and r
+ ecord the management detail that changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20261120@samos
@@ -1235,6 +2793,19 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261116_friday-20261120@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Study: Parathyroid
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
+ TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
+ ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
+  up to 3 cards from missed or guessed questions\nReview explanations and r
+ ecord the management detail that changes the answer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_chest_and_shoulders-20261121@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261121
@@ -1246,6 +2817,20 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
  nFarmer carries - 3 x 40 seconds\nTowel pull-ups - 3 sets\, stopping 1-2 r
  eps before failure\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\,
   bridges\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261116_saturday-20261121@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Deep study: Parathyroid
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: Parathyroid\n
+ TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
+ ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
+  up to 3 cards from missed or guessed questions\nReview explanations and r
+ ecord the management detail that changes the answer\nPreview this week's c
+ ase: Primary hyperparathyroidism with discordant localization
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1271,12 +2856,39 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20261116-20261122@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Weekly case review: Primary hyperparathyroidism with discordant loc
+ alization
+DESCRIPTION:Case: Primary hyperparathyroidism with discordant localization\
+ nOperation: Focused parathyroidectomy\nAnatomy: Parathyroid embryology and
+  recurrent laryngeal nerve\nComplication: Hungry bone syndrome\nAnswer: Wh
+ at do I do first? What changes management? When do I call for help?\nCaptu
+ re one pearl\, one uncertainty\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20261123@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20261123T190000
 DTEND:20261123T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261123_monday-20261123@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Study: OFF - Thanksgiving
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
+ iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
+ l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
+ nReview explanations and record the management detail that changes the ans
+ wer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20261124@samos
@@ -1287,11 +2899,37 @@ SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261123_tuesday-20261124@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Study: OFF - Thanksgiving
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
+ iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
+ l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
+ nReview explanations and record the management detail that changes the ans
+ wer
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:yoga-20261125@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Yoga
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261123_wednesday-20261125@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Study: OFF - Thanksgiving
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
+ iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
+ l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
+ nReview explanations and record the management detail that changes the ans
+ wer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1301,6 +2939,19 @@ DTSTART:20261126T190000
 DTEND:20261126T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261123_thursday-20261126@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Study: OFF - Thanksgiving
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
+ iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
+ l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
+ nReview explanations and record the management detail that changes the ans
+ wer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weight_training_legs_and_abs-20261127@samos
@@ -1314,6 +2965,19 @@ DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
  ch\, thoracic rotations\, world's greatest stretch\, and a 60-second deep
   squat hold\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\, bridge
  s\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261123_friday-20261127@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Study: OFF - Thanksgiving
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
+ iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
+ l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
+ nReview explanations and record the management detail that changes the ans
+ wer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1331,11 +2995,37 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:study_20261123_saturday-20261128@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Deep study: OFF - Thanksgiving
+DESCRIPTION:Weekend target: 60 SCORE questions\nWeekly topic: OFF - Thanksg
+ iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
+ l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
+ nReview explanations and record the management detail that changes the ans
+ wer\nPreview this week's case: Optional review of the most useful case fro
+ m the prior month
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:sunday_planning-20261129@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Plan the upcoming week
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:monthly_finance_meeting-20261129@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Monthly finance meeting
+DESCRIPTION:Review checking\, savings\, brokerage\, and retirement balances
+ \nReview bills\, debt\, and the prior month's spending\nUpdate net worth a
+ nd identify upcoming large expenses\nChoose one financial action for the n
+ ext month\nLink the newest finance worksheet after it is added to SamOS
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1353,12 +3043,40 @@ DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:weekly_case_review_20261123-20261129@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Weekly case review: Optional review of the most useful case from th
+ e prior month
+DESCRIPTION:Case: Optional review of the most useful case from the prior mo
+ nth\nOperation: No assigned operation\nAnatomy: No assigned anatomy\nCompl
+ ication: No assigned complication\nAnswer: What do I do first? What change
+ s management? When do I call for help?\nCapture one pearl\, one uncertaint
+ y\, and one follow-up topic
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:bjj_training-20261130@samos
 DTSTAMP:20000101T000000Z
 DTSTART:20261130T190000
 DTEND:20261130T203000
 SUMMARY:BJJ training
 LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:study_20261130_monday-20261130@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Study: Soft Tissue Infection
+DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Soft Tissue I
+ nfection\nTWIS: Soft Tissue Infections\; Hidradenitis Suppurativa\; Proced
+ ures for Soft Tissue Infections\; Paronychia and Felon\nSCORE focus: Skin
+  and Soft Tissue\nAnki: 10 minutes\; make up to 3 cards from missed or gue
+ ssed questions\nReview explanations and record the management detail that
+  changes the answer
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bjj_training-20261201@samos
@@ -1664,6 +3382,18 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Plan the upcoming week
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:monthly_finance_meeting-20261227@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Monthly finance meeting
+DESCRIPTION:Review checking\, savings\, brokerage\, and retirement balances
+ \nReview bills\, debt\, and the prior month's spending\nUpdate net worth a
+ nd identify upcoming large expenses\nChoose one financial action for the n
+ ext month\nLink the newest finance worksheet after it is added to SamOS
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2077,6 +3807,18 @@ SUMMARY:Plan the upcoming week
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:monthly_finance_meeting-20270131@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Monthly finance meeting
+DESCRIPTION:Review checking\, savings\, brokerage\, and retirement balances
+ \nReview bills\, debt\, and the prior month's spending\nUpdate net worth a
+ nd identify upcoming large expenses\nChoose one financial action for the n
+ ext month\nLink the newest finance worksheet after it is added to SamOS
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_back_and_arms-20270131@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20270131
@@ -2402,6 +4144,18 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:Plan the upcoming week
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:monthly_finance_meeting-20270228@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Monthly finance meeting
+DESCRIPTION:Review checking\, savings\, brokerage\, and retirement balances
+ \nReview bills\, debt\, and the prior month's spending\nUpdate net worth a
+ nd identify upcoming large expenses\nChoose one financial action for the n
+ ext month\nLink the newest finance worksheet after it is added to SamOS
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2733,6 +4487,18 @@ SUMMARY:Plan the upcoming week
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:monthly_finance_meeting-20270328@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Monthly finance meeting
+DESCRIPTION:Review checking\, savings\, brokerage\, and retirement balances
+ \nReview bills\, debt\, and the prior month's spending\nUpdate net worth a
+ nd identify upcoming large expenses\nChoose one financial action for the n
+ ext month\nLink the newest finance worksheet after it is added to SamOS
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_back_and_arms-20270328@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20270328
@@ -3058,6 +4824,18 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:Plan the upcoming week
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:monthly_finance_meeting-20270425@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Monthly finance meeting
+DESCRIPTION:Review checking\, savings\, brokerage\, and retirement balances
+ \nReview bills\, debt\, and the prior month's spending\nUpdate net worth a
+ nd identify upcoming large expenses\nChoose one financial action for the n
+ ext month\nLink the newest finance worksheet after it is added to SamOS
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3471,6 +5249,18 @@ SUMMARY:Plan the upcoming week
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:monthly_finance_meeting-20270530@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Monthly finance meeting
+DESCRIPTION:Review checking\, savings\, brokerage\, and retirement balances
+ \nReview bills\, debt\, and the prior month's spending\nUpdate net worth a
+ nd identify upcoming large expenses\nChoose one financial action for the n
+ ext month\nLink the newest finance worksheet after it is added to SamOS
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_back_and_arms-20270530@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20270530
@@ -3799,6 +5589,18 @@ SUMMARY:Plan the upcoming week
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:monthly_finance_meeting-20270627@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:Monthly finance meeting
+DESCRIPTION:Review checking\, savings\, brokerage\, and retirement balances
+ \nReview bills\, debt\, and the prior month's spending\nUpdate net worth a
+ nd identify upcoming large expenses\nChoose one financial action for the n
+ ext month\nLink the newest finance worksheet after it is added to SamOS
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:weight_training_back_and_arms-20270627@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20270627
@@ -4124,6 +5926,18 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270726
 SUMMARY:Plan the upcoming week
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:monthly_finance_meeting-20270725@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+SUMMARY:Monthly finance meeting
+DESCRIPTION:Review checking\, savings\, brokerage\, and retirement balances
+ \nReview bills\, debt\, and the prior month's spending\nUpdate net worth a
+ nd identify upcoming large expenses\nChoose one financial action for the n
+ ext month\nLink the newest finance worksheet after it is added to SamOS
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

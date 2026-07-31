@@ -1,0 +1,290 @@
+name: Chief Resident Study Plan
+start: 2026-08-03
+end: 2026-11-30
+source_status: verified
+source_note: General Surgery TWIS Schedule 2023-2024, weeks 7-24; dates normalized to 2026 and Thanksgiving kept on the actual holiday week.
+
+goals:
+  score_questions_per_pass: 2200
+  score_passes: 2
+  score_pass_1_due: 2026-09-30
+  score_pass_2_due: 2026-11-30
+  twis_passes: 1
+  twis_due: 2026-11-30
+
+daily_targets:
+  weekday_score_questions: 35
+  deep_study_score_questions: 60
+  vacation_score_questions: 10
+  call_score_questions: 5
+  anki_minutes: 10
+  twis_minutes: 30
+  deep_study_day: saturday
+  case_review_day: sunday
+
+weeks:
+  - week_of: 2026-08-03
+    topic: Biliary Neoplasms and Jaundice
+    twis:
+      - Benign Biliary Obstruction
+      - Primary Biliary Neoplasms
+      - Extended Cholecystectomy for Gallbladder Cancer
+      - Gallbladder Neoplasms
+      - Procedures for Bile Duct Cancer
+      - Procedures for Bile Duct Neoplasm
+    score_topics:
+      - Biliary
+    operation: Extended cholecystectomy
+    case_review: Hilar cholangiocarcinoma with obstructive jaundice
+    anatomy: Extrahepatic biliary tree and hilar vascular relationships
+    complication: Bile duct injury
+
+  - week_of: 2026-08-10
+    topic: Nutrition
+    twis:
+      - Access Procedures for Nutritional Support
+      - Nutritional Support
+      - Nutritional Assessment
+      - Nutritional Requirements
+    score_topics:
+      - Nutrition and Metabolism
+      - Surgical Critical Care
+    operation: Gastrostomy and jejunostomy access
+    case_review: Malnourished patient requiring perioperative nutrition support
+    anatomy: Abdominal wall and small-bowel access anatomy
+    complication: Refeeding syndrome
+
+  - week_of: 2026-08-17
+    topic: Benign Anorectal, Part 2 of 2
+    twis:
+      - Hemorrhoids
+      - Procedures for Hemorrhoids
+      - Anal Dysplasia and STDs
+      - Perianal Condylomas Excision
+      - Fecal Incontinence
+      - Rectal Prolapse
+      - Rectal Prolapse Repair
+    score_topics:
+      - Anorectal
+    operation: Hemorrhoidectomy
+    case_review: Full-thickness rectal prolapse with fecal incontinence
+    anatomy: Anal canal, sphincter complex, and hemorrhoidal columns
+    complication: Post-hemorrhoidectomy bleeding
+
+  - week_of: 2026-08-24
+    topic: Liver Neoplasms and Portal Hypertension
+    twis:
+      - Cirrhosis and Portal Hypertension
+      - Metastatic Hepatic Neoplasms
+      - Segmentectomy and Lobectomy
+    score_topics:
+      - Liver
+    operation: Anatomic hepatic segmentectomy
+    case_review: Colorectal liver metastasis in a patient with portal hypertension
+    anatomy: Couinaud segments and hepatic inflow/outflow
+    complication: Post-hepatectomy liver failure
+
+  - week_of: 2026-08-31
+    topic: Pancreas and Pancreatitis
+    twis:
+      - Acute Pancreatitis
+      - Chronic Pancreatitis
+      - Pancreas Divisum
+      - Intraoperative Pancreatic Ultrasound
+    score_topics:
+      - Pancreas
+    operation: Necrosectomy and step-up management
+    case_review: Necrotizing pancreatitis with infected necrosis
+    anatomy: Pancreatic blood supply and retroperitoneal relationships
+    complication: Postoperative pancreatic fistula
+
+  - week_of: 2026-09-07
+    topic: Stomach, Part 1 of 2
+    twis:
+      - Gastrectomy
+      - Vagotomy and Drainage
+      - Gastric Adenocarcinoma
+      - Peptic Ulcer Disease
+      - Gastroduodenal Perforation Repair
+      - Revisional Procedures after Gastrectomy
+    score_topics:
+      - Stomach
+    operation: Distal gastrectomy with lymphadenectomy
+    case_review: Perforated peptic ulcer with shock
+    anatomy: Gastric blood supply, vagal trunks, and lymphatic stations
+    complication: Duodenal stump leak
+
+  - week_of: 2026-09-14
+    topic: Small Intestine, Part 2 of 2
+    twis:
+      - Ileostomy and Ileostomy Closure
+      - Meckel Diverticulum
+      - Enteric Infections and Blind Loop Syndrome
+      - Small Intestinal Neoplasms
+      - Acute Mesenteric Ischemia
+      - Superior Mesenteric Artery Embolectomy and Thrombectomy
+    score_topics:
+      - Small Intestine
+      - Arterial Disease
+    operation: SMA embolectomy with bowel viability assessment
+    case_review: Acute mesenteric ischemia from an SMA embolus
+    anatomy: SMA branches and small-bowel collateral circulation
+    complication: Short bowel syndrome
+
+  - week_of: 2026-09-21
+    topic: Systems-Based Practice
+    twis:
+      - Advocating for Quality Patient Care
+      - Coordinating Patient Care
+      - Cost Awareness and Risk-Benefit Analysis
+      - Identifying Systems Errors - Root Cause Analysis
+      - Working Effectively in Various Healthcare Delivery Settings and Systems
+      - Working in Interprofessional Teams
+      - Diversity in the US Surgical Workforce
+    score_topics:
+      - Systems Based Practice
+      - Diversity, Equity, and Inclusion
+    operation: Root-cause analysis of a surgical care process
+    case_review: Delayed recognition of postoperative deterioration
+    anatomy: Care escalation pathways and handoff interfaces
+    complication: Failure to rescue
+
+  - week_of: 2026-09-28
+    topic: Abdominal Trauma, Part 1 of 3
+    twis:
+      - Colon and Rectal Injury
+      - Duodenal and Pancreatic Injury
+      - Gastric and Small Intestinal Injury
+      - Gastrointestinal Tract Injury Repair
+    score_topics:
+      - Trauma
+    operation: Exploratory laparotomy with gastrointestinal injury repair
+    case_review: Penetrating abdominal trauma with multiple hollow-viscus injuries
+    anatomy: Retroperitoneal zones and duodenopancreatic relationships
+    complication: Missed bowel injury
+
+  - week_of: 2026-10-05
+    topic: Thyroid
+    twis:
+      - Thyroid Nodule
+      - Thyroid Ultrasound
+      - Thyroid Cancer
+      - Thyroidectomy
+      - Hyperthyroidism
+      - Thyroiditis
+      - Postoperative Hypothyroidism
+    score_topics:
+      - Endocrine
+    operation: Total thyroidectomy
+    case_review: Papillary thyroid cancer with suspicious central nodes
+    anatomy: Recurrent laryngeal nerve and parathyroid blood supply
+    complication: Post-thyroidectomy hypocalcemia
+
+  - week_of: 2026-10-12
+    topic: Breast, Part 2 of 3
+    twis:
+      - Breast Invasive Carcinoma
+      - Ductal Carcinoma In Situ
+      - Hereditary Breast Cancer
+      - Inflammatory Breast Cancer
+      - Axillary Procedures in Breast Cancer
+      - Percutaneous Breast Biopsy and Cyst Aspiration
+      - Management of the Axilla in Breast Cancer
+    score_topics:
+      - Breast
+    operation: Lumpectomy with sentinel lymph node biopsy
+    case_review: Invasive breast carcinoma with a clinically negative axilla
+    anatomy: Breast lymphatic drainage and axillary levels
+    complication: Lymphedema
+
+  - week_of: 2026-10-19
+    topic: Endoscopy
+    twis:
+      - Esophagogastroduodenoscopy
+      - Lower GI Endoscopy
+      - Bronchoscopy and Bronchoalveolar Lavage
+    score_topics:
+      - Endoscopy
+    operation: Colonoscopy with polypectomy
+    case_review: Post-polypectomy bleeding
+    anatomy: Colonic fixation points and bronchial segment anatomy
+    complication: Endoscopic perforation
+
+  - week_of: 2026-10-26
+    topic: Inflammatory Bowel Disease
+    twis:
+      - Procedures for Crohn Disease
+      - Procedures for Ulcerative Colitis
+    score_topics:
+      - Small Intestine
+      - Large Intestine
+    operation: Total abdominal colectomy with end ileostomy
+    case_review: Fulminant ulcerative colitis refractory to medical therapy
+    anatomy: Ileocolic mesentery and colonic blood supply
+    complication: High-output ileostomy
+
+  - week_of: 2026-11-02
+    topic: Miscellaneous Trauma
+    twis:
+      - Geriatric Trauma
+      - Pediatric Trauma
+      - Trauma in Pregnancy
+      - Traumatic Brain Injury
+    score_topics:
+      - Trauma
+    operation: Trauma resuscitation adapted to a special population
+    case_review: Anticoagulated geriatric patient after blunt trauma
+    anatomy: Age-related and pregnancy-related physiologic changes
+    complication: Delayed intracranial hemorrhage
+
+  - week_of: 2026-11-09
+    topic: Pancreatic Tumors
+    twis:
+      - Pancreatic Cystic Neoplasms
+      - Endocrine Pancreatic Neoplasms
+      - Exocrine Pancreatic Neoplasms
+    score_topics:
+      - Pancreas
+    operation: Pancreaticoduodenectomy
+    case_review: Resectable pancreatic head adenocarcinoma
+    anatomy: SMA, SMV, portal vein, and pancreatic neck relationships
+    complication: Postoperative pancreatic fistula
+
+  - week_of: 2026-11-16
+    topic: Parathyroid
+    twis:
+      - Hyperparathyroidism
+      - Multiple Endocrine Neoplasias
+      - Parathyroid Cancer
+      - Parathyroidectomy
+    score_topics:
+      - Endocrine
+    operation: Focused parathyroidectomy
+    case_review: Primary hyperparathyroidism with discordant localization
+    anatomy: Parathyroid embryology and recurrent laryngeal nerve
+    complication: Hungry bone syndrome
+
+  - week_of: 2026-11-23
+    topic: OFF - Thanksgiving
+    twis:
+      - No assigned TWIS modules
+    score_topics:
+      - Catch up only if useful
+    operation: No assigned operation
+    case_review: Optional review of the most useful case from the prior month
+    anatomy: No assigned anatomy
+    complication: No assigned complication
+
+  - week_of: 2026-11-30
+    topic: Soft Tissue Infection
+    twis:
+      - Soft Tissue Infections
+      - Hidradenitis Suppurativa
+      - Procedures for Soft Tissue Infections
+      - Paronychia and Felon
+    score_topics:
+      - Skin and Soft Tissue
+    operation: Debridement for necrotizing soft tissue infection
+    case_review: Necrotizing soft tissue infection requiring serial debridement
+    anatomy: Fascial planes and hand-space anatomy
+    complication: Inadequate source control

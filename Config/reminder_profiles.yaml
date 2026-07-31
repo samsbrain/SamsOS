@@ -4,6 +4,8 @@ profiles:
     reminder_days_before: [14, 7, 3, 1, 0]
   presentation:
     reminder_days_before: [60, 30, 21, 14, 7, 3, 1, 0]
+  m_and_m:
+    reminder_days_before: [28, 14, 7, 3, 0]
   date_planning:
     reminder_days_before: [21, 14, 7, 3, 1]
   job_application:

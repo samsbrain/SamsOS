@@ -101,6 +101,12 @@ projects:
     status: active
     next_action: Confirm the party date, budget, and guest list
 
+  - id: complete_score_twis_2026
+    title: Complete two SCORE passes and one TWIS pass before December
+    goal: advance_surgical_skills
+    status: active
+    next_action: Complete today's curriculum-aligned study assignment
+
 routines:
   - id: sunday_planning
     title: Plan the upcoming week
@@ -128,6 +134,20 @@ routines:
     days:
       - wednesday
     duration_minutes: 60
+
+  - id: monthly_finance_meeting
+    title: Monthly finance meeting
+    domain: finances
+    recurrence: monthly
+    weekday: sunday
+    week_of_month: last
+    duration_minutes: 60
+    notes:
+      - Review checking, savings, brokerage, and retirement balances
+      - Review bills, debt, and the prior month's spending
+      - Update net worth and identify upcoming large expenses
+      - Choose one financial action for the next month
+      - Link the newest finance worksheet after it is added to SamOS
 
 training_plan:
   weight_sessions_per_week: 3

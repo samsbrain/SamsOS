@@ -1,6 +1,16 @@
 month: 2026-09
 
 events:
+  - id: mirna_birthday_party_2026
+    type: event
+    title: "Mirna's 13 Going on 30 birthday party"
+    start: 2026-09-06
+    end: 2026-09-06
+    notes:
+      - "Theme: 13 Going on 30"
+      - Confirm venue, guest list, invitations, food, cake, decorations, playlist, and photos
+      - Keep September 7-13 vacation low-pressure after the party
+
   - id: gold_trauma_2026_09
     type: rotation
     title: Gold Trauma
@@ -12,3 +22,12 @@ events:
     title: Vacation
     start: 2026-09-07
     end: 2026-09-13
+
+  - id: m_and_m_2026_09_16
+    type: event
+    title: M&M presentation
+    start: 2026-09-16
+    end: 2026-09-16
+    notes:
+      - Finalize the case timeline and learning objectives
+      - Rehearse the presentation and discussion questions

@@ -22,10 +22,11 @@ v0.1
 
 ## Current workflow
 
-SamOS now has one complete, intentionally small workflow:
+SamOS now has one build that validates the source data and refreshes the weekly
+plan, reminders, calendar feeds, study schedule, and read-only dashboard:
 
 ```text
-Config/master.yaml -> validation -> Dashboard/WeeklyPlan.md
+YAML source files -> validation -> plans, calendars, reminders, and dashboard
 ```
 
 From the repository folder, install the YAML reader once:
@@ -34,13 +35,10 @@ From the repository folder, install the YAML reader once:
 python -m pip install -r requirements.txt
 ```
 
-Then check the configuration and generate the plan:
+Then build every generated output:
 
 ```powershell
-python Generator/validate_config.py
-python Generator/planner.py
-python Generator/reminders.py
-python Generator/cases.py 2026-08-03
+python Generator/build_samos.py
 ```
 
 To generate a different week, pass any date inside that week:
@@ -51,6 +49,10 @@ python Generator/planner.py --week 2026-08-03
 
 Edit `Config/master.yaml`, run the planner again, and open
 `Dashboard/WeeklyPlan.md` to see the updated result.
+
+The build also creates `Dashboard/Home.md` and the read-only web dashboard at
+`public/dashboard.html`. Study assignments come from `Study/plan.yaml`, and
+progress counters live in `Study/progress.yaml`.
 
 Add deadlines to `Reminders/reminders.yaml`, then run the reminder generator to
 update `Dashboard/Reminders.md` and the subscribable `Dashboard/Reminders.ics`.
@@ -77,6 +79,7 @@ Subscribe to these addresses after GitHub Pages is enabled:
 - Apple Calendar: `https://samsbrain.github.io/SamsOS/calendar.ics`
 - Standards feed: `https://samsbrain.github.io/SamsOS/SamOS.ics`
 - `https://samsbrain.github.io/SamsOS/Reminders.ics`
+- Dashboard: `https://samsbrain.github.io/SamsOS/dashboard.html`
 
 The first two addresses contain the same safe schedule information in different
 timestamp formats. The final feed contains non-blocking, all-day deadline

@@ -31,6 +31,12 @@ events:
     start: 2026-08-17
     end: 2026-08-23
 
+  - id: parents_visit_2026_08_21
+    type: event
+    title: Parents visiting
+    start: 2026-08-21
+    end: 2026-08-23
+
   - id: call_2026_08_26
     type: call
     title: On call
