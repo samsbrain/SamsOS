@@ -20,6 +20,7 @@ def main() -> None:
     run("planner.py")
     run("reminders.py")
     run("calendar.py")
+    run("dashboard.py")
     PUBLIC.mkdir(exist_ok=True)
     shutil.copyfile(ROOT / "Dashboard" / "Reminders.ics", PUBLIC / "Reminders.ics")
     print("SamOS build complete.")

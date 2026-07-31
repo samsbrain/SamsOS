@@ -12,3 +12,9 @@ reminders:
     category: general
     due: 2026-08-31
     status: active
+
+  - id: prepare_m_and_m_2026_09_16
+    title: Prepare for M&M presentation
+    category: m_and_m
+    due: 2026-09-16
+    status: active

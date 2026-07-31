@@ -18,6 +18,7 @@
 
 - [ ] **Complete this week's trauma review:** Choose and review one trauma topic
 - [ ] **Plan Mirna's 13 Going on 30 birthday party:** Confirm the party date, budget, and guest list
+- [ ] **Complete two SCORE passes and one TWIS pass before December:** Complete today's curriculum-aligned study assignment
 
 ## Daily plan
 

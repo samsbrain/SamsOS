@@ -67,9 +67,10 @@ actionable instead of merely naming an ambition.
 
 An activity that repeats on named days.
 
-Required fields: `id`, `title`, `domain`, `days`, and `duration_minutes`. Days
-are lowercase weekday names. The first planner intentionally schedules by day,
-with two optional details:
+Required fields: `id`, `title`, `domain`, and `duration_minutes`. Weekly routines
+use `recurrence: weekly` and lowercase weekday names in `days`. Monthly routines
+use `recurrence: monthly`, `weekday`, and `week_of_month` (`first` or `last`).
+Optional details include:
 
 - `start_time`: local time in 24-hour `HH:MM` format, such as `19:00`
 - `location`: human-readable place name
@@ -132,6 +133,20 @@ the filename and `week_of` use that week's Monday. A case contains `id`,
 
 Never store patient names, initials, medical record numbers, birth dates, room
 numbers, or other identifying information in SamOS.
+
+### Study plan and progress
+
+`Study/plan.yaml` defines the dated SCORE/TWIS curriculum, daily question and
+Anki targets, and one integrated operation/case/anatomy/complication review per
+week. The generator treats call study as optional, skips post-call study, and
+uses a light vacation target. `Study/progress.yaml` stores manually updated
+SCORE, TWIS, and case-review counters for the dashboard.
+
+### Finance files
+
+The monthly finance routine is configured in `Config/master.yaml`. Previous
+`.xlsx`, `.xls`, `.csv`, and `.tsv` worksheets can be placed in `Finance/`; the
+dashboard will list links to them automatically.
 
 ### Knowledge topic
 
@@ -197,6 +212,8 @@ calendar artifacts in `public/`:
 
 - `SamOS.ics`: rotations, call, vacation, training, and non-identifying cases
 - `Reminders.ics`: deadline prompts generated from reminder profiles
+- `dashboard.html`: read-only overview of today's plan, study progress, the
+  current week, upcoming reminders, and finance worksheets
 
 The public folder is a compiled output. YAML, case files, and knowledge notes
 remain the source of truth.

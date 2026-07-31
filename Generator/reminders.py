@@ -37,6 +37,22 @@ def escape_ics(text: str) -> str:
     return text.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
 
 
+def append_folded_line(lines: list[str], line: str, limit: int = 75) -> None:
+    """Append one RFC 5545 content line, folding long UTF-8 values safely."""
+    first = True
+    while len(line.encode("utf-8")) > (limit if first else limit - 1):
+        available = limit if first else limit - 1
+        split = min(len(line), available)
+        while len(line[:split].encode("utf-8")) > available:
+            split -= 1
+        while split > 0 and line[split - 1] in {" ", "\t"}:
+            split -= 1
+        lines.append(("" if first else " ") + line[:split])
+        line = line[split:]
+        first = False
+    lines.append(("" if first else " ") + line)
+
+
 def build_reminder_calendar(profiles: dict, items: dict) -> str:
     """Create one all-day calendar entry for every configured reminder prompt."""
     lines = [
@@ -61,11 +77,10 @@ def build_reminder_calendar(profiles: dict, items: dict) -> str:
                 "DTSTAMP:20000101T000000Z",
                 f"DTSTART;VALUE=DATE:{reminder_date:%Y%m%d}",
                 f"DTEND;VALUE=DATE:{end_date:%Y%m%d}",
-                f"SUMMARY:{escape_ics('Reminder: ' + item['title'])}",
-                f"DESCRIPTION:{escape_ics(timing + ' - due ' + item['due'].isoformat())}",
-                "TRANSP:TRANSPARENT",
-                "END:VEVENT",
             ])
+            append_folded_line(lines, f"SUMMARY:{escape_ics('Reminder: ' + item['title'])}")
+            append_folded_line(lines, f"DESCRIPTION:{escape_ics(timing + ' - due ' + item['due'].isoformat())}")
+            lines.extend(["TRANSP:TRANSPARENT", "END:VEVENT"])
     lines.append("END:VCALENDAR")
     return "\r\n".join(lines) + "\r\n"
 

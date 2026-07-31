@@ -94,16 +94,26 @@ def validate_master(data: dict) -> None:
     routine_ids = set()
     for index, routine in enumerate(data["routines"]):
         location = f"master.yaml > routines > item {index + 1}"
-        require_fields(routine, ("id", "title", "domain", "days", "duration_minutes"), location)
+        require_fields(routine, ("id", "title", "domain", "duration_minutes"), location)
         if routine["id"] in routine_ids:
             raise ValueError(f"master.yaml > routines: duplicate id '{routine['id']}'")
         if routine["domain"] not in domain_ids:
             raise ValueError(f"{location}: unknown domain '{routine['domain']}'")
-        if not isinstance(routine["days"], list) or not routine["days"]:
-            raise ValueError(f"{location}: days must be a non-empty list")
-        unknown_days = set(routine["days"]) - DAYS
-        if unknown_days:
-            raise ValueError(f"{location}: unknown day '{sorted(unknown_days)[0]}'")
+        recurrence = routine.get("recurrence", "weekly")
+        if recurrence == "weekly":
+            if not isinstance(routine.get("days"), list) or not routine["days"]:
+                raise ValueError(f"{location}: weekly routines need a non-empty days list")
+            unknown_days = set(routine["days"]) - DAYS
+            if unknown_days:
+                raise ValueError(f"{location}: unknown day '{sorted(unknown_days)[0]}'")
+        elif recurrence == "monthly":
+            require_fields(routine, ("weekday", "week_of_month"), location)
+            if routine["weekday"] not in DAYS:
+                raise ValueError(f"{location}: weekday must be a lowercase weekday name")
+            if routine["week_of_month"] not in {"first", "last"}:
+                raise ValueError(f"{location}: week_of_month must be first or last")
+        else:
+            raise ValueError(f"{location}: recurrence must be weekly or monthly")
         minutes = routine["duration_minutes"]
         if not isinstance(minutes, int) or isinstance(minutes, bool) or minutes < 1:
             raise ValueError(f"{location}: duration_minutes must be a positive integer")
@@ -116,6 +126,9 @@ def validate_master(data: dict) -> None:
             raise ValueError(f"{location}: location must be text")
         if "scheduling" in routine and routine["scheduling"] not in {"fixed", "preferred", "flexible"}:
             raise ValueError(f"{location}: scheduling must be fixed, preferred, or flexible")
+        notes = routine.get("notes", [])
+        if not isinstance(notes, list) or any(not isinstance(note, str) or not note.strip() for note in notes):
+            raise ValueError(f"{location}: notes must be a list of non-empty text items")
         routine_ids.add(routine["id"])
 
     training = data["training_plan"]
@@ -189,7 +202,75 @@ def validate_month(data: dict, filename: str) -> None:
             raise ValueError(f"{location}: start and end must be YYYY-MM-DD dates")
         if event["end"] < event["start"]:
             raise ValueError(f"{location}: end cannot be before start")
+        notes = event.get("notes", [])
+        if not isinstance(notes, list) or any(not isinstance(note, str) or not note.strip() for note in notes):
+            raise ValueError(f"{location}: notes must be a list of non-empty text items")
         event_ids.add(event["id"])
+
+
+def validate_study_plan(data: dict) -> None:
+    require_fields(data, ("name", "start", "end", "goals", "daily_targets", "weeks"), "Study/plan.yaml")
+    if not isinstance(data["start"], date) or not isinstance(data["end"], date):
+        raise ValueError("Study/plan.yaml: start and end must be YYYY-MM-DD dates")
+    if data["end"] < data["start"]:
+        raise ValueError("Study/plan.yaml: end cannot be before start")
+    require_fields(
+        data["goals"],
+        ("score_questions_per_pass", "score_passes", "score_pass_1_due", "score_pass_2_due", "twis_passes", "twis_due"),
+        "Study/plan.yaml > goals",
+    )
+    for field in ("score_questions_per_pass", "score_passes", "twis_passes"):
+        value = data["goals"][field]
+        if not isinstance(value, int) or isinstance(value, bool) or value < 1:
+            raise ValueError(f"Study/plan.yaml > goals > {field}: use a positive integer")
+    for field in ("score_pass_1_due", "score_pass_2_due", "twis_due"):
+        if not isinstance(data["goals"][field], date):
+            raise ValueError(f"Study/plan.yaml > goals > {field}: use a YYYY-MM-DD date")
+
+    targets = data["daily_targets"]
+    target_fields = (
+        "weekday_score_questions", "deep_study_score_questions", "vacation_score_questions",
+        "call_score_questions", "anki_minutes", "twis_minutes",
+    )
+    require_fields(targets, target_fields + ("deep_study_day", "case_review_day"), "Study/plan.yaml > daily_targets")
+    for field in target_fields:
+        if not isinstance(targets[field], int) or isinstance(targets[field], bool) or targets[field] < 0:
+            raise ValueError(f"Study/plan.yaml > daily_targets > {field}: use a non-negative integer")
+    for field in ("deep_study_day", "case_review_day"):
+        if targets[field] not in DAYS:
+            raise ValueError(f"Study/plan.yaml > daily_targets > {field}: use a lowercase weekday")
+
+    if not isinstance(data["weeks"], list) or not data["weeks"]:
+        raise ValueError("Study/plan.yaml > weeks: use a non-empty list")
+    week_dates = set()
+    required = ("week_of", "topic", "twis", "score_topics", "operation", "case_review", "anatomy", "complication")
+    for index, week in enumerate(data["weeks"]):
+        location = f"Study/plan.yaml > weeks > item {index + 1}"
+        require_fields(week, required, location)
+        if not isinstance(week["week_of"], date) or week["week_of"].weekday() != 0:
+            raise ValueError(f"{location}: week_of must be a Monday date")
+        if week["week_of"] in week_dates:
+            raise ValueError(f"{location}: duplicate week_of")
+        week_dates.add(week["week_of"])
+        for field in ("twis", "score_topics"):
+            if not isinstance(week[field], list) or not week[field] or any(not isinstance(value, str) for value in week[field]):
+                raise ValueError(f"{location} > {field}: use a non-empty text list")
+        for field in ("topic", "operation", "case_review", "anatomy", "complication"):
+            if not isinstance(week[field], str) or not week[field].strip():
+                raise ValueError(f"{location} > {field}: use non-empty text")
+
+
+def validate_study_progress(data: dict) -> None:
+    require_fields(data, ("score", "twis", "reviews", "last_updated"), "Study/progress.yaml")
+    values = (
+        data["score"].get("pass_1_completed"), data["score"].get("pass_2_completed"),
+        data["twis"].get("weeks_completed"), data["reviews"].get("operations_completed"),
+        data["reviews"].get("cases_completed"),
+    )
+    if any(not isinstance(value, int) or isinstance(value, bool) or value < 0 for value in values):
+        raise ValueError("Study/progress.yaml: progress values must be non-negative integers")
+    if not isinstance(data["last_updated"], date):
+        raise ValueError("Study/progress.yaml > last_updated: use a YYYY-MM-DD date")
 
 
 def validate_reminder_profiles(data: dict) -> None:
@@ -273,6 +354,8 @@ def main() -> None:
     validate_reminder_profiles(profiles)
     validate_reminders(load_yaml("Reminders/reminders.yaml"), set(profiles["profiles"]))
     validate_knowledge(load_yaml("Knowledge/index.yaml"))
+    validate_study_plan(load_yaml("Study/plan.yaml"))
+    validate_study_progress(load_yaml("Study/progress.yaml"))
     for path in sorted((ROOT / "Cases").glob("????-??-??.yaml")):
         validate_cases(load_yaml(str(path.relative_to(ROOT))), path.stem)
     for path in sorted((ROOT / "Monthly").glob("????-??.yaml")):

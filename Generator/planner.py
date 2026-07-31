@@ -4,6 +4,7 @@ import argparse
 from datetime import date, timedelta
 from pathlib import Path
 
+from study import build_study_schedule
 from validate_config import load_yaml, validate_master, validate_month
 
 
@@ -47,6 +48,18 @@ def format_activity(activity: dict) -> str:
     return "\n".join(lines)
 
 
+def routine_occurs_on(routine: dict, day: date) -> bool:
+    recurrence = routine.get("recurrence", "weekly")
+    weekday = day.strftime("%A").lower()
+    if recurrence == "weekly":
+        return weekday in routine["days"]
+    if weekday != routine["weekday"]:
+        return False
+    if routine["week_of_month"] == "first":
+        return day.day <= 7
+    return (day + timedelta(days=7)).month != day.month
+
+
 def schedule_training(data: dict, dates: list[date], events: list[dict]) -> tuple[dict, list[str]]:
     """Protect fixed routines, place yoga, then fit weights into open days."""
     schedule = {day: [] for day in dates}
@@ -58,7 +71,7 @@ def schedule_training(data: dict, dates: list[date], events: list[dict]) -> tupl
 
     for routine in data["routines"]:
         for day in dates:
-            if day in blocked or day.strftime("%A").lower() not in routine["days"]:
+            if day in blocked or not routine_occurs_on(routine, day):
                 continue
             schedule[day].append(dict(routine))
 
@@ -98,6 +111,9 @@ def build_weekly_plan(data: dict, events: list[dict], today: date | None = None)
     week_start = start_of_week(today, data["preferences"]["week_starts_on"])
     dates = [week_start + timedelta(days=offset) for offset in range(7)]
     schedule, warnings = schedule_training(data, dates, events)
+    study_schedule = build_study_schedule(load_yaml("Study/plan.yaml"), dates, events)
+    for day in dates:
+        schedule[day].extend(study_schedule[day])
 
     active_goals = [goal for goal in data["goals"] if goal["status"] == "active"]
     active_goals.sort(key=lambda goal: PRIORITY_ORDER[goal["priority"]])
