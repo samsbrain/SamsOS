@@ -136,3 +136,4 @@ training_plan:
 preferences:
   week_starts_on: monday
   planning_horizon_days: 7
+  calendar_horizon_days: 365

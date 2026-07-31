@@ -146,6 +146,7 @@ Required fields:
 
 - `week_starts_on`: `monday` or `sunday`
 - `planning_horizon_days`: whole number greater than zero
+- `calendar_horizon_days`: number of days included in the public calendar feed
 
 ### Rule
 
@@ -186,3 +187,14 @@ A dictionary is a labeled container. Python retrieves the name with
 Validation is a preflight checklist. `Generator/validate_config.py` checks that
 required labels exist and that their values have the expected basic type. It
 does not make planning decisions or generate output.
+
+## Generated public files
+
+`Generator/build_samos.py` validates the source data and generates the public
+calendar artifacts in `public/`:
+
+- `SamOS.ics`: rotations, call, vacation, training, and non-identifying cases
+- `Reminders.ics`: deadline prompts generated from reminder profiles
+
+The public folder is a compiled output. YAML, case files, and knowledge notes
+remain the source of truth.
