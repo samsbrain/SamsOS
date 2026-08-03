@@ -17,7 +17,8 @@
   - [ ] SCORE: 0/5 questions
   - [ ] Anki: 10 minutes
 - **TWIS modules this week:**
-  - [ ] Benign Biliary Obstruction
+  - [x] Benign Biliary Obstruction
+  - [x] CBD Exploration & Choledochoscopy
   - [ ] Primary Biliary Neoplasms
   - [ ] Extended Cholecystectomy for Gallbladder Cancer
   - [ ] Gallbladder Neoplasms
@@ -28,7 +29,7 @@
 - [ ] **Case review:** Hilar cholangiocarcinoma with obstructive jaundice
 - SCORE full question bank: `░░░░░░░░░░░░░░░░` 0/2200
 - SCORE focused review: `░░░░░░░░░░░░░░░░` 0/700 maximum
-- TWIS modules: `░░░░░░░░░░░░░░░░` 0/81
+- TWIS modules: `░░░░░░░░░░░░░░░░` 2/82
 - Case reviews: 0/17
 - Full-pass plan through October 18: **35/day; 60 on Saturday**
 - Focused review from October 19 through November 30: **15/day; 25 on Saturday; stop when the flagged queue is complete**
