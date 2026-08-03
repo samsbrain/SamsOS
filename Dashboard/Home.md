@@ -14,8 +14,8 @@
 
 - **This week:** Biliary Neoplasms and Jaundice
 - **Today's checklist:**
-  - [ ] SCORE: 0/5 questions
-  - [ ] Anki: 10 minutes
+  - [x] SCORE: 5/5 questions
+  - [x] Anki: 10 minutes
   - [x] TWIS: Benign Biliary Obstruction
   - [x] TWIS: CBD Exploration & Choledochoscopy
 - **TWIS modules this week:**
@@ -30,7 +30,7 @@
 - [ ] **Anatomy review:** Extrahepatic biliary tree and hilar vascular relationships
 - [ ] **Operation review:** Extended cholecystectomy
 - [ ] **Case review:** Hilar cholangiocarcinoma with obstructive jaundice
-- SCORE full question bank: `░░░░░░░░░░░░░░░░` 0/2200
+- SCORE full question bank: `░░░░░░░░░░░░░░░░` 5/2200
 - SCORE focused review: `░░░░░░░░░░░░░░░░` 0/700 maximum
 - TWIS modules: `░░░░░░░░░░░░░░░░` 2/82
 - Case reviews: 0/17

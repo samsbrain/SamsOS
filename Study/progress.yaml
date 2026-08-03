@@ -1,6 +1,9 @@
 # Add one entry when progress is reported. Dashboard totals are calculated from
 # this ledger so daily, weekly, and overall numbers cannot drift apart.
-daily: []
+daily:
+  - date: 2026-08-03
+    score_questions_completed: 5
+    anki_completed: true
 
 weeks:
   - week_of: 2026-08-03
