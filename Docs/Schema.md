@@ -140,7 +140,7 @@ numbers, or other identifying information in SamOS.
 Anki targets, and one integrated operation/case/anatomy/complication review per
 week. The generator treats call study as optional, skips post-call study, and
 uses a light vacation target. `Study/progress.yaml` stores manually updated
-SCORE, TWIS, and case-review counters for the dashboard.
+daily and weekly completion entries for the dashboard.
 
 SCORE work has two distinct phases. The first phase completes the full question
 bank. The second phase is a smaller focused review containing only missed,
@@ -148,6 +148,15 @@ guessed, and weak-topic questions. Each phase has separate totals, dates, and
 normal/deep-study/call/vacation question targets; focused review is not treated
 as a second complete pass. Its configured total is a ceiling, and review can
 stop early when the flagged question queue is complete.
+
+The progress file is a dated ledger rather than a set of manually maintained
+totals. Each `daily` entry contains `date`, `score_questions_completed`, and
+`anki_completed`. Each `weeks` entry contains a Monday `week_of`, an exact list
+of `twis_completed` module names, and booleans for
+`operation_review_completed` and `case_review_completed`. The dashboard derives
+all progress totals and checkmarks from these entries, preventing the daily and
+overall numbers from drifting apart. Missing dates or weeks mean no completion
+has been reported yet.
 
 The Reminders feed includes one all-day SCORE prompt for every study-plan day.
 Normal, deep-study, vacation, and call targets come from the active phase under
