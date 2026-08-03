@@ -1,5 +1,9 @@
 # The index connects case topics to durable Markdown notes.
-topics: []
+topics:
+  - id: robotic_umbilical_hernia_repair
+    title: Robotic Umbilical Hernia Repair with Mesh
+    tags: [hernia, umbilical, ventral_hernia, abdominal_wall, robotic, mesh]
+    note: Surgery/Robotic Umbilical Hernia Repair.md
 
 # Example:
 #   - id: laparoscopic_cholecystectomy
