@@ -7,6 +7,12 @@
 #     status: active
 
 reminders:
+  - id: complete_va_case_conference_2026_08_07
+    title: Complete VA case conference
+    category: general
+    due: 2026-08-07
+    status: active
+
   - id: schedule_fls_fes_2026
     title: Schedule FLS and FES
     category: general
