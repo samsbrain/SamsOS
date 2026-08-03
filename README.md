@@ -58,6 +58,13 @@ question prompt adjusted for call, vacation, and post-call recovery. The SCORE
 plan uses one complete question-bank pass followed by a lower-volume focused
 review of missed, guessed, and weak-topic questions.
 
+Study completion is recorded in the dated ledger at `Study/progress.yaml`.
+Tell Codex what you completed in ordinary language, such as "25 SCORE questions,
+Anki done, and Benign Biliary Obstruction finished." The dashboard calculates
+daily SCORE completion, overall question totals, individual TWIS-module
+checkmarks, operation review, and case review from that ledger. Checkmarks are
+stored in SamOS rather than only in one browser.
+
 Add deadlines to `Reminders/reminders.yaml`, then run the reminder generator to
 update `Dashboard/Reminders.md` and the subscribable `Dashboard/Reminders.ics`.
 

@@ -13,21 +13,23 @@
 ## Study command center
 
 - **This week:** Biliary Neoplasms and Jaundice
-- **Assigned SCORE/TWIS modules:**
-  - Benign Biliary Obstruction
-  - Primary Biliary Neoplasms
-  - Extended Cholecystectomy for Gallbladder Cancer
-  - Gallbladder Neoplasms
-  - Procedures for Bile Duct Cancer
-  - Procedures for Bile Duct Neoplasm
+- **Today's checklist:**
+  - [ ] SCORE: 0/5 questions
+  - [ ] Anki: 10 minutes
+- **TWIS modules this week:**
+  - [ ] Benign Biliary Obstruction
+  - [ ] Primary Biliary Neoplasms
+  - [ ] Extended Cholecystectomy for Gallbladder Cancer
+  - [ ] Gallbladder Neoplasms
+  - [ ] Procedures for Bile Duct Cancer
+  - [ ] Procedures for Bile Duct Neoplasm
 - [Open SCORE](https://www.surgicalcore.org/)
-- **Anki:** 10 minutes; create up to 3 cards from missed or guessed questions
-- **Operation:** Extended cholecystectomy
-- **Case review:** Hilar cholangiocarcinoma with obstructive jaundice
+- [ ] **Operation review:** Extended cholecystectomy
+- [ ] **Case review:** Hilar cholangiocarcinoma with obstructive jaundice
 - SCORE full question bank: `░░░░░░░░░░░░░░░░` 0/2200
 - SCORE focused review: `░░░░░░░░░░░░░░░░` 0/700 maximum
-- TWIS weeks: `░░░░░░░░░░░░░░░░` 0/17
-- Case reviews: 0/18
+- TWIS modules: `░░░░░░░░░░░░░░░░` 0/81
+- Case reviews: 0/17
 - Full-pass plan through October 18: **35/day; 60 on Saturday**
 - Focused review from October 19 through November 30: **15/day; 25 on Saturday; stop when the flagged queue is complete**
 - Today's scheduled SCORE target: **5 questions** (full question-bank pass)
@@ -51,4 +53,4 @@
 
 - No worksheets linked yet; add prior Excel files to `Finance/` when ready.
 
-_Study progress last updated: July 31, 2026_
+_Study progress last updated: August 03, 2026_

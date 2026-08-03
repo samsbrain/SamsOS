@@ -289,15 +289,59 @@ def validate_study_plan(data: dict) -> None:
                 raise ValueError(f"{location} > {field}: use non-empty text")
 
 
-def validate_study_progress(data: dict) -> None:
-    require_fields(data, ("score", "twis", "reviews", "last_updated"), "Study/progress.yaml")
-    values = (
-        data["score"].get("full_pass_completed"), data["score"].get("focused_review_completed"),
-        data["twis"].get("weeks_completed"), data["reviews"].get("operations_completed"),
-        data["reviews"].get("cases_completed"),
-    )
-    if any(not isinstance(value, int) or isinstance(value, bool) or value < 0 for value in values):
-        raise ValueError("Study/progress.yaml: progress values must be non-negative integers")
+def validate_study_progress(data: dict, plan: dict) -> None:
+    require_fields(data, ("daily", "weeks", "last_updated"), "Study/progress.yaml")
+    if not isinstance(data["daily"], list) or not isinstance(data["weeks"], list):
+        raise ValueError("Study/progress.yaml: daily and weeks must be lists")
+
+    daily_dates = set()
+    for index, entry in enumerate(data["daily"]):
+        location = f"Study/progress.yaml > daily > item {index + 1}"
+        if not isinstance(entry, dict):
+            raise ValueError(f"{location}: use a mapping")
+        require_fields(entry, ("date", "score_questions_completed", "anki_completed"), location)
+        if not isinstance(entry["date"], date):
+            raise ValueError(f"{location} > date: use a YYYY-MM-DD date")
+        if entry["date"] < plan["start"] or entry["date"] > plan["end"]:
+            raise ValueError(f"{location} > date: date is outside the study plan")
+        if entry["date"] in daily_dates:
+            raise ValueError(f"{location}: duplicate date")
+        daily_dates.add(entry["date"])
+        questions = entry["score_questions_completed"]
+        if not isinstance(questions, int) or isinstance(questions, bool) or questions < 0:
+            raise ValueError(f"{location} > score_questions_completed: use a non-negative integer")
+        if not isinstance(entry["anki_completed"], bool):
+            raise ValueError(f"{location} > anki_completed: use true or false")
+
+    planned_weeks = {week["week_of"]: week for week in plan["weeks"]}
+    logged_weeks = set()
+    for index, entry in enumerate(data["weeks"]):
+        location = f"Study/progress.yaml > weeks > item {index + 1}"
+        if not isinstance(entry, dict):
+            raise ValueError(f"{location}: use a mapping")
+        require_fields(
+            entry,
+            ("week_of", "twis_completed", "operation_review_completed", "case_review_completed"),
+            location,
+        )
+        if not isinstance(entry["week_of"], date) or entry["week_of"].weekday() != 0:
+            raise ValueError(f"{location} > week_of: use a Monday date")
+        if entry["week_of"] in logged_weeks:
+            raise ValueError(f"{location}: duplicate week_of")
+        logged_weeks.add(entry["week_of"])
+        if entry["week_of"] not in planned_weeks:
+            raise ValueError(f"{location}: week is not present in Study/plan.yaml")
+        completed = entry["twis_completed"]
+        if not isinstance(completed, list) or any(not isinstance(item, str) for item in completed):
+            raise ValueError(f"{location} > twis_completed: use a text list")
+        if len(completed) != len(set(completed)):
+            raise ValueError(f"{location} > twis_completed: module names must be unique")
+        unknown = set(completed) - set(planned_weeks[entry["week_of"]]["twis"])
+        if unknown:
+            raise ValueError(f"{location} > twis_completed: unknown module '{sorted(unknown)[0]}'")
+        for field in ("operation_review_completed", "case_review_completed"):
+            if not isinstance(entry[field], bool):
+                raise ValueError(f"{location} > {field}: use true or false")
     if not isinstance(data["last_updated"], date):
         raise ValueError("Study/progress.yaml > last_updated: use a YYYY-MM-DD date")
 
@@ -383,8 +427,9 @@ def main() -> None:
     validate_reminder_profiles(profiles)
     validate_reminders(load_yaml("Reminders/reminders.yaml"), set(profiles["profiles"]))
     validate_knowledge(load_yaml("Knowledge/index.yaml"))
-    validate_study_plan(load_yaml("Study/plan.yaml"))
-    validate_study_progress(load_yaml("Study/progress.yaml"))
+    study_plan = load_yaml("Study/plan.yaml")
+    validate_study_plan(study_plan)
+    validate_study_progress(load_yaml("Study/progress.yaml"), study_plan)
     for path in sorted((ROOT / "Cases").glob("????-??-??.yaml")):
         validate_cases(load_yaml(str(path.relative_to(ROOT))), path.stem)
     for path in sorted((ROOT / "Monthly").glob("????-??.yaml")):

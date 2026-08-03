@@ -1,12 +1,7 @@
-score:
-  full_pass_completed: 0
-  focused_review_completed: 0
+# Add one entry when progress is reported. Dashboard totals are calculated from
+# this ledger so daily, weekly, and overall numbers cannot drift apart.
+daily: []
 
-twis:
-  weeks_completed: 0
+weeks: []
 
-reviews:
-  operations_completed: 0
-  cases_completed: 0
-
-last_updated: 2026-07-31
+last_updated: 2026-08-03
