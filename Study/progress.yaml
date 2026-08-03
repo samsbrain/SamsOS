@@ -2,6 +2,12 @@
 # this ledger so daily, weekly, and overall numbers cannot drift apart.
 daily: []
 
-weeks: []
+weeks:
+  - week_of: 2026-08-03
+    twis_completed:
+      - Benign Biliary Obstruction
+      - CBD Exploration & Choledochoscopy
+    operation_review_completed: false
+    case_review_completed: false
 
 last_updated: 2026-08-03

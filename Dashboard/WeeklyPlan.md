@@ -34,7 +34,7 @@
   - Only if patient care allows: 5 new SCORE questions
   - SCORE phase: Full question-bank pass
   - Weekly topic: Biliary Neoplasms and Jaundice
-  - TWIS: Benign Biliary Obstruction; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - TWIS: Benign Biliary Obstruction; CBD Exploration & Choledochoscopy; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
   - SCORE focus: Biliary
   - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
   - Review explanations and record the management detail that changes the answer
@@ -52,7 +52,7 @@
   - Today's target: 35 new SCORE questions
   - SCORE phase: Full question-bank pass
   - Weekly topic: Biliary Neoplasms and Jaundice
-  - TWIS: Benign Biliary Obstruction; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - TWIS: Benign Biliary Obstruction; CBD Exploration & Choledochoscopy; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
   - SCORE focus: Biliary
   - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
   - Review explanations and record the management detail that changes the answer
@@ -65,7 +65,7 @@
   - Today's target: 35 new SCORE questions
   - SCORE phase: Full question-bank pass
   - Weekly topic: Biliary Neoplasms and Jaundice
-  - TWIS: Benign Biliary Obstruction; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - TWIS: Benign Biliary Obstruction; CBD Exploration & Choledochoscopy; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
   - SCORE focus: Biliary
   - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
   - Review explanations and record the management detail that changes the answer
@@ -86,7 +86,7 @@
   - Today's target: 35 new SCORE questions
   - SCORE phase: Full question-bank pass
   - Weekly topic: Biliary Neoplasms and Jaundice
-  - TWIS: Benign Biliary Obstruction; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - TWIS: Benign Biliary Obstruction; CBD Exploration & Choledochoscopy; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
   - SCORE focus: Biliary
   - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
   - Review explanations and record the management detail that changes the answer
@@ -99,7 +99,7 @@
   - Only if patient care allows: 5 new SCORE questions
   - SCORE phase: Full question-bank pass
   - Weekly topic: Biliary Neoplasms and Jaundice
-  - TWIS: Benign Biliary Obstruction; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - TWIS: Benign Biliary Obstruction; CBD Exploration & Choledochoscopy; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
   - SCORE focus: Biliary
   - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
   - Review explanations and record the management detail that changes the answer
