@@ -250,7 +250,9 @@ def validate_study_plan(data: dict) -> None:
     require_fields(
         targets,
         ("full_pass", "focused_review", "anki_minutes", "anki_new_cards_cap", "twis_minutes",
-         "deep_study_day", "case_review_day"),
+         "twis_days", "anatomy_review_day", "anatomy_review_minutes",
+         "operation_review_day", "operation_review_minutes", "deep_study_day",
+         "case_review_day", "case_review_minutes"),
         "Study/plan.yaml > daily_targets",
     )
     for phase in ("full_pass", "focused_review"):
@@ -262,10 +264,22 @@ def validate_study_plan(data: dict) -> None:
             value = targets[phase][field]
             if not isinstance(value, int) or isinstance(value, bool) or value < 0:
                 raise ValueError(f"{location} > {field}: use a non-negative integer")
-    for field in ("anki_minutes", "anki_new_cards_cap", "twis_minutes"):
+    for field in (
+        "anki_minutes", "anki_new_cards_cap", "twis_minutes",
+        "anatomy_review_minutes", "operation_review_minutes", "case_review_minutes",
+    ):
         if not isinstance(targets[field], int) or isinstance(targets[field], bool) or targets[field] < 0:
             raise ValueError(f"Study/plan.yaml > daily_targets > {field}: use a non-negative integer")
-    for field in ("deep_study_day", "case_review_day"):
+    if (
+        not isinstance(targets["twis_days"], list)
+        or not targets["twis_days"]
+        or len(targets["twis_days"]) != len(set(targets["twis_days"]))
+        or set(targets["twis_days"]) - DAYS
+    ):
+        raise ValueError("Study/plan.yaml > daily_targets > twis_days: use unique lowercase weekdays")
+    for field in (
+        "anatomy_review_day", "operation_review_day", "deep_study_day", "case_review_day",
+    ):
         if targets[field] not in DAYS:
             raise ValueError(f"Study/plan.yaml > daily_targets > {field}: use a lowercase weekday")
 
@@ -321,7 +335,10 @@ def validate_study_progress(data: dict, plan: dict) -> None:
             raise ValueError(f"{location}: use a mapping")
         require_fields(
             entry,
-            ("week_of", "twis_completed", "operation_review_completed", "case_review_completed"),
+            (
+                "week_of", "twis_completed", "anatomy_review_completed",
+                "operation_review_completed", "case_review_completed",
+            ),
             location,
         )
         if not isinstance(entry["week_of"], date) or entry["week_of"].weekday() != 0:
@@ -339,7 +356,9 @@ def validate_study_progress(data: dict, plan: dict) -> None:
         unknown = set(completed) - set(planned_weeks[entry["week_of"]]["twis"])
         if unknown:
             raise ValueError(f"{location} > twis_completed: unknown module '{sorted(unknown)[0]}'")
-        for field in ("operation_review_completed", "case_review_completed"):
+        for field in (
+            "anatomy_review_completed", "operation_review_completed", "case_review_completed",
+        ):
             if not isinstance(entry[field], bool):
                 raise ValueError(f"{location} > {field}: use true or false")
     if not isinstance(data["last_updated"], date):

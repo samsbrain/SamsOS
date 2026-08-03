@@ -110,6 +110,101 @@ def score_target_for_day(plan: dict, day: date, events: list[dict]) -> dict | No
     }
 
 
+def is_recovery_day(day: date, events: list[dict]) -> bool:
+    """Protect the day after call from assigned study work."""
+    return any(
+        event["type"] == "call"
+        for event in events_on(day - timedelta(days=1), events)
+    )
+
+
+def study_assignments_for_week(plan: dict, week: dict, events: list[dict]) -> dict:
+    """Assign TWIS Monday-Thursday and spread weekly reviews across lighter days."""
+    targets = plan["daily_targets"]
+    week_start = week["week_of"]
+    dates = [week_start + timedelta(days=offset) for offset in range(7)]
+    assignments = {
+        day: {"twis": [], "reviews": []}
+        for day in dates
+    }
+    if week["topic"].startswith("OFF"):
+        return assignments
+
+    twis_days = [
+        day for day in dates
+        if day.strftime("%A").lower() in targets["twis_days"]
+    ]
+    module_count = len(week["twis"])
+    base, remainder = divmod(module_count, len(twis_days))
+    module_index = 0
+    for index, day in enumerate(twis_days):
+        count = base + (1 if index < remainder else 0)
+        assignments[day]["twis"] = week["twis"][module_index:module_index + count]
+        module_index += count
+
+    # A protected recovery day never creates catch-up guilt. Its modules move to
+    # the least-loaded later Monday-Thursday slots, then to the least-loaded slot.
+    for recovery_day in [day for day in twis_days if is_recovery_day(day, events)]:
+        deferred = assignments[recovery_day]["twis"]
+        assignments[recovery_day]["twis"] = []
+        candidates = [day for day in twis_days if not is_recovery_day(day, events)]
+        for module in deferred:
+            destination = min(
+                candidates,
+                key=lambda day: (
+                    len(assignments[day]["twis"]),
+                    day <= recovery_day,
+                    day,
+                ),
+            )
+            assignments[destination]["twis"].append(module)
+
+    reviews = [
+        {
+            "key": "anatomy",
+            "label": "Anatomy review",
+            "detail": week["anatomy"],
+            "day": targets["anatomy_review_day"],
+            "minutes": targets["anatomy_review_minutes"],
+            "progress_field": "anatomy_review_completed",
+        },
+        {
+            "key": "operation",
+            "label": "Operative review",
+            "detail": week["operation"],
+            "day": targets["operation_review_day"],
+            "minutes": targets["operation_review_minutes"],
+            "progress_field": "operation_review_completed",
+        },
+        {
+            "key": "case",
+            "label": "Case review",
+            "detail": week["case_review"],
+            "day": targets["case_review_day"],
+            "minutes": targets["case_review_minutes"],
+            "progress_field": "case_review_completed",
+        },
+    ]
+    for review in reviews:
+        preferred = next(
+            day for day in dates
+            if day.strftime("%A").lower() == review["day"]
+        )
+        destination = preferred
+        if is_recovery_day(preferred, events):
+            destination = next(
+                (
+                    day for day in dates
+                    if day > preferred
+                    and not is_recovery_day(day, events)
+                    and not any(event["type"] in BLOCKING_EVENT_TYPES for event in events_on(day, events))
+                ),
+                preferred,
+            )
+        assignments[destination]["reviews"].append(review)
+    return assignments
+
+
 def build_score_prompts(plan: dict, events: list[dict]) -> list[dict]:
     """Create one all-day SCORE prompt for every day in the study plan."""
     prompts = []
@@ -119,6 +214,7 @@ def build_score_prompts(plan: dict, events: list[dict]) -> list[dict]:
         target = score_target_for_day(plan, day, events)
         if target:
             week = target["week"]
+            assignments = study_assignments_for_week(plan, week, events)[day]
             description = [
                 target["instruction"],
                 f"Phase: {target['phase']['label']}",
@@ -126,12 +222,17 @@ def build_score_prompts(plan: dict, events: list[dict]) -> list[dict]:
                 f"Weekly topic: {week['topic']}",
             ]
             if target["questions"]:
+                if assignments["twis"]:
+                    description.append(f"TWIS today: {'; '.join(assignments['twis'])}")
                 description.extend([
-                    f"Modules: {'; '.join(week['twis'])}",
                     f"Anki: {targets['anki_minutes']} minutes; create up to "
                     f"{targets['anki_new_cards_cap']} cards from missed or guessed questions",
                     "Review explanations and capture the management detail that changes the answer",
                 ])
+            description.extend(
+                f"{review['label']} ({review['minutes']} min): {review['detail']}"
+                for review in assignments["reviews"]
+            )
             prompts.append({
                 "id": f"score-{day:%Y%m%d}",
                 "date": day,
@@ -142,10 +243,14 @@ def build_score_prompts(plan: dict, events: list[dict]) -> list[dict]:
     return prompts
 
 
-def common_notes(week: dict, targets: dict) -> list[str]:
+def common_notes(week: dict, targets: dict, assignment: dict) -> list[str]:
     return [
         f"Weekly topic: {week['topic']}",
-        f"TWIS: {'; '.join(week['twis'])}",
+        *([f"TWIS today: {'; '.join(assignment['twis'])}"] if assignment["twis"] else []),
+        *(
+            f"{review['label']} ({review['minutes']} min): {review['detail']}"
+            for review in assignment["reviews"]
+        ),
         f"SCORE focus: {'; '.join(week['score_topics'])}",
         f"Anki: {targets['anki_minutes']} minutes; make up to "
         f"{targets['anki_new_cards_cap']} cards from missed or guessed questions",
@@ -158,7 +263,7 @@ def build_study_schedule(plan: dict, dates: list[date], events: list[dict]) -> d
     schedule = {day: [] for day in dates}
     targets = plan["daily_targets"]
     deep_day = targets["deep_study_day"]
-    case_day = targets["case_review_day"]
+    assignments_by_week = {}
 
     for day in dates:
         if day < plan["start"] or day > plan["end"]:
@@ -167,41 +272,43 @@ def build_study_schedule(plan: dict, dates: list[date], events: list[dict]) -> d
         if not week:
             continue
 
+        assignments = assignments_by_week.setdefault(
+            week["week_of"],
+            study_assignments_for_week(plan, week, events),
+        )
+        assignment = assignments[day]
+        weekday = day.strftime("%A").lower()
         target = score_target_for_day(plan, day, events)
-        if not target or target["kind"] == "recovery":
+        if not target:
+            continue
+        if target["kind"] == "recovery":
+            if assignment["reviews"]:
+                labels = ", ".join(review["label"] for review in assignment["reviews"])
+                schedule[day].append({
+                    "id": f"recovery_review_{week['week_of']:%Y%m%d}_{weekday}",
+                    "title": f"Optional {labels} (post-call)",
+                    "duration_minutes": sum(review["minutes"] for review in assignment["reviews"]),
+                    "notes": [
+                        target["instruction"],
+                        "Only review if recovered; otherwise roll it forward without catch-up guilt.",
+                        *(
+                            f"{review['label']} ({review['minutes']} min): {review['detail']}"
+                            for review in assignment["reviews"]
+                        ),
+                    ],
+                })
             continue
         is_call = target["kind"] == "call"
         is_vacation = target["kind"] == "vacation"
-        weekday = day.strftime("%A").lower()
 
-        if weekday == case_day:
-            notes = [
-                target["instruction"],
-                f"SCORE phase: {target['phase']['label']}",
-                f"Modules: {'; '.join(week['twis'])}",
-                f"Anki: {targets['anki_minutes']} minutes; make up to "
-                f"{targets['anki_new_cards_cap']} cards from missed or guessed questions",
-                f"Case: {week['case_review']}",
-                f"Operation: {week['operation']}",
-                f"Anatomy: {week['anatomy']}",
+        notes = common_notes(week, targets, assignment)
+        notes.insert(0, f"SCORE phase: {target['phase']['label']}")
+        if any(review["key"] == "case" for review in assignment["reviews"]):
+            notes.extend([
                 f"Complication: {week['complication']}",
                 "Answer: What do I do first? What changes management? When do I call for help?",
                 "Capture one pearl, one uncertainty, and one follow-up topic",
-            ]
-            if is_vacation:
-                notes.insert(0, "Vacation rule: optional; skip without catch-up guilt")
-            if is_call:
-                notes.insert(0, "Call-day rule: optional; patient care comes first")
-            schedule[day].append({
-                "id": f"weekly_case_review_{week['week_of']:%Y%m%d}",
-                "title": f"Weekly case review: {week['case_review']}",
-                "duration_minutes": 60,
-                "notes": notes,
-            })
-            continue
-
-        notes = common_notes(week, targets)
-        notes.insert(0, f"SCORE phase: {target['phase']['label']}")
+            ])
         if is_call:
             title = f"Optional study: {week['topic']}"
             duration = 15
@@ -217,7 +324,19 @@ def build_study_schedule(plan: dict, dates: list[date], events: list[dict]) -> d
             notes.append(f"Preview this week's case: {week['case_review']}")
         else:
             title = f"Study: {week['topic']}"
-            duration = 60
+            duration = 45
+
+        assigned_minutes = (
+            len(assignment["twis"]) * targets["twis_minutes"]
+            + sum(review["minutes"] for review in assignment["reviews"])
+        )
+        duration = max(duration, assigned_minutes)
+        assignment_labels = [
+            *([f"{len(assignment['twis'])} TWIS"] if assignment["twis"] else []),
+            *(review["label"] for review in assignment["reviews"]),
+        ]
+        if assignment_labels and not is_call and not is_vacation:
+            title = f"Study: {week['topic']} — {', '.join(assignment_labels)}"
             notes.insert(0, target["instruction"])
 
         schedule[day].append({
