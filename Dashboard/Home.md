@@ -8,7 +8,7 @@
 
 - **VA** (rotation)
 - **On call** (call)
-- [ ] Optional study: Biliary Neoplasms and Jaundice (15 min)
+- [ ] Optional study: Biliary Neoplasms and Jaundice (60 min)
 
 ## Study command center
 
@@ -16,15 +16,18 @@
 - **Today's checklist:**
   - [ ] SCORE: 0/5 questions
   - [ ] Anki: 10 minutes
+  - [x] TWIS: Benign Biliary Obstruction
+  - [x] TWIS: CBD Exploration & Choledochoscopy
 - **TWIS modules this week:**
-  - [x] Benign Biliary Obstruction
-  - [x] CBD Exploration & Choledochoscopy
-  - [ ] Primary Biliary Neoplasms
-  - [ ] Extended Cholecystectomy for Gallbladder Cancer
-  - [ ] Gallbladder Neoplasms
-  - [ ] Procedures for Bile Duct Cancer
-  - [ ] Procedures for Bile Duct Neoplasm
+  - [x] Mon — Benign Biliary Obstruction
+  - [x] Mon — CBD Exploration & Choledochoscopy
+  - [ ] Thu — Primary Biliary Neoplasms
+  - [ ] Wed — Extended Cholecystectomy for Gallbladder Cancer
+  - [ ] Wed — Gallbladder Neoplasms
+  - [ ] Wed — Procedures for Bile Duct Cancer
+  - [ ] Thu — Procedures for Bile Duct Neoplasm
 - [Open SCORE](https://www.surgicalcore.org/)
+- [ ] **Anatomy review:** Extrahepatic biliary tree and hilar vascular relationships
 - [ ] **Operation review:** Extended cholecystectomy
 - [ ] **Case review:** Hilar cholangiocarcinoma with obstructive jaundice
 - SCORE full question bank: `░░░░░░░░░░░░░░░░` 0/2200
@@ -39,11 +42,11 @@
 
 - **Mon 08/03:** VA; On call; Optional study: Biliary Neoplasms and Jaundice
 - **Tue 08/04:** VA; BJJ training
-- **Wed 08/05:** VA; Yoga; Study: Biliary Neoplasms and Jaundice
-- **Thu 08/06:** VA; BJJ training; Study: Biliary Neoplasms and Jaundice
-- **Fri 08/07:** VA; Weight training: Legs and abs; Study: Biliary Neoplasms and Jaundice
+- **Wed 08/05:** VA; Yoga; Study: Biliary Neoplasms and Jaundice — 3 TWIS, Anatomy review
+- **Thu 08/06:** VA; BJJ training; Study: Biliary Neoplasms and Jaundice — 2 TWIS
+- **Fri 08/07:** VA; Weight training: Legs and abs; Study: Biliary Neoplasms and Jaundice — Operative review
 - **Sat 08/08:** VA; On call; Optional study: Biliary Neoplasms and Jaundice
-- **Sun 08/09:** VA; Plan the upcoming week; Weight training: Chest and shoulders
+- **Sun 08/09:** VA; Plan the upcoming week; Weight training: Chest and shoulders; Optional Case review (post-call)
 
 ## Upcoming reminders
 

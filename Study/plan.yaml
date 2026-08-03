@@ -28,8 +28,18 @@ daily_targets:
   anki_minutes: 10
   anki_new_cards_cap: 3
   twis_minutes: 30
+  twis_days:
+    - monday
+    - tuesday
+    - wednesday
+    - thursday
+  anatomy_review_day: tuesday
+  anatomy_review_minutes: 20
+  operation_review_day: friday
+  operation_review_minutes: 30
   deep_study_day: saturday
   case_review_day: sunday
+  case_review_minutes: 60
 
 weeks:
   - week_of: 2026-08-03

@@ -30,11 +30,11 @@
 
 - **VA** (rotation)
 - **On call** (call)
-- [ ] Optional study: Biliary Neoplasms and Jaundice (15 minutes)
+- [ ] Optional study: Biliary Neoplasms and Jaundice (60 minutes)
   - Only if patient care allows: 5 new SCORE questions
   - SCORE phase: Full question-bank pass
   - Weekly topic: Biliary Neoplasms and Jaundice
-  - TWIS: Benign Biliary Obstruction; CBD Exploration & Choledochoscopy; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - TWIS today: Benign Biliary Obstruction; CBD Exploration & Choledochoscopy
   - SCORE focus: Biliary
   - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
   - Review explanations and record the management detail that changes the answer
@@ -48,11 +48,12 @@
 
 - **VA** (rotation)
 - [ ] Yoga (60 minutes)
-- [ ] Study: Biliary Neoplasms and Jaundice (60 minutes)
+- [ ] Study: Biliary Neoplasms and Jaundice — 3 TWIS, Anatomy review (110 minutes)
   - Today's target: 35 new SCORE questions
   - SCORE phase: Full question-bank pass
   - Weekly topic: Biliary Neoplasms and Jaundice
-  - TWIS: Benign Biliary Obstruction; CBD Exploration & Choledochoscopy; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - TWIS today: Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Extended Cholecystectomy for Gallbladder Cancer
+  - Anatomy review (20 min): Extrahepatic biliary tree and hilar vascular relationships
   - SCORE focus: Biliary
   - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
   - Review explanations and record the management detail that changes the answer
@@ -61,11 +62,11 @@
 
 - **VA** (rotation)
 - [ ] BJJ training (7:00 PM / 90 minutes / Bushidokan Martial Arts)
-- [ ] Study: Biliary Neoplasms and Jaundice (60 minutes)
+- [ ] Study: Biliary Neoplasms and Jaundice — 2 TWIS (60 minutes)
   - Today's target: 35 new SCORE questions
   - SCORE phase: Full question-bank pass
   - Weekly topic: Biliary Neoplasms and Jaundice
-  - TWIS: Benign Biliary Obstruction; CBD Exploration & Choledochoscopy; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - TWIS today: Procedures for Bile Duct Neoplasm; Primary Biliary Neoplasms
   - SCORE focus: Biliary
   - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
   - Review explanations and record the management detail that changes the answer
@@ -82,11 +83,11 @@
   - Tibialis raises - 3 x 15
   - Mobility: 90/90 hips, couch stretch, thoracic rotations, world's greatest stretch, and a 60-second deep squat hold
   - Finish: 10-minute BJJ flow - shrimp, reverse shrimp, bridges, technical stand-ups, sit-throughs, sprawls, and Granby rolls
-- [ ] Study: Biliary Neoplasms and Jaundice (60 minutes)
+- [ ] Study: Biliary Neoplasms and Jaundice — Operative review (45 minutes)
   - Today's target: 35 new SCORE questions
   - SCORE phase: Full question-bank pass
   - Weekly topic: Biliary Neoplasms and Jaundice
-  - TWIS: Benign Biliary Obstruction; CBD Exploration & Choledochoscopy; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - Operative review (30 min): Extended cholecystectomy
   - SCORE focus: Biliary
   - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
   - Review explanations and record the management detail that changes the answer
@@ -99,7 +100,6 @@
   - Only if patient care allows: 5 new SCORE questions
   - SCORE phase: Full question-bank pass
   - Weekly topic: Biliary Neoplasms and Jaundice
-  - TWIS: Benign Biliary Obstruction; CBD Exploration & Choledochoscopy; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
   - SCORE focus: Biliary
   - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
   - Review explanations and record the management detail that changes the answer
@@ -119,3 +119,7 @@
   - Farmer carries - 3 x 40 seconds
   - Towel pull-ups - 3 sets, stopping 1-2 reps before failure
   - Finish: 10-minute BJJ flow - shrimp, reverse shrimp, bridges, technical stand-ups, sit-throughs, sprawls, and Granby rolls
+- [ ] Optional Case review (post-call) (60 minutes)
+  - Post-call recovery is protected; sleep and resume tomorrow without catch-up guilt
+  - Only review if recovered; otherwise roll it forward without catch-up guilt.
+  - Case review (60 min): Hilar cholangiocarcinoma with obstructive jaundice

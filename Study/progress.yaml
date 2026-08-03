@@ -7,6 +7,7 @@ weeks:
     twis_completed:
       - Benign Biliary Obstruction
       - CBD Exploration & Choledochoscopy
+    anatomy_review_completed: false
     operation_review_completed: false
     case_review_completed: false
 

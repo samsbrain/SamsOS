@@ -11,6 +11,7 @@ from study import (
     current_or_next_week,
     score_phase_for_day,
     score_target_for_day,
+    study_assignments_for_week,
 )
 from validate_config import load_yaml
 
@@ -49,6 +50,7 @@ def weekly_progress(progress: dict, week_of: date) -> dict:
         {
             "week_of": week_of,
             "twis_completed": [],
+            "anatomy_review_completed": False,
             "operation_review_completed": False,
             "case_review_completed": False,
         },
@@ -126,6 +128,10 @@ def collect_context(today: date) -> dict:
         if path.suffix.lower() in {".xlsx", ".xls", ".csv", ".tsv"}
     )
     study_week, study_week_label = current_or_next_week(plan, today)
+    study_assignments = (
+        study_assignments_for_week(plan, study_week, events)
+        if study_week else {}
+    )
     return {
         "master": master,
         "plan": plan,
@@ -139,6 +145,7 @@ def collect_context(today: date) -> dict:
         "finance_files": finance_files,
         "study_week": study_week,
         "study_week_label": study_week_label,
+        "study_assignments": study_assignments,
     }
 
 
@@ -177,6 +184,13 @@ def build_markdown(context: dict, today: date) -> str:
         week = context["study_week"]
         week_log = weekly_progress(progress, week["week_of"])
         completed_modules = set(week_log["twis_completed"])
+        assignments = context["study_assignments"]
+        today_assignment = assignments.get(today, {"twis": [], "reviews": []})
+        module_days = {
+            module: day.strftime("%a")
+            for day, assignment in assignments.items()
+            for module in assignment["twis"]
+        }
         score_target = today_target["questions"] if today_target else 0
         score_done = today_target is not None and today_log["score_questions_completed"] >= score_target
         lines.extend([
@@ -186,9 +200,17 @@ def build_markdown(context: dict, today: date) -> str:
             f"{today_log['score_questions_completed']}/{score_target} questions",
             f"  - [{'x' if today_log['anki_completed'] else ' '}] Anki: "
             f"{plan['daily_targets']['anki_minutes']} minutes",
+            *(f"  - [{'x' if module in completed_modules else ' '}] TWIS: {module}"
+              for module in today_assignment["twis"]),
+            *(f"  - [{'x' if week_log[review['progress_field']] else ' '}] "
+              f"{review['label']}: {review['detail']}"
+              for review in today_assignment["reviews"]),
             "- **TWIS modules this week:**",
-            *(f"  - [{'x' if module in completed_modules else ' '}] {module}" for module in week["twis"]),
+            *(f"  - [{'x' if module in completed_modules else ' '}] "
+              f"{module_days.get(module, '—')} — {module}" for module in week["twis"]),
             "- [Open SCORE](https://www.surgicalcore.org/)",
+            f"- [{'x' if week_log['anatomy_review_completed'] else ' '}] "
+            f"**Anatomy review:** {week['anatomy']}",
             f"- [{'x' if week_log['operation_review_completed'] else ' '}] "
             f"**Operation review:** {week['operation']}",
             f"- [{'x' if week_log['case_review_completed'] else ' '}] "
@@ -282,6 +304,13 @@ def build_html(context: dict, today: date) -> str:
     week = context["study_week"]
     week_label = context["study_week_label"]
     week_log = weekly_progress(progress, week["week_of"]) if week else None
+    assignments = context["study_assignments"]
+    today_assignment = assignments.get(today, {"twis": [], "reviews": []})
+    module_days = {
+        module: day.strftime("%a")
+        for day, assignment in assignments.items()
+        for module in assignment["twis"]
+    }
 
     week_rows = "".join(
         f'<div class="day"><strong>{day:%a}<span>{day:%m/%d}</span></strong>'
@@ -309,7 +338,8 @@ def build_html(context: dict, today: date) -> str:
     module_html = (
         render_list(
             [
-                ("✓ " if module in set(week_log["twis_completed"]) else "☐ ") + module
+                ("✓ " if module in set(week_log["twis_completed"]) else "☐ ")
+                + f"{module_days.get(module, '—')} · {module}"
                 for module in week["twis"]
             ],
             "No assigned modules",
@@ -320,18 +350,32 @@ def build_html(context: dict, today: date) -> str:
         today_target
         and today_log["score_questions_completed"] >= today_target["questions"]
     )
+    today_study_checks = (
+        "".join(
+            f'<p><strong>{"✓" if module in set(week_log["twis_completed"]) else "☐"} TWIS:</strong> '
+            f'{escape(module)}</p>'
+            for module in today_assignment["twis"]
+        )
+        + "".join(
+            f'<p><strong>{"✓" if week_log[review["progress_field"]] else "☐"} '
+            f'{escape(review["label"])}:</strong> {escape(review["detail"])}</p>'
+            for review in today_assignment["reviews"]
+        )
+        if week else ""
+    )
     topic_html = (
         f'<p class="eyebrow">{escape(week_label)}</p><h2>{escape(week["topic"])}</h2>'
         f'<div class="today-checks"><p><strong>{"✓" if score_checked else "☐"} SCORE:</strong> '
         f'{today_log["score_questions_completed"]} / {today_target["questions"] if today_target else 0} questions</p>'
         f'<p><strong>{"✓" if today_log["anki_completed"] else "☐"} Anki:</strong> '
         f'{plan["daily_targets"]["anki_minutes"]} minutes; create up to '
-        f'{plan["daily_targets"]["anki_new_cards_cap"]} cards from missed or guessed questions.</p></div>'
+        f'{plan["daily_targets"]["anki_new_cards_cap"]} cards from missed or guessed questions.</p>'
+        f'{today_study_checks}</div>'
         f'<div class="module-block"><strong>TWIS modules this week</strong>{module_html}'
         f'<a class="score-link" href="https://www.surgicalcore.org/" target="_blank" rel="noopener">Open SCORE</a></div>'
+        f'<p class="check"><strong>{"✓" if week_log["anatomy_review_completed"] else "☐"} Anatomy review:</strong> {escape(week["anatomy"])}</p>'
         f'<p class="check"><strong>{"✓" if week_log["operation_review_completed"] else "☐"} Operation review:</strong> {escape(week["operation"])}</p>'
         f'<p class="check"><strong>{"✓" if week_log["case_review_completed"] else "☐"} Case review:</strong> {escape(week["case_review"])}</p>'
-        f'<p><strong>Anatomy:</strong> {escape(week["anatomy"])}</p>'
         if week else '<h2>Study plan starts August 3</h2>'
     )
 
