@@ -1,6 +1,10 @@
 # SamOS Weekly Plan
 
-**Week:** July 27, 2026 to August 02, 2026
+**Week:** August 03, 2026 to August 09, 2026
+
+## Planning warnings
+
+- Could not place 1 weight session(s) without conflicting with BJJ, yoga, call, or vacation.
 
 ## Active goals
 
@@ -18,31 +22,55 @@
 
 - [ ] **Complete this week's trauma review:** Choose and review one trauma topic
 - [ ] **Plan Mirna's 13 Going on 30 birthday party:** Confirm the party date, budget, and guest list
-- [ ] **Complete two SCORE passes and one TWIS pass before December:** Complete today's curriculum-aligned study assignment
+- [ ] **Complete one SCORE pass, focused review, and one TWIS pass before December:** Complete today's full-pass or focused-review study assignment
 
 ## Daily plan
 
-### Monday, July 27
+### Monday, August 03
+
+- **VA** (rotation)
+- **On call** (call)
+- [ ] Optional study: Biliary Neoplasms and Jaundice (15 minutes)
+  - Only if patient care allows: 5 new SCORE questions
+  - SCORE phase: Full question-bank pass
+  - Weekly topic: Biliary Neoplasms and Jaundice
+  - TWIS: Benign Biliary Obstruction; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - SCORE focus: Biliary
+  - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
+  - Review explanations and record the management detail that changes the answer
+
+### Tuesday, August 04
 
 - **VA** (rotation)
 - [ ] BJJ training (7:00 PM / 90 minutes / Bushidokan Martial Arts)
 
-### Tuesday, July 28
-
-- **VA** (rotation)
-- [ ] BJJ training (7:00 PM / 90 minutes / Bushidokan Martial Arts)
-
-### Wednesday, July 29
+### Wednesday, August 05
 
 - **VA** (rotation)
 - [ ] Yoga (60 minutes)
+- [ ] Study: Biliary Neoplasms and Jaundice (60 minutes)
+  - Today's target: 35 new SCORE questions
+  - SCORE phase: Full question-bank pass
+  - Weekly topic: Biliary Neoplasms and Jaundice
+  - TWIS: Benign Biliary Obstruction; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - SCORE focus: Biliary
+  - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
+  - Review explanations and record the management detail that changes the answer
 
-### Thursday, July 30
+### Thursday, August 06
 
 - **VA** (rotation)
 - [ ] BJJ training (7:00 PM / 90 minutes / Bushidokan Martial Arts)
+- [ ] Study: Biliary Neoplasms and Jaundice (60 minutes)
+  - Today's target: 35 new SCORE questions
+  - SCORE phase: Full question-bank pass
+  - Weekly topic: Biliary Neoplasms and Jaundice
+  - TWIS: Benign Biliary Obstruction; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - SCORE focus: Biliary
+  - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
+  - Review explanations and record the management detail that changes the answer
 
-### Friday, July 31
+### Friday, August 07
 
 - **VA** (rotation)
 - [ ] Weight training: Legs and abs (90 minutes)
@@ -54,10 +82,32 @@
   - Tibialis raises - 3 x 15
   - Mobility: 90/90 hips, couch stretch, thoracic rotations, world's greatest stretch, and a 60-second deep squat hold
   - Finish: 10-minute BJJ flow - shrimp, reverse shrimp, bridges, technical stand-ups, sit-throughs, sprawls, and Granby rolls
+- [ ] Study: Biliary Neoplasms and Jaundice (60 minutes)
+  - Today's target: 35 new SCORE questions
+  - SCORE phase: Full question-bank pass
+  - Weekly topic: Biliary Neoplasms and Jaundice
+  - TWIS: Benign Biliary Obstruction; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - SCORE focus: Biliary
+  - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
+  - Review explanations and record the management detail that changes the answer
 
-### Saturday, August 01
+### Saturday, August 08
 
 - **VA** (rotation)
+- **On call** (call)
+- [ ] Optional study: Biliary Neoplasms and Jaundice (15 minutes)
+  - Only if patient care allows: 5 new SCORE questions
+  - SCORE phase: Full question-bank pass
+  - Weekly topic: Biliary Neoplasms and Jaundice
+  - TWIS: Benign Biliary Obstruction; Primary Biliary Neoplasms; Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Procedures for Bile Duct Neoplasm
+  - SCORE focus: Biliary
+  - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
+  - Review explanations and record the management detail that changes the answer
+
+### Sunday, August 09
+
+- **VA** (rotation)
+- [ ] Plan the upcoming week (20 minutes)
 - [ ] Weight training: Chest and shoulders (90 minutes)
   - Pike push-ups or handstand push-up progression - 4 x 8
   - Dips - 4 x 8-12
@@ -68,19 +118,4 @@
   - Rope pushdowns - 4 x 12
   - Farmer carries - 3 x 40 seconds
   - Towel pull-ups - 3 sets, stopping 1-2 reps before failure
-  - Finish: 10-minute BJJ flow - shrimp, reverse shrimp, bridges, technical stand-ups, sit-throughs, sprawls, and Granby rolls
-
-### Sunday, August 02
-
-- **VA** (rotation)
-- [ ] Plan the upcoming week (20 minutes)
-- [ ] Weight training: Back and arms (90 minutes)
-  - Weighted pull-ups - 5 x 5
-  - Bodyweight pull-ups - 3 sets, stopping 1-2 reps before failure
-  - Chest-supported rows - 4 x 8-12
-  - One-arm dumbbell rows - 3 x 10 each side
-  - Face pulls - 4 x 20
-  - Leaning lateral raises - 5 x 15
-  - Dead hangs - 3 x 60 seconds
-  - Hanging leg raises - 3 x 15
   - Finish: 10-minute BJJ flow - shrimp, reverse shrimp, bridges, technical stand-ups, sit-throughs, sprawls, and Granby rolls

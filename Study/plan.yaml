@@ -5,18 +5,26 @@ source_status: verified
 source_note: General Surgery TWIS Schedule 2023-2024, weeks 7-24; dates normalized to 2026 and Thanksgiving kept on the actual holiday week.
 
 goals:
-  score_questions_per_pass: 2200
-  score_passes: 2
-  score_pass_1_due: 2026-09-30
-  score_pass_2_due: 2026-11-30
+  score_full_pass_questions: 2200
+  score_full_pass_due: 2026-10-18
+  score_focused_review_questions: 700
+  score_focused_review_start: 2026-10-19
+  score_focused_review_due: 2026-11-30
+  score_focused_review_scope: Missed, guessed, and weak-topic questions only; stop when the flagged queue is complete
   twis_passes: 1
   twis_due: 2026-11-30
 
 daily_targets:
-  weekday_score_questions: 35
-  deep_study_score_questions: 60
-  vacation_score_questions: 10
-  call_score_questions: 5
+  full_pass:
+    weekday_score_questions: 35
+    deep_study_score_questions: 60
+    vacation_score_questions: 10
+    call_score_questions: 5
+  focused_review:
+    weekday_score_questions: 15
+    deep_study_score_questions: 25
+    vacation_score_questions: 5
+    call_score_questions: 5
   anki_minutes: 10
   anki_new_cards_cap: 3
   twis_minutes: 30

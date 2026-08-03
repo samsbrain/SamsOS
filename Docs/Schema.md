@@ -142,10 +142,18 @@ week. The generator treats call study as optional, skips post-call study, and
 uses a light vacation target. `Study/progress.yaml` stores manually updated
 SCORE, TWIS, and case-review counters for the dashboard.
 
+SCORE work has two distinct phases. The first phase completes the full question
+bank. The second phase is a smaller focused review containing only missed,
+guessed, and weak-topic questions. Each phase has separate totals, dates, and
+normal/deep-study/call/vacation question targets; focused review is not treated
+as a second complete pass. Its configured total is a ceiling, and review can
+stop early when the flagged question queue is complete.
+
 The Reminders feed includes one all-day SCORE prompt for every study-plan day.
-Normal, deep-study, vacation, and call targets come from `daily_targets`;
-post-call days display a protected zero-question recovery prompt. Each prompt
-includes that week's module names and the configured Anki rule.
+Normal, deep-study, vacation, and call targets come from the active phase under
+`daily_targets`; post-call days display a protected zero-question recovery
+prompt. Each prompt includes the phase, scope, weekly module names, and the
+configured Anki rule.
 
 ### Finance files
 
