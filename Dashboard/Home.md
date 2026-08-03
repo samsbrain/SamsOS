@@ -50,6 +50,7 @@
 
 ## Upcoming reminders
 
+- **Aug 07:** Complete VA case conference
 - **Aug 31:** Schedule FLS and FES
 - **Sep 16:** Prepare for M&M presentation
 
