@@ -29,6 +29,24 @@ def current_or_next_week(plan: dict, day: date) -> tuple[dict | None, str]:
     return None, "Study plan complete"
 
 
+def score_phase_for_day(plan: dict, day: date) -> dict:
+    """Return the active SCORE phase and its daily target profile."""
+    goals = plan["goals"]
+    if day >= goals["score_focused_review_start"]:
+        return {
+            "key": "focused_review",
+            "label": "Focused review",
+            "targets": plan["daily_targets"]["focused_review"],
+            "scope": goals["score_focused_review_scope"],
+        }
+    return {
+        "key": "full_pass",
+        "label": "Full question-bank pass",
+        "targets": plan["daily_targets"]["full_pass"],
+        "scope": "New SCORE questions with full explanation review",
+    }
+
+
 def score_target_for_day(plan: dict, day: date, events: list[dict]) -> dict | None:
     """Return the SCORE question target for one day, adjusted for recovery and travel."""
     if day < plan["start"] or day > plan["end"]:
@@ -37,7 +55,9 @@ def score_target_for_day(plan: dict, day: date, events: list[dict]) -> dict | No
     if not week:
         return None
 
-    targets = plan["daily_targets"]
+    daily = plan["daily_targets"]
+    phase = score_phase_for_day(plan, day)
+    targets = phase["targets"]
     day_events = events_on(day, events)
     is_call = any(event["type"] == "call" for event in day_events)
     is_vacation = any(event["type"] == "vacation" for event in day_events)
@@ -53,27 +73,31 @@ def score_target_for_day(plan: dict, day: date, events: list[dict]) -> dict | No
             "kind": "recovery",
             "title": "SCORE recovery day - 0 questions",
             "instruction": "Post-call recovery is protected; sleep and resume tomorrow without catch-up guilt",
+            "phase": phase,
             "week": week,
         }
+
+    phase_title = "SCORE full pass" if phase["key"] == "full_pass" else "Focused SCORE review"
+    question_type = "new SCORE" if phase["key"] == "full_pass" else "missed, guessed, or weak-topic SCORE"
     if is_call:
         questions = targets["call_score_questions"]
-        title = f"Optional SCORE: {questions} questions (call) - {week['topic']}"
-        instruction = f"Only if patient care allows: {questions} SCORE questions"
+        title = f"Optional {phase_title}: {questions} questions (call) - {week['topic']}"
+        instruction = f"Only if patient care allows: {questions} {question_type} questions"
         kind = "call"
     elif is_vacation:
         questions = targets["vacation_score_questions"]
-        title = f"SCORE: {questions} questions (vacation) - {week['topic']}"
-        instruction = f"Vacation target: {questions} SCORE questions, then enjoy the day"
+        title = f"{phase_title}: {questions} questions (vacation) - {week['topic']}"
+        instruction = f"Vacation target: {questions} {question_type} questions, then enjoy the day"
         kind = "vacation"
-    elif weekday == targets["deep_study_day"]:
+    elif weekday == daily["deep_study_day"]:
         questions = targets["deep_study_score_questions"]
-        title = f"SCORE: {questions} questions (deep study) - {week['topic']}"
-        instruction = f"Weekend deep-study target: {questions} SCORE questions"
+        title = f"{phase_title}: {questions} questions (deep study) - {week['topic']}"
+        instruction = f"Weekend deep-study target: {questions} {question_type} questions"
         kind = "deep"
     else:
         questions = targets["weekday_score_questions"]
-        title = f"SCORE: {questions} questions - {week['topic']}"
-        instruction = f"Today's target: {questions} SCORE questions"
+        title = f"{phase_title}: {questions} questions - {week['topic']}"
+        instruction = f"Today's target: {questions} {question_type} questions"
         kind = "standard"
 
     return {
@@ -81,6 +105,7 @@ def score_target_for_day(plan: dict, day: date, events: list[dict]) -> dict | No
         "kind": kind,
         "title": title,
         "instruction": instruction,
+        "phase": phase,
         "week": week,
     }
 
@@ -94,7 +119,12 @@ def build_score_prompts(plan: dict, events: list[dict]) -> list[dict]:
         target = score_target_for_day(plan, day, events)
         if target:
             week = target["week"]
-            description = [target["instruction"], f"Weekly topic: {week['topic']}"]
+            description = [
+                target["instruction"],
+                f"Phase: {target['phase']['label']}",
+                f"Scope: {target['phase']['scope']}",
+                f"Weekly topic: {week['topic']}",
+            ]
             if target["questions"]:
                 description.extend([
                     f"Modules: {'; '.join(week['twis'])}",
@@ -147,6 +177,7 @@ def build_study_schedule(plan: dict, dates: list[date], events: list[dict]) -> d
         if weekday == case_day:
             notes = [
                 target["instruction"],
+                f"SCORE phase: {target['phase']['label']}",
                 f"Modules: {'; '.join(week['twis'])}",
                 f"Anki: {targets['anki_minutes']} minutes; make up to "
                 f"{targets['anki_new_cards_cap']} cards from missed or guessed questions",
@@ -170,6 +201,7 @@ def build_study_schedule(plan: dict, dates: list[date], events: list[dict]) -> d
             continue
 
         notes = common_notes(week, targets)
+        notes.insert(0, f"SCORE phase: {target['phase']['label']}")
         if is_call:
             title = f"Optional study: {week['topic']}"
             duration = 15

@@ -102,10 +102,10 @@ projects:
     next_action: Confirm the party date, budget, and guest list
 
   - id: complete_score_twis_2026
-    title: Complete two SCORE passes and one TWIS pass before December
+    title: Complete one SCORE pass, focused review, and one TWIS pass before December
     goal: advance_surgical_skills
     status: active
-    next_action: Complete today's curriculum-aligned study assignment
+    next_action: Complete today's full-pass or focused-review study assignment
 
 routines:
   - id: sunday_planning

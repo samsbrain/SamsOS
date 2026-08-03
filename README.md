@@ -54,7 +54,9 @@ The build also creates `Dashboard/Home.md` and the read-only web dashboard at
 `public/dashboard.html`. Study assignments come from `Study/plan.yaml`, and
 progress counters live in `Study/progress.yaml`. The dashboard names the exact
 weekly modules and Anki rule, while the Reminders feed carries a daily SCORE
-question prompt adjusted for call, vacation, and post-call recovery.
+question prompt adjusted for call, vacation, and post-call recovery. The SCORE
+plan uses one complete question-bank pass followed by a lower-volume focused
+review of missed, guessed, and weak-topic questions.
 
 Add deadlines to `Reminders/reminders.yaml`, then run the reminder generator to
 update `Dashboard/Reminders.md` and the subscribable `Dashboard/Reminders.ics`.

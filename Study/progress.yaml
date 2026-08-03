@@ -1,6 +1,6 @@
 score:
-  pass_1_completed: 0
-  pass_2_completed: 0
+  full_pass_completed: 0
+  focused_review_completed: 0
 
 twis:
   weeks_completed: 0

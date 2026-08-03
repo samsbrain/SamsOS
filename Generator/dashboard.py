@@ -6,7 +6,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 from planner import events_on, load_events, schedule_training, start_of_week
-from study import build_study_schedule, current_or_next_week
+from study import build_study_schedule, current_or_next_week, score_target_for_day
 from validate_config import load_yaml
 
 
@@ -85,11 +85,12 @@ def build_markdown(context: dict, today: date) -> str:
     plan = context["plan"]
     progress = context["progress"]
     goals = plan["goals"]
-    score_total = goals["score_questions_per_pass"]
-    combined_complete = progress["score"]["pass_1_completed"] + progress["score"]["pass_2_completed"]
-    combined_total = score_total * goals["score_passes"]
-    days_left = max((goals["score_pass_2_due"] - today).days + 1, 1)
-    daily_pace = max(0, -(-(combined_total - combined_complete) // days_left))
+    full_total = goals["score_full_pass_questions"]
+    focused_total = goals["score_focused_review_questions"]
+    full_targets = plan["daily_targets"]["full_pass"]
+    focused_targets = plan["daily_targets"]["focused_review"]
+    deep_day = plan["daily_targets"]["deep_study_day"].title()
+    today_target = score_target_for_day(plan, today, context["events"])
     twis_total = assigned_twis_weeks(plan)
     today_events = events_on(today, context["events"])
     today_activities = context["schedule"].get(today, [])
@@ -119,15 +120,26 @@ def build_markdown(context: dict, today: date) -> str:
             f"- **Case review:** {week['case_review']}",
         ])
     lines.extend([
-        f"- SCORE Pass 1: `{progress_bar(progress['score']['pass_1_completed'], score_total)}` "
-        f"{progress['score']['pass_1_completed']}/{score_total}",
-        f"- SCORE Pass 2: `{progress_bar(progress['score']['pass_2_completed'], score_total)}` "
-        f"{progress['score']['pass_2_completed']}/{score_total}",
+        f"- SCORE full question bank: `{progress_bar(progress['score']['full_pass_completed'], full_total)}` "
+        f"{progress['score']['full_pass_completed']}/{full_total}",
+        f"- SCORE focused review: `{progress_bar(progress['score']['focused_review_completed'], focused_total)}` "
+        f"{progress['score']['focused_review_completed']}/{focused_total} maximum",
         f"- TWIS weeks: `{progress_bar(progress['twis']['weeks_completed'], twis_total)}` "
         f"{progress['twis']['weeks_completed']}/{twis_total}",
         f"- Case reviews: {progress['reviews']['cases_completed']}/{len(plan['weeks'])}",
-        f"- Required average through November 30: **{daily_pace} SCORE questions/day**",
+        f"- Full-pass plan through {goals['score_full_pass_due']:%B %d}: "
+        f"**{full_targets['weekday_score_questions']}/day; "
+        f"{full_targets['deep_study_score_questions']} on {deep_day}**",
+        f"- Focused review from {goals['score_focused_review_start']:%B %d} through "
+        f"{goals['score_focused_review_due']:%B %d}: "
+        f"**{focused_targets['weekday_score_questions']}/day; "
+        f"{focused_targets['deep_study_score_questions']} on {deep_day}; stop when the flagged queue is complete**",
     ])
+    if today_target:
+        lines.append(
+            f"- Today's scheduled SCORE target: **{today_target['questions']} questions** "
+            f"({today_target['phase']['label'].lower()})"
+        )
     if plan.get("source_status") == "provisional":
         lines.extend(["", f"> **Curriculum note:** {plan['source_note']}"])
 
@@ -173,11 +185,17 @@ def build_html(context: dict, today: date) -> str:
     plan = context["plan"]
     progress = context["progress"]
     goals = plan["goals"]
-    score_total = goals["score_questions_per_pass"]
-    combined_complete = progress["score"]["pass_1_completed"] + progress["score"]["pass_2_completed"]
-    combined_total = score_total * goals["score_passes"]
-    days_left = max((goals["score_pass_2_due"] - today).days + 1, 1)
-    pace = max(0, -(-(combined_total - combined_complete) // days_left))
+    full_total = goals["score_full_pass_questions"]
+    focused_total = goals["score_focused_review_questions"]
+    full_targets = plan["daily_targets"]["full_pass"]
+    focused_targets = plan["daily_targets"]["focused_review"]
+    deep_day = plan["daily_targets"]["deep_study_day"].title()
+    today_target = score_target_for_day(plan, today, context["events"])
+    target_text = (
+        f"Today's SCORE target: {today_target['questions']} questions "
+        f"({today_target['phase']['label'].lower()})"
+        if today_target else "No SCORE questions scheduled today"
+    )
     twis_total = assigned_twis_weeks(plan)
     today_items = [event["title"] for event in events_on(today, context["events"])]
     today_items.extend(activity_summary(activity) for activity in context["schedule"].get(today, []))
@@ -237,10 +255,11 @@ header p{{margin:4px 0 0;color:#d9e5ff}} h1{{margin:0;font-size:clamp(30px,5vw,5
 {provisional}
 <section class="grid">
 <article class="card today-card"><p class="eyebrow">Today</p><h2>Your command list</h2>{render_list(today_items)}</article>
-<article class="card study-card">{topic_html}<div class="pace">Required SCORE pace: {pace} questions/day</div></article>
+<article class="card study-card">{topic_html}<div class="pace">{escape(target_text)}</div>
+<p class="muted">Full pass: {full_targets['weekday_score_questions']}/day, {full_targets['deep_study_score_questions']} on {deep_day}, through {goals['score_full_pass_due']:%b %d}. Focused review: {focused_targets['weekday_score_questions']}/day, {focused_targets['deep_study_score_questions']} on {deep_day}, through {goals['score_focused_review_due']:%b %d}; stop when the flagged queue is complete.</p></article>
 <article class="card wide"><p class="eyebrow">Progress</p><div class="metrics">
-{metric_card('SCORE · Pass 1', progress['score']['pass_1_completed'], score_total)}
-{metric_card('SCORE · Pass 2', progress['score']['pass_2_completed'], score_total)}
+{metric_card('SCORE · Full bank', progress['score']['full_pass_completed'], full_total)}
+{metric_card('SCORE · Focused review cap', progress['score']['focused_review_completed'], focused_total)}
 {metric_card('TWIS weeks', progress['twis']['weeks_completed'], twis_total)}
 {metric_card('Case reviews', progress['reviews']['cases_completed'], len(plan['weeks']))}
 </div></article>

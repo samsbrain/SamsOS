@@ -146,68 +146,19 @@ SUMMARY:General / Minimally Invasive Surgery (Troy Beaumont)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:weight_training_legs_and_abs-20260731@samos
-DTSTAMP:20000101T000000Z
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260801
-SUMMARY:Weight training: Legs and abs
-DESCRIPTION:Romanian deadlifts - 4 x 6-8\nHip thrusts - 4 x 8-10\nSingle-le
- g Romanian deadlifts - 3 x 8 each side\nHamstring curls - 3 x 12\nCalf rai
- ses - 4 x 15\nTibialis raises - 3 x 15\nMobility: 90/90 hips\, couch stret
- ch\, thoracic rotations\, world's greatest stretch\, and a 60-second deep
-  squat hold\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\, bridge
- s\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:weight_training_chest_and_shoulders-20260801@samos
-DTSTAMP:20000101T000000Z
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260802
-SUMMARY:Weight training: Chest and shoulders
-DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
-  4 x 8-12\nLeaning lateral raises - 5 x 15\nRear delt fly - 4 x 15\nHammer
-  curls - 4 x 10\nIncline dumbbell curls - 3 x 12\nRope pushdowns - 4 x 12\
- nFarmer carries - 3 x 40 seconds\nTowel pull-ups - 3 sets\, stopping 1-2 r
- eps before failure\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\,
-  bridges\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:sunday_planning-20260802@samos
-DTSTAMP:20000101T000000Z
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
-SUMMARY:Plan the upcoming week
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:weight_training_back_and_arms-20260802@samos
-DTSTAMP:20000101T000000Z
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
-SUMMARY:Weight training: Back and arms
-DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
- ing 1-2 reps before failure\nChest-supported rows - 4 x 8-12\nOne-arm dumb
- bell rows - 3 x 10 each side\nFace pulls - 4 x 20\nLeaning lateral raises
-  - 5 x 15\nDead hangs - 3 x 60 seconds\nHanging leg raises - 3 x 15\nFinis
- h: 10-minute BJJ flow - shrimp\, reverse shrimp\, bridges\, technical stan
- d-ups\, sit-throughs\, sprawls\, and Granby rolls
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:study_20260803_monday-20260803@samos
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 SUMMARY:Optional study: Biliary Neoplasms and Jaundice
-DESCRIPTION:Only if patient care allows: 5 SCORE questions\nWeekly topic: B
- iliary Neoplasms and Jaundice\nTWIS: Benign Biliary Obstruction\; Primary
-  Biliary Neoplasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gal
- lbladder Neoplasms\; Procedures for Bile Duct Cancer\; Procedures for Bile
-  Duct Neoplasm\nSCORE focus: Biliary\nAnki: 10 minutes\; make up to 3 card
- s from missed or guessed questions\nReview explanations and record the man
- agement detail that changes the answer
+DESCRIPTION:Only if patient care allows: 5 new SCORE questions\nSCORE phase
+ : Full question-bank pass\nWeekly topic: Biliary Neoplasms and Jaundice\nT
+ WIS: Benign Biliary Obstruction\; Primary Biliary Neoplasms\; Extended Cho
+ lecystectomy for Gallbladder Cancer\; Gallbladder Neoplasms\; Procedures f
+ or Bile Duct Cancer\; Procedures for Bile Duct Neoplasm\nSCORE focus: Bili
+ ary\nAnki: 10 minutes\; make up to 3 cards from missed or guessed question
+ s\nReview explanations and record the management detail that changes the a
+ nswer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -232,13 +183,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:Study: Biliary Neoplasms and Jaundice
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Biliary Neopl
- asms and Jaundice\nTWIS: Benign Biliary Obstruction\; Primary Biliary Neop
- lasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gallbladder Neop
- lasms\; Procedures for Bile Duct Cancer\; Procedures for Bile Duct Neoplas
- m\nSCORE focus: Biliary\nAnki: 10 minutes\; make up to 3 cards from missed
-  or guessed questions\nReview explanations and record the management detai
- l that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Biliary Neoplasms and Jaundice\nTWIS: Benign
+  Biliary Obstruction\; Primary Biliary Neoplasms\; Extended Cholecystectom
+ y for Gallbladder Cancer\; Gallbladder Neoplasms\; Procedures for Bile Duc
+ t Cancer\; Procedures for Bile Duct Neoplasm\nSCORE focus: Biliary\nAnki:
+  10 minutes\; make up to 3 cards from missed or guessed questions\nReview
+  explanations and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -255,13 +206,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:Study: Biliary Neoplasms and Jaundice
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Biliary Neopl
- asms and Jaundice\nTWIS: Benign Biliary Obstruction\; Primary Biliary Neop
- lasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gallbladder Neop
- lasms\; Procedures for Bile Duct Cancer\; Procedures for Bile Duct Neoplas
- m\nSCORE focus: Biliary\nAnki: 10 minutes\; make up to 3 cards from missed
-  or guessed questions\nReview explanations and record the management detai
- l that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Biliary Neoplasms and Jaundice\nTWIS: Benign
+  Biliary Obstruction\; Primary Biliary Neoplasms\; Extended Cholecystectom
+ y for Gallbladder Cancer\; Gallbladder Neoplasms\; Procedures for Bile Duc
+ t Cancer\; Procedures for Bile Duct Neoplasm\nSCORE focus: Biliary\nAnki:
+  10 minutes\; make up to 3 cards from missed or guessed questions\nReview
+  explanations and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -284,13 +235,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:Study: Biliary Neoplasms and Jaundice
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Biliary Neopl
- asms and Jaundice\nTWIS: Benign Biliary Obstruction\; Primary Biliary Neop
- lasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gallbladder Neop
- lasms\; Procedures for Bile Duct Cancer\; Procedures for Bile Duct Neoplas
- m\nSCORE focus: Biliary\nAnki: 10 minutes\; make up to 3 cards from missed
-  or guessed questions\nReview explanations and record the management detai
- l that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Biliary Neoplasms and Jaundice\nTWIS: Benign
+  Biliary Obstruction\; Primary Biliary Neoplasms\; Extended Cholecystectom
+ y for Gallbladder Cancer\; Gallbladder Neoplasms\; Procedures for Bile Duc
+ t Cancer\; Procedures for Bile Duct Neoplasm\nSCORE focus: Biliary\nAnki:
+  10 minutes\; make up to 3 cards from missed or guessed questions\nReview
+  explanations and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -299,13 +250,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Optional study: Biliary Neoplasms and Jaundice
-DESCRIPTION:Only if patient care allows: 5 SCORE questions\nWeekly topic: B
- iliary Neoplasms and Jaundice\nTWIS: Benign Biliary Obstruction\; Primary
-  Biliary Neoplasms\; Extended Cholecystectomy for Gallbladder Cancer\; Gal
- lbladder Neoplasms\; Procedures for Bile Duct Cancer\; Procedures for Bile
-  Duct Neoplasm\nSCORE focus: Biliary\nAnki: 10 minutes\; make up to 3 card
- s from missed or guessed questions\nReview explanations and record the man
- agement detail that changes the answer
+DESCRIPTION:Only if patient care allows: 5 new SCORE questions\nSCORE phase
+ : Full question-bank pass\nWeekly topic: Biliary Neoplasms and Jaundice\nT
+ WIS: Benign Biliary Obstruction\; Primary Biliary Neoplasms\; Extended Cho
+ lecystectomy for Gallbladder Cancer\; Gallbladder Neoplasms\; Procedures f
+ or Bile Duct Cancer\; Procedures for Bile Duct Neoplasm\nSCORE focus: Bili
+ ary\nAnki: 10 minutes\; make up to 3 cards from missed or guessed question
+ s\nReview explanations and record the management detail that changes the a
+ nswer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -344,12 +296,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:Study: Nutrition
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nTW
- IS: Access Procedures for Nutritional Support\; Nutritional Support\; Nutr
- itional Assessment\; Nutritional Requirements\nSCORE focus: Nutrition and
-  Metabolism\; Surgical Critical Care\nAnki: 10 minutes\; make up to 3 card
- s from missed or guessed questions\nReview explanations and record the man
- agement detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Nutrition\nTWIS: Access Procedures for Nutrit
+ ional Support\; Nutritional Support\; Nutritional Assessment\; Nutritional
+  Requirements\nSCORE focus: Nutrition and Metabolism\; Surgical Critical C
+ are\nAnki: 10 minutes\; make up to 3 cards from missed or guessed question
+ s\nReview explanations and record the management detail that changes the a
+ nswer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -366,12 +319,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
 SUMMARY:Study: Nutrition
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nTW
- IS: Access Procedures for Nutritional Support\; Nutritional Support\; Nutr
- itional Assessment\; Nutritional Requirements\nSCORE focus: Nutrition and
-  Metabolism\; Surgical Critical Care\nAnki: 10 minutes\; make up to 3 card
- s from missed or guessed questions\nReview explanations and record the man
- agement detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Nutrition\nTWIS: Access Procedures for Nutrit
+ ional Support\; Nutritional Support\; Nutritional Assessment\; Nutritional
+  Requirements\nSCORE focus: Nutrition and Metabolism\; Surgical Critical C
+ are\nAnki: 10 minutes\; make up to 3 cards from missed or guessed question
+ s\nReview explanations and record the management detail that changes the a
+ nswer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -388,12 +342,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
 SUMMARY:Study: Nutrition
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nTW
- IS: Access Procedures for Nutritional Support\; Nutritional Support\; Nutr
- itional Assessment\; Nutritional Requirements\nSCORE focus: Nutrition and
-  Metabolism\; Surgical Critical Care\nAnki: 10 minutes\; make up to 3 card
- s from missed or guessed questions\nReview explanations and record the man
- agement detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Nutrition\nTWIS: Access Procedures for Nutrit
+ ional Support\; Nutritional Support\; Nutritional Assessment\; Nutritional
+  Requirements\nSCORE focus: Nutrition and Metabolism\; Surgical Critical C
+ are\nAnki: 10 minutes\; make up to 3 cards from missed or guessed question
+ s\nReview explanations and record the management detail that changes the a
+ nswer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -410,12 +365,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
 SUMMARY:Study: Nutrition
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nTW
- IS: Access Procedures for Nutritional Support\; Nutritional Support\; Nutr
- itional Assessment\; Nutritional Requirements\nSCORE focus: Nutrition and
-  Metabolism\; Surgical Critical Care\nAnki: 10 minutes\; make up to 3 card
- s from missed or guessed questions\nReview explanations and record the man
- agement detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Nutrition\nTWIS: Access Procedures for Nutrit
+ ional Support\; Nutritional Support\; Nutritional Assessment\; Nutritional
+  Requirements\nSCORE focus: Nutrition and Metabolism\; Surgical Critical C
+ are\nAnki: 10 minutes\; make up to 3 cards from missed or guessed question
+ s\nReview explanations and record the management detail that changes the a
+ nswer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -438,12 +394,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:Study: Nutrition
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Nutrition\nTW
- IS: Access Procedures for Nutritional Support\; Nutritional Support\; Nutr
- itional Assessment\; Nutritional Requirements\nSCORE focus: Nutrition and
-  Metabolism\; Surgical Critical Care\nAnki: 10 minutes\; make up to 3 card
- s from missed or guessed questions\nReview explanations and record the man
- agement detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Nutrition\nTWIS: Access Procedures for Nutrit
+ ional Support\; Nutritional Support\; Nutritional Assessment\; Nutritional
+  Requirements\nSCORE focus: Nutrition and Metabolism\; Surgical Critical C
+ are\nAnki: 10 minutes\; make up to 3 cards from missed or guessed question
+ s\nReview explanations and record the management detail that changes the a
+ nswer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -452,12 +409,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Optional study: Nutrition
-DESCRIPTION:Only if patient care allows: 5 SCORE questions\nWeekly topic: N
- utrition\nTWIS: Access Procedures for Nutritional Support\; Nutritional Su
- pport\; Nutritional Assessment\; Nutritional Requirements\nSCORE focus: Nu
- trition and Metabolism\; Surgical Critical Care\nAnki: 10 minutes\; make u
- p to 3 cards from missed or guessed questions\nReview explanations and rec
- ord the management detail that changes the answer
+DESCRIPTION:Only if patient care allows: 5 new SCORE questions\nSCORE phase
+ : Full question-bank pass\nWeekly topic: Nutrition\nTWIS: Access Procedure
+ s for Nutritional Support\; Nutritional Support\; Nutritional Assessment\;
+  Nutritional Requirements\nSCORE focus: Nutrition and Metabolism\; Surgica
+ l Critical Care\nAnki: 10 minutes\; make up to 3 cards from missed or gues
+ sed questions\nReview explanations and record the management detail that c
+ hanges the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -488,13 +446,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 SUMMARY:Light study: Benign Anorectal\, Part 2 of 2
-DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
- y topic: Benign Anorectal\, Part 2 of 2\nTWIS: Hemorrhoids\; Procedures fo
- r Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\; F
- ecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nSCORE focus:
-  Anorectal\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
- uestions\nReview explanations and record the management detail that change
- s the answer
+DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nS
+ CORE phase: Full question-bank pass\nWeekly topic: Benign Anorectal\, Part
+  2 of 2\nTWIS: Hemorrhoids\; Procedures for Hemorrhoids\; Anal Dysplasia a
+ nd STDs\; Perianal Condylomas Excision\; Fecal Incontinence\; Rectal Prola
+ pse\; Rectal Prolapse Repair\nSCORE focus: Anorectal\nAnki: 10 minutes\; m
+ ake up to 3 cards from missed or guessed questions\nReview explanations an
+ d record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -503,13 +461,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:Light study: Benign Anorectal\, Part 2 of 2
-DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
- y topic: Benign Anorectal\, Part 2 of 2\nTWIS: Hemorrhoids\; Procedures fo
- r Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\; F
- ecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nSCORE focus:
-  Anorectal\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
- uestions\nReview explanations and record the management detail that change
- s the answer
+DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nS
+ CORE phase: Full question-bank pass\nWeekly topic: Benign Anorectal\, Part
+  2 of 2\nTWIS: Hemorrhoids\; Procedures for Hemorrhoids\; Anal Dysplasia a
+ nd STDs\; Perianal Condylomas Excision\; Fecal Incontinence\; Rectal Prola
+ pse\; Rectal Prolapse Repair\nSCORE focus: Anorectal\nAnki: 10 minutes\; m
+ ake up to 3 cards from missed or guessed questions\nReview explanations an
+ d record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -518,13 +476,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
 SUMMARY:Light study: Benign Anorectal\, Part 2 of 2
-DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
- y topic: Benign Anorectal\, Part 2 of 2\nTWIS: Hemorrhoids\; Procedures fo
- r Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\; F
- ecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nSCORE focus:
-  Anorectal\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
- uestions\nReview explanations and record the management detail that change
- s the answer
+DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nS
+ CORE phase: Full question-bank pass\nWeekly topic: Benign Anorectal\, Part
+  2 of 2\nTWIS: Hemorrhoids\; Procedures for Hemorrhoids\; Anal Dysplasia a
+ nd STDs\; Perianal Condylomas Excision\; Fecal Incontinence\; Rectal Prola
+ pse\; Rectal Prolapse Repair\nSCORE focus: Anorectal\nAnki: 10 minutes\; m
+ ake up to 3 cards from missed or guessed questions\nReview explanations an
+ d record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -533,13 +491,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:Light study: Benign Anorectal\, Part 2 of 2
-DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
- y topic: Benign Anorectal\, Part 2 of 2\nTWIS: Hemorrhoids\; Procedures fo
- r Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\; F
- ecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nSCORE focus:
-  Anorectal\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
- uestions\nReview explanations and record the management detail that change
- s the answer
+DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nS
+ CORE phase: Full question-bank pass\nWeekly topic: Benign Anorectal\, Part
+  2 of 2\nTWIS: Hemorrhoids\; Procedures for Hemorrhoids\; Anal Dysplasia a
+ nd STDs\; Perianal Condylomas Excision\; Fecal Incontinence\; Rectal Prola
+ pse\; Rectal Prolapse Repair\nSCORE focus: Anorectal\nAnki: 10 minutes\; m
+ ake up to 3 cards from missed or guessed questions\nReview explanations an
+ d record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -548,13 +506,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:Light study: Benign Anorectal\, Part 2 of 2
-DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
- y topic: Benign Anorectal\, Part 2 of 2\nTWIS: Hemorrhoids\; Procedures fo
- r Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\; F
- ecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nSCORE focus:
-  Anorectal\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
- uestions\nReview explanations and record the management detail that change
- s the answer
+DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nS
+ CORE phase: Full question-bank pass\nWeekly topic: Benign Anorectal\, Part
+  2 of 2\nTWIS: Hemorrhoids\; Procedures for Hemorrhoids\; Anal Dysplasia a
+ nd STDs\; Perianal Condylomas Excision\; Fecal Incontinence\; Rectal Prola
+ pse\; Rectal Prolapse Repair\nSCORE focus: Anorectal\nAnki: 10 minutes\; m
+ ake up to 3 cards from missed or guessed questions\nReview explanations an
+ d record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -563,13 +521,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260822
 DTEND;VALUE=DATE:20260823
 SUMMARY:Light study: Benign Anorectal\, Part 2 of 2
-DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
- y topic: Benign Anorectal\, Part 2 of 2\nTWIS: Hemorrhoids\; Procedures fo
- r Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas Excision\; F
- ecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\nSCORE focus:
-  Anorectal\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
- uestions\nReview explanations and record the management detail that change
- s the answer
+DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nS
+ CORE phase: Full question-bank pass\nWeekly topic: Benign Anorectal\, Part
+  2 of 2\nTWIS: Hemorrhoids\; Procedures for Hemorrhoids\; Anal Dysplasia a
+ nd STDs\; Perianal Condylomas Excision\; Fecal Incontinence\; Rectal Prola
+ pse\; Rectal Prolapse Repair\nSCORE focus: Anorectal\nAnki: 10 minutes\; m
+ ake up to 3 cards from missed or guessed questions\nReview explanations an
+ d record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -580,15 +538,16 @@ DTEND;VALUE=DATE:20260824
 SUMMARY:Weekly case review: Full-thickness rectal prolapse with fecal incon
  tinence
 DESCRIPTION:Vacation rule: optional\; skip without catch-up guilt\nVacation
-  target: 10 SCORE questions\, then enjoy the day\nModules: Hemorrhoids\; P
- rocedures for Hemorrhoids\; Anal Dysplasia and STDs\; Perianal Condylomas
-  Excision\; Fecal Incontinence\; Rectal Prolapse\; Rectal Prolapse Repair\
- nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nC
- ase: Full-thickness rectal prolapse with fecal incontinence\nOperation: He
- morrhoidectomy\nAnatomy: Anal canal\, sphincter complex\, and hemorrhoidal
-  columns\nComplication: Post-hemorrhoidectomy bleeding\nAnswer: What do I
-  do first? What changes management? When do I call for help?\nCapture one
-  pearl\, one uncertainty\, and one follow-up topic
+  target: 10 new SCORE questions\, then enjoy the day\nSCORE phase: Full qu
+ estion-bank pass\nModules: Hemorrhoids\; Procedures for Hemorrhoids\; Anal
+  Dysplasia and STDs\; Perianal Condylomas Excision\; Fecal Incontinence\;
+  Rectal Prolapse\; Rectal Prolapse Repair\nAnki: 10 minutes\; make up to 3
+  cards from missed or guessed questions\nCase: Full-thickness rectal prola
+ pse with fecal incontinence\nOperation: Hemorrhoidectomy\nAnatomy: Anal ca
+ nal\, sphincter complex\, and hemorrhoidal columns\nComplication: Post-hem
+ orrhoidectomy bleeding\nAnswer: What do I do first? What changes managemen
+ t? When do I call for help?\nCapture one pearl\, one uncertainty\, and one
+  follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -605,12 +564,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
 SUMMARY:Study: Liver Neoplasms and Portal Hypertension
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Liver Neoplas
- ms and Portal Hypertension\nTWIS: Cirrhosis and Portal Hypertension\; Meta
- static Hepatic Neoplasms\; Segmentectomy and Lobectomy\nSCORE focus: Liver
- \nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\n
- Review explanations and record the management detail that changes the answ
- er
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Liver Neoplasms and Portal Hypertension\nTWIS
+ : Cirrhosis and Portal Hypertension\; Metastatic Hepatic Neoplasms\; Segme
+ ntectomy and Lobectomy\nSCORE focus: Liver\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -627,12 +586,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
 SUMMARY:Study: Liver Neoplasms and Portal Hypertension
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Liver Neoplas
- ms and Portal Hypertension\nTWIS: Cirrhosis and Portal Hypertension\; Meta
- static Hepatic Neoplasms\; Segmentectomy and Lobectomy\nSCORE focus: Liver
- \nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\n
- Review explanations and record the management detail that changes the answ
- er
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Liver Neoplasms and Portal Hypertension\nTWIS
+ : Cirrhosis and Portal Hypertension\; Metastatic Hepatic Neoplasms\; Segme
+ ntectomy and Lobectomy\nSCORE focus: Liver\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -641,12 +600,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:Optional study: Liver Neoplasms and Portal Hypertension
-DESCRIPTION:Only if patient care allows: 5 SCORE questions\nWeekly topic: L
- iver Neoplasms and Portal Hypertension\nTWIS: Cirrhosis and Portal Hyperte
- nsion\; Metastatic Hepatic Neoplasms\; Segmentectomy and Lobectomy\nSCORE
-  focus: Liver\nAnki: 10 minutes\; make up to 3 cards from missed or guesse
- d questions\nReview explanations and record the management detail that cha
- nges the answer
+DESCRIPTION:Only if patient care allows: 5 new SCORE questions\nSCORE phase
+ : Full question-bank pass\nWeekly topic: Liver Neoplasms and Portal Hypert
+ ension\nTWIS: Cirrhosis and Portal Hypertension\; Metastatic Hepatic Neopl
+ asms\; Segmentectomy and Lobectomy\nSCORE focus: Liver\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -677,12 +636,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
 SUMMARY:Study: Liver Neoplasms and Portal Hypertension
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Liver Neoplas
- ms and Portal Hypertension\nTWIS: Cirrhosis and Portal Hypertension\; Meta
- static Hepatic Neoplasms\; Segmentectomy and Lobectomy\nSCORE focus: Liver
- \nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\n
- Review explanations and record the management detail that changes the answ
- er
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Liver Neoplasms and Portal Hypertension\nTWIS
+ : Cirrhosis and Portal Hypertension\; Metastatic Hepatic Neoplasms\; Segme
+ ntectomy and Lobectomy\nSCORE focus: Liver\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -705,13 +664,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260829
 DTEND;VALUE=DATE:20260830
 SUMMARY:Deep study: Liver Neoplasms and Portal Hypertension
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Li
- ver Neoplasms and Portal Hypertension\nTWIS: Cirrhosis and Portal Hyperten
- sion\; Metastatic Hepatic Neoplasms\; Segmentectomy and Lobectomy\nSCORE f
- ocus: Liver\nAnki: 10 minutes\; make up to 3 cards from missed or guessed
-  questions\nReview explanations and record the management detail that chan
- ges the answer\nPreview this week's case: Colorectal liver metastasis in a
-  patient with portal hypertension
+DESCRIPTION:Weekend deep-study target: 60 new SCORE questions\nSCORE phase:
+  Full question-bank pass\nWeekly topic: Liver Neoplasms and Portal Hyperte
+ nsion\nTWIS: Cirrhosis and Portal Hypertension\; Metastatic Hepatic Neopla
+ sms\; Segmentectomy and Lobectomy\nSCORE focus: Liver\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer\nPreview this we
+ ek's case: Colorectal liver metastasis in a patient with portal hypertensi
+ on
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -755,14 +715,15 @@ DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:Weekly case review: Colorectal liver metastasis in a patient with p
  ortal hypertension
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: Cirrhosis and Port
- al Hypertension\; Metastatic Hepatic Neoplasms\; Segmentectomy and Lobecto
- my\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions
- \nCase: Colorectal liver metastasis in a patient with portal hypertension\
- nOperation: Anatomic hepatic segmentectomy\nAnatomy: Couinaud segments and
-  hepatic inflow/outflow\nComplication: Post-hepatectomy liver failure\nAns
- wer: What do I do first? What changes management? When do I call for help?
- \nCapture one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nModules: Cirrhosis and Portal Hypertension\; Metastatic Hep
+ atic Neoplasms\; Segmentectomy and Lobectomy\nAnki: 10 minutes\; make up t
+ o 3 cards from missed or guessed questions\nCase: Colorectal liver metasta
+ sis in a patient with portal hypertension\nOperation: Anatomic hepatic seg
+ mentectomy\nAnatomy: Couinaud segments and hepatic inflow/outflow\nComplic
+ ation: Post-hepatectomy liver failure\nAnswer: What do I do first? What ch
+ anges management? When do I call for help?\nCapture one pearl\, one uncert
+ ainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -779,11 +740,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:Study: Pancreas and Pancreatitis
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
-  Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\; Pancreas
-  Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pancreas\nAn
- ki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRevi
- ew explanations and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Pancreas and Pancreatitis\nTWIS: Acute Pancre
+ atitis\; Chronic Pancreatitis\; Pancreas Divisum\; Intraoperative Pancreat
+ ic Ultrasound\nSCORE focus: Pancreas\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -800,11 +762,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:Study: Pancreas and Pancreatitis
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
-  Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\; Pancreas
-  Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pancreas\nAn
- ki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRevi
- ew explanations and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Pancreas and Pancreatitis\nTWIS: Acute Pancre
+ atitis\; Chronic Pancreatitis\; Pancreas Divisum\; Intraoperative Pancreat
+ ic Ultrasound\nSCORE focus: Pancreas\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -821,11 +784,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Study: Pancreas and Pancreatitis
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
-  Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\; Pancreas
-  Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pancreas\nAn
- ki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRevi
- ew explanations and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Pancreas and Pancreatitis\nTWIS: Acute Pancre
+ atitis\; Chronic Pancreatitis\; Pancreas Divisum\; Intraoperative Pancreat
+ ic Ultrasound\nSCORE focus: Pancreas\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -842,11 +806,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Study: Pancreas and Pancreatitis
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
-  Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\; Pancreas
-  Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pancreas\nAn
- ki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRevi
- ew explanations and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Pancreas and Pancreatitis\nTWIS: Acute Pancre
+ atitis\; Chronic Pancreatitis\; Pancreas Divisum\; Intraoperative Pancreat
+ ic Ultrasound\nSCORE focus: Pancreas\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -869,11 +834,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:Study: Pancreas and Pancreatitis
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreas and
-  Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\; Pancreas
-  Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pancreas\nAn
- ki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRevi
- ew explanations and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Pancreas and Pancreatitis\nTWIS: Acute Pancre
+ atitis\; Chronic Pancreatitis\; Pancreas Divisum\; Intraoperative Pancreat
+ ic Ultrasound\nSCORE focus: Pancreas\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -896,13 +862,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:Deep study: Pancreas and Pancreatitis
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Pa
- ncreas and Pancreatitis\nTWIS: Acute Pancreatitis\; Chronic Pancreatitis\;
-  Pancreas Divisum\; Intraoperative Pancreatic Ultrasound\nSCORE focus: Pan
- creas\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questi
- ons\nReview explanations and record the management detail that changes the
-  answer\nPreview this week's case: Necrotizing pancreatitis with infected
-  necrosis
+DESCRIPTION:Weekend deep-study target: 60 new SCORE questions\nSCORE phase:
+  Full question-bank pass\nWeekly topic: Pancreas and Pancreatitis\nTWIS: A
+ cute Pancreatitis\; Chronic Pancreatitis\; Pancreas Divisum\; Intraoperati
+ ve Pancreatic Ultrasound\nSCORE focus: Pancreas\nAnki: 10 minutes\; make u
+ p to 3 cards from missed or guessed questions\nReview explanations and rec
+ ord the management detail that changes the answer\nPreview this week's cas
+ e: Necrotizing pancreatitis with infected necrosis
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -933,14 +899,15 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
 SUMMARY:Weekly case review: Necrotizing pancreatitis with infected necrosis
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: Acute Pancreatitis
- \; Chronic Pancreatitis\; Pancreas Divisum\; Intraoperative Pancreatic Ult
- rasound\nAnki: 10 minutes\; make up to 3 cards from missed or guessed ques
- tions\nCase: Necrotizing pancreatitis with infected necrosis\nOperation: N
- ecrosectomy and step-up management\nAnatomy: Pancreatic blood supply and r
- etroperitoneal relationships\nComplication: Postoperative pancreatic fistu
- la\nAnswer: What do I do first? What changes management? When do I call fo
- r help?\nCapture one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nModules: Acute Pancreatitis\; Chronic Pancreatitis\; Pancre
+ as Divisum\; Intraoperative Pancreatic Ultrasound\nAnki: 10 minutes\; make
+  up to 3 cards from missed or guessed questions\nCase: Necrotizing pancrea
+ titis with infected necrosis\nOperation: Necrosectomy and step-up manageme
+ nt\nAnatomy: Pancreatic blood supply and retroperitoneal relationships\nCo
+ mplication: Postoperative pancreatic fistula\nAnswer: What do I do first?
+  What changes management? When do I call for help?\nCapture one pearl\, on
+ e uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -949,13 +916,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Light study: Stomach\, Part 1 of 2
-DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
- y topic: Stomach\, Part 1 of 2\nTWIS: Gastrectomy\; Vagotomy and Drainage\
- ; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforati
- on Repair\; Revisional Procedures after Gastrectomy\nSCORE focus: Stomach\
- nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
- eview explanations and record the management detail that changes the answe
- r
+DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nS
+ CORE phase: Full question-bank pass\nWeekly topic: Stomach\, Part 1 of 2\n
+ TWIS: Gastrectomy\; Vagotomy and Drainage\; Gastric Adenocarcinoma\; Pepti
+ c Ulcer Disease\; Gastroduodenal Perforation Repair\; Revisional Procedure
+ s after Gastrectomy\nSCORE focus: Stomach\nAnki: 10 minutes\; make up to 3
+  cards from missed or guessed questions\nReview explanations and record th
+ e management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -964,13 +931,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:Light study: Stomach\, Part 1 of 2
-DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
- y topic: Stomach\, Part 1 of 2\nTWIS: Gastrectomy\; Vagotomy and Drainage\
- ; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforati
- on Repair\; Revisional Procedures after Gastrectomy\nSCORE focus: Stomach\
- nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
- eview explanations and record the management detail that changes the answe
- r
+DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nS
+ CORE phase: Full question-bank pass\nWeekly topic: Stomach\, Part 1 of 2\n
+ TWIS: Gastrectomy\; Vagotomy and Drainage\; Gastric Adenocarcinoma\; Pepti
+ c Ulcer Disease\; Gastroduodenal Perforation Repair\; Revisional Procedure
+ s after Gastrectomy\nSCORE focus: Stomach\nAnki: 10 minutes\; make up to 3
+  cards from missed or guessed questions\nReview explanations and record th
+ e management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -979,13 +946,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:Light study: Stomach\, Part 1 of 2
-DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
- y topic: Stomach\, Part 1 of 2\nTWIS: Gastrectomy\; Vagotomy and Drainage\
- ; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforati
- on Repair\; Revisional Procedures after Gastrectomy\nSCORE focus: Stomach\
- nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
- eview explanations and record the management detail that changes the answe
- r
+DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nS
+ CORE phase: Full question-bank pass\nWeekly topic: Stomach\, Part 1 of 2\n
+ TWIS: Gastrectomy\; Vagotomy and Drainage\; Gastric Adenocarcinoma\; Pepti
+ c Ulcer Disease\; Gastroduodenal Perforation Repair\; Revisional Procedure
+ s after Gastrectomy\nSCORE focus: Stomach\nAnki: 10 minutes\; make up to 3
+  cards from missed or guessed questions\nReview explanations and record th
+ e management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -994,13 +961,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:Light study: Stomach\, Part 1 of 2
-DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
- y topic: Stomach\, Part 1 of 2\nTWIS: Gastrectomy\; Vagotomy and Drainage\
- ; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforati
- on Repair\; Revisional Procedures after Gastrectomy\nSCORE focus: Stomach\
- nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
- eview explanations and record the management detail that changes the answe
- r
+DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nS
+ CORE phase: Full question-bank pass\nWeekly topic: Stomach\, Part 1 of 2\n
+ TWIS: Gastrectomy\; Vagotomy and Drainage\; Gastric Adenocarcinoma\; Pepti
+ c Ulcer Disease\; Gastroduodenal Perforation Repair\; Revisional Procedure
+ s after Gastrectomy\nSCORE focus: Stomach\nAnki: 10 minutes\; make up to 3
+  cards from missed or guessed questions\nReview explanations and record th
+ e management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1009,13 +976,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Light study: Stomach\, Part 1 of 2
-DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
- y topic: Stomach\, Part 1 of 2\nTWIS: Gastrectomy\; Vagotomy and Drainage\
- ; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforati
- on Repair\; Revisional Procedures after Gastrectomy\nSCORE focus: Stomach\
- nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
- eview explanations and record the management detail that changes the answe
- r
+DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nS
+ CORE phase: Full question-bank pass\nWeekly topic: Stomach\, Part 1 of 2\n
+ TWIS: Gastrectomy\; Vagotomy and Drainage\; Gastric Adenocarcinoma\; Pepti
+ c Ulcer Disease\; Gastroduodenal Perforation Repair\; Revisional Procedure
+ s after Gastrectomy\nSCORE focus: Stomach\nAnki: 10 minutes\; make up to 3
+  cards from missed or guessed questions\nReview explanations and record th
+ e management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1024,13 +991,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Light study: Stomach\, Part 1 of 2
-DESCRIPTION:Vacation target: 10 SCORE questions\, then enjoy the day\nWeekl
- y topic: Stomach\, Part 1 of 2\nTWIS: Gastrectomy\; Vagotomy and Drainage\
- ; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforati
- on Repair\; Revisional Procedures after Gastrectomy\nSCORE focus: Stomach\
- nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
- eview explanations and record the management detail that changes the answe
- r
+DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nS
+ CORE phase: Full question-bank pass\nWeekly topic: Stomach\, Part 1 of 2\n
+ TWIS: Gastrectomy\; Vagotomy and Drainage\; Gastric Adenocarcinoma\; Pepti
+ c Ulcer Disease\; Gastroduodenal Perforation Repair\; Revisional Procedure
+ s after Gastrectomy\nSCORE focus: Stomach\nAnki: 10 minutes\; make up to 3
+  cards from missed or guessed questions\nReview explanations and record th
+ e management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1040,15 +1007,16 @@ DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
 SUMMARY:Weekly case review: Perforated peptic ulcer with shock
 DESCRIPTION:Vacation rule: optional\; skip without catch-up guilt\nVacation
-  target: 10 SCORE questions\, then enjoy the day\nModules: Gastrectomy\; V
- agotomy and Drainage\; Gastric Adenocarcinoma\; Peptic Ulcer Disease\; Gas
- troduodenal Perforation Repair\; Revisional Procedures after Gastrectomy\n
- Anki: 10 minutes\; make up to 3 cards from missed or guessed questions\nCa
- se: Perforated peptic ulcer with shock\nOperation: Distal gastrectomy with
-  lymphadenectomy\nAnatomy: Gastric blood supply\, vagal trunks\, and lymph
- atic stations\nComplication: Duodenal stump leak\nAnswer: What do I do fir
- st? What changes management? When do I call for help?\nCapture one pearl\,
-  one uncertainty\, and one follow-up topic
+  target: 10 new SCORE questions\, then enjoy the day\nSCORE phase: Full qu
+ estion-bank pass\nModules: Gastrectomy\; Vagotomy and Drainage\; Gastric A
+ denocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforation Repair\;
+  Revisional Procedures after Gastrectomy\nAnki: 10 minutes\; make up to 3
+  cards from missed or guessed questions\nCase: Perforated peptic ulcer wit
+ h shock\nOperation: Distal gastrectomy with lymphadenectomy\nAnatomy: Gast
+ ric blood supply\, vagal trunks\, and lymphatic stations\nComplication: Du
+ odenal stump leak\nAnswer: What do I do first? What changes management? Wh
+ en do I call for help?\nCapture one pearl\, one uncertainty\, and one foll
+ ow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1065,13 +1033,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Study: Small Intestine\, Part 2 of 2
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
- ne\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Meckel Diverticu
- lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
- sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
- nd Thrombectomy\nSCORE focus: Small Intestine\; Arterial Disease\nAnki: 10
-  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
- lanations and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Small Intestine\, Part 2 of 2\nTWIS: Ileostom
+ y and Ileostomy Closure\; Meckel Diverticulum\; Enteric Infections and Bli
+ nd Loop Syndrome\; Small Intestinal Neoplasms\; Acute Mesenteric Ischemia\
+ ; Superior Mesenteric Artery Embolectomy and Thrombectomy\nSCORE focus: Sm
+ all Intestine\; Arterial Disease\nAnki: 10 minutes\; make up to 3 cards fr
+ om missed or guessed questions\nReview explanations and record the managem
+ ent detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1088,13 +1057,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:Study: Small Intestine\, Part 2 of 2
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
- ne\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Meckel Diverticu
- lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
- sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
- nd Thrombectomy\nSCORE focus: Small Intestine\; Arterial Disease\nAnki: 10
-  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
- lanations and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Small Intestine\, Part 2 of 2\nTWIS: Ileostom
+ y and Ileostomy Closure\; Meckel Diverticulum\; Enteric Infections and Bli
+ nd Loop Syndrome\; Small Intestinal Neoplasms\; Acute Mesenteric Ischemia\
+ ; Superior Mesenteric Artery Embolectomy and Thrombectomy\nSCORE focus: Sm
+ all Intestine\; Arterial Disease\nAnki: 10 minutes\; make up to 3 cards fr
+ om missed or guessed questions\nReview explanations and record the managem
+ ent detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1111,13 +1081,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:Study: Small Intestine\, Part 2 of 2
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
- ne\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Meckel Diverticu
- lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
- sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
- nd Thrombectomy\nSCORE focus: Small Intestine\; Arterial Disease\nAnki: 10
-  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
- lanations and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Small Intestine\, Part 2 of 2\nTWIS: Ileostom
+ y and Ileostomy Closure\; Meckel Diverticulum\; Enteric Infections and Bli
+ nd Loop Syndrome\; Small Intestinal Neoplasms\; Acute Mesenteric Ischemia\
+ ; Superior Mesenteric Artery Embolectomy and Thrombectomy\nSCORE focus: Sm
+ all Intestine\; Arterial Disease\nAnki: 10 minutes\; make up to 3 cards fr
+ om missed or guessed questions\nReview explanations and record the managem
+ ent detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1134,13 +1105,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Study: Small Intestine\, Part 2 of 2
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
- ne\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Meckel Diverticu
- lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
- sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
- nd Thrombectomy\nSCORE focus: Small Intestine\; Arterial Disease\nAnki: 10
-  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
- lanations and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Small Intestine\, Part 2 of 2\nTWIS: Ileostom
+ y and Ileostomy Closure\; Meckel Diverticulum\; Enteric Infections and Bli
+ nd Loop Syndrome\; Small Intestinal Neoplasms\; Acute Mesenteric Ischemia\
+ ; Superior Mesenteric Artery Embolectomy and Thrombectomy\nSCORE focus: Sm
+ all Intestine\; Arterial Disease\nAnki: 10 minutes\; make up to 3 cards fr
+ om missed or guessed questions\nReview explanations and record the managem
+ ent detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1163,13 +1135,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Study: Small Intestine\, Part 2 of 2
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Small Intesti
- ne\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Meckel Diverticu
- lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
- sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
- nd Thrombectomy\nSCORE focus: Small Intestine\; Arterial Disease\nAnki: 10
-  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
- lanations and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Small Intestine\, Part 2 of 2\nTWIS: Ileostom
+ y and Ileostomy Closure\; Meckel Diverticulum\; Enteric Infections and Bli
+ nd Loop Syndrome\; Small Intestinal Neoplasms\; Acute Mesenteric Ischemia\
+ ; Superior Mesenteric Artery Embolectomy and Thrombectomy\nSCORE focus: Sm
+ all Intestine\; Arterial Disease\nAnki: 10 minutes\; make up to 3 cards fr
+ om missed or guessed questions\nReview explanations and record the managem
+ ent detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1192,15 +1165,15 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Deep study: Small Intestine\, Part 2 of 2
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Sm
- all Intestine\, Part 2 of 2\nTWIS: Ileostomy and Ileostomy Closure\; Mecke
- l Diverticulum\; Enteric Infections and Blind Loop Syndrome\; Small Intest
- inal Neoplasms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Em
- bolectomy and Thrombectomy\nSCORE focus: Small Intestine\; Arterial Diseas
- e\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
- nReview explanations and record the management detail that changes the ans
- wer\nPreview this week's case: Acute mesenteric ischemia from an SMA embol
- us
+DESCRIPTION:Weekend deep-study target: 60 new SCORE questions\nSCORE phase:
+  Full question-bank pass\nWeekly topic: Small Intestine\, Part 2 of 2\nTWI
+ S: Ileostomy and Ileostomy Closure\; Meckel Diverticulum\; Enteric Infecti
+ ons and Blind Loop Syndrome\; Small Intestinal Neoplasms\; Acute Mesenteri
+ c Ischemia\; Superior Mesenteric Artery Embolectomy and Thrombectomy\nSCOR
+ E focus: Small Intestine\; Arterial Disease\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer\nPreview this week's case:
+  Acute mesenteric ischemia from an SMA embolus
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1231,16 +1204,16 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:Weekly case review: Acute mesenteric ischemia from an SMA embolus
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: Ileostomy and Ileo
- stomy Closure\; Meckel Diverticulum\; Enteric Infections and Blind Loop Sy
- ndrome\; Small Intestinal Neoplasms\; Acute Mesenteric Ischemia\; Superior
-  Mesenteric Artery Embolectomy and Thrombectomy\nAnki: 10 minutes\; make u
- p to 3 cards from missed or guessed questions\nCase: Acute mesenteric isch
- emia from an SMA embolus\nOperation: SMA embolectomy with bowel viability
-  assessment\nAnatomy: SMA branches and small-bowel collateral circulation\
- nComplication: Short bowel syndrome\nAnswer: What do I do first? What chan
- ges management? When do I call for help?\nCapture one pearl\, one uncertai
- nty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nModules: Ileostomy and Ileostomy Closure\; Meckel Diverticu
+ lum\; Enteric Infections and Blind Loop Syndrome\; Small Intestinal Neopla
+ sms\; Acute Mesenteric Ischemia\; Superior Mesenteric Artery Embolectomy a
+ nd Thrombectomy\nAnki: 10 minutes\; make up to 3 cards from missed or gues
+ sed questions\nCase: Acute mesenteric ischemia from an SMA embolus\nOperat
+ ion: SMA embolectomy with bowel viability assessment\nAnatomy: SMA branche
+ s and small-bowel collateral circulation\nComplication: Short bowel syndro
+ me\nAnswer: What do I do first? What changes management? When do I call fo
+ r help?\nCapture one pearl\, one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1257,15 +1230,16 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:Study: Systems-Based Practice
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
-  Practice\nTWIS: Advocating for Quality Patient Care\; Coordinating Patien
- t Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems Er
- rors - Root Cause Analysis\; Working Effectively in Various Healthcare Del
- ivery Settings and Systems\; Working in Interprofessional Teams\; Diversit
- y in the US Surgical Workforce\nSCORE focus: Systems Based Practice\; Dive
- rsity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3 cards from
-  missed or guessed questions\nReview explanations and record the managemen
- t detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Systems-Based Practice\nTWIS: Advocating for
+  Quality Patient Care\; Coordinating Patient Care\; Cost Awareness and Ris
+ k-Benefit Analysis\; Identifying Systems Errors - Root Cause Analysis\; Wo
+ rking Effectively in Various Healthcare Delivery Settings and Systems\; Wo
+ rking in Interprofessional Teams\; Diversity in the US Surgical Workforce\
+ nSCORE focus: Systems Based Practice\; Diversity\, Equity\, and Inclusion\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1282,15 +1256,16 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:Study: Systems-Based Practice
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
-  Practice\nTWIS: Advocating for Quality Patient Care\; Coordinating Patien
- t Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems Er
- rors - Root Cause Analysis\; Working Effectively in Various Healthcare Del
- ivery Settings and Systems\; Working in Interprofessional Teams\; Diversit
- y in the US Surgical Workforce\nSCORE focus: Systems Based Practice\; Dive
- rsity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3 cards from
-  missed or guessed questions\nReview explanations and record the managemen
- t detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Systems-Based Practice\nTWIS: Advocating for
+  Quality Patient Care\; Coordinating Patient Care\; Cost Awareness and Ris
+ k-Benefit Analysis\; Identifying Systems Errors - Root Cause Analysis\; Wo
+ rking Effectively in Various Healthcare Delivery Settings and Systems\; Wo
+ rking in Interprofessional Teams\; Diversity in the US Surgical Workforce\
+ nSCORE focus: Systems Based Practice\; Diversity\, Equity\, and Inclusion\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1307,15 +1282,16 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:Study: Systems-Based Practice
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
-  Practice\nTWIS: Advocating for Quality Patient Care\; Coordinating Patien
- t Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems Er
- rors - Root Cause Analysis\; Working Effectively in Various Healthcare Del
- ivery Settings and Systems\; Working in Interprofessional Teams\; Diversit
- y in the US Surgical Workforce\nSCORE focus: Systems Based Practice\; Dive
- rsity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3 cards from
-  missed or guessed questions\nReview explanations and record the managemen
- t detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Systems-Based Practice\nTWIS: Advocating for
+  Quality Patient Care\; Coordinating Patient Care\; Cost Awareness and Ris
+ k-Benefit Analysis\; Identifying Systems Errors - Root Cause Analysis\; Wo
+ rking Effectively in Various Healthcare Delivery Settings and Systems\; Wo
+ rking in Interprofessional Teams\; Diversity in the US Surgical Workforce\
+ nSCORE focus: Systems Based Practice\; Diversity\, Equity\, and Inclusion\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1332,15 +1308,16 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Study: Systems-Based Practice
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
-  Practice\nTWIS: Advocating for Quality Patient Care\; Coordinating Patien
- t Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems Er
- rors - Root Cause Analysis\; Working Effectively in Various Healthcare Del
- ivery Settings and Systems\; Working in Interprofessional Teams\; Diversit
- y in the US Surgical Workforce\nSCORE focus: Systems Based Practice\; Dive
- rsity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3 cards from
-  missed or guessed questions\nReview explanations and record the managemen
- t detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Systems-Based Practice\nTWIS: Advocating for
+  Quality Patient Care\; Coordinating Patient Care\; Cost Awareness and Ris
+ k-Benefit Analysis\; Identifying Systems Errors - Root Cause Analysis\; Wo
+ rking Effectively in Various Healthcare Delivery Settings and Systems\; Wo
+ rking in Interprofessional Teams\; Diversity in the US Surgical Workforce\
+ nSCORE focus: Systems Based Practice\; Diversity\, Equity\, and Inclusion\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1363,15 +1340,16 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Study: Systems-Based Practice
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Systems-Based
-  Practice\nTWIS: Advocating for Quality Patient Care\; Coordinating Patien
- t Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Systems Er
- rors - Root Cause Analysis\; Working Effectively in Various Healthcare Del
- ivery Settings and Systems\; Working in Interprofessional Teams\; Diversit
- y in the US Surgical Workforce\nSCORE focus: Systems Based Practice\; Dive
- rsity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3 cards from
-  missed or guessed questions\nReview explanations and record the managemen
- t detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Systems-Based Practice\nTWIS: Advocating for
+  Quality Patient Care\; Coordinating Patient Care\; Cost Awareness and Ris
+ k-Benefit Analysis\; Identifying Systems Errors - Root Cause Analysis\; Wo
+ rking Effectively in Various Healthcare Delivery Settings and Systems\; Wo
+ rking in Interprofessional Teams\; Diversity in the US Surgical Workforce\
+ nSCORE focus: Systems Based Practice\; Diversity\, Equity\, and Inclusion\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1394,16 +1372,17 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:Deep study: Systems-Based Practice
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Sy
- stems-Based Practice\nTWIS: Advocating for Quality Patient Care\; Coordina
- ting Patient Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying
-  Systems Errors - Root Cause Analysis\; Working Effectively in Various Hea
- lthcare Delivery Settings and Systems\; Working in Interprofessional Teams
- \; Diversity in the US Surgical Workforce\nSCORE focus: Systems Based Prac
- tice\; Diversity\, Equity\, and Inclusion\nAnki: 10 minutes\; make up to 3
-  cards from missed or guessed questions\nReview explanations and record th
- e management detail that changes the answer\nPreview this week's case: Del
- ayed recognition of postoperative deterioration
+DESCRIPTION:Weekend deep-study target: 60 new SCORE questions\nSCORE phase:
+  Full question-bank pass\nWeekly topic: Systems-Based Practice\nTWIS: Advo
+ cating for Quality Patient Care\; Coordinating Patient Care\; Cost Awarene
+ ss and Risk-Benefit Analysis\; Identifying Systems Errors - Root Cause Ana
+ lysis\; Working Effectively in Various Healthcare Delivery Settings and Sy
+ stems\; Working in Interprofessional Teams\; Diversity in the US Surgical
+  Workforce\nSCORE focus: Systems Based Practice\; Diversity\, Equity\, and
+  Inclusion\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer\nPreview this week's case: Delayed recognition of postoperati
+ ve deterioration
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1447,17 +1426,18 @@ DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Weekly case review: Delayed recognition of postoperative deteriorat
  ion
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: Advocating for Qua
- lity Patient Care\; Coordinating Patient Care\; Cost Awareness and Risk-Be
- nefit Analysis\; Identifying Systems Errors - Root Cause Analysis\; Workin
- g Effectively in Various Healthcare Delivery Settings and Systems\; Workin
- g in Interprofessional Teams\; Diversity in the US Surgical Workforce\nAnk
- i: 10 minutes\; make up to 3 cards from missed or guessed questions\nCase:
-  Delayed recognition of postoperative deterioration\nOperation: Root-cause
-  analysis of a surgical care process\nAnatomy: Care escalation pathways an
- d handoff interfaces\nComplication: Failure to rescue\nAnswer: What do I d
- o first? What changes management? When do I call for help?\nCapture one pe
- arl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nModules: Advocating for Quality Patient Care\; Coordinating
+  Patient Care\; Cost Awareness and Risk-Benefit Analysis\; Identifying Sys
+ tems Errors - Root Cause Analysis\; Working Effectively in Various Healthc
+ are Delivery Settings and Systems\; Working in Interprofessional Teams\; D
+ iversity in the US Surgical Workforce\nAnki: 10 minutes\; make up to 3 car
+ ds from missed or guessed questions\nCase: Delayed recognition of postoper
+ ative deterioration\nOperation: Root-cause analysis of a surgical care pro
+ cess\nAnatomy: Care escalation pathways and handoff interfaces\nComplicati
+ on: Failure to rescue\nAnswer: What do I do first? What changes management
+ ? When do I call for help?\nCapture one pearl\, one uncertainty\, and one
+  follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1474,12 +1454,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:Study: Abdominal Trauma\, Part 1 of 3
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
- uma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and Pancreatic
-  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
- ury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fro
- m missed or guessed questions\nReview explanations and record the manageme
- nt detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Abdominal Trauma\, Part 1 of 3\nTWIS: Colon a
+ nd Rectal Injury\; Duodenal and Pancreatic Injury\; Gastric and Small Inte
+ stinal Injury\; Gastrointestinal Tract Injury Repair\nSCORE focus: Trauma\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1496,12 +1477,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:Study: Abdominal Trauma\, Part 1 of 3
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
- uma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and Pancreatic
-  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
- ury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fro
- m missed or guessed questions\nReview explanations and record the manageme
- nt detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Abdominal Trauma\, Part 1 of 3\nTWIS: Colon a
+ nd Rectal Injury\; Duodenal and Pancreatic Injury\; Gastric and Small Inte
+ stinal Injury\; Gastrointestinal Tract Injury Repair\nSCORE focus: Trauma\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1518,12 +1500,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:Study: Abdominal Trauma\, Part 1 of 3
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
- uma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and Pancreatic
-  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
- ury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fro
- m missed or guessed questions\nReview explanations and record the manageme
- nt detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Abdominal Trauma\, Part 1 of 3\nTWIS: Colon a
+ nd Rectal Injury\; Duodenal and Pancreatic Injury\; Gastric and Small Inte
+ stinal Injury\; Gastrointestinal Tract Injury Repair\nSCORE focus: Trauma\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1540,12 +1523,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:Study: Abdominal Trauma\, Part 1 of 3
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
- uma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and Pancreatic
-  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
- ury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fro
- m missed or guessed questions\nReview explanations and record the manageme
- nt detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Abdominal Trauma\, Part 1 of 3\nTWIS: Colon a
+ nd Rectal Injury\; Duodenal and Pancreatic Injury\; Gastric and Small Inte
+ stinal Injury\; Gastrointestinal Tract Injury Repair\nSCORE focus: Trauma\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1568,12 +1552,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Study: Abdominal Trauma\, Part 1 of 3
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Abdominal Tra
- uma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and Pancreatic
-  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
- ury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fro
- m missed or guessed questions\nReview explanations and record the manageme
- nt detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Abdominal Trauma\, Part 1 of 3\nTWIS: Colon a
+ nd Rectal Injury\; Duodenal and Pancreatic Injury\; Gastric and Small Inte
+ stinal Injury\; Gastrointestinal Tract Injury Repair\nSCORE focus: Trauma\
+ nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\nR
+ eview explanations and record the management detail that changes the answe
+ r
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1596,13 +1581,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Deep study: Abdominal Trauma\, Part 1 of 3
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Ab
- dominal Trauma\, Part 1 of 3\nTWIS: Colon and Rectal Injury\; Duodenal and
-  Pancreatic Injury\; Gastric and Small Intestinal Injury\; Gastrointestina
- l Tract Injury Repair\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to
-  3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer\nPreview this week's case:
-  Penetrating abdominal trauma with multiple hollow-viscus injuries
+DESCRIPTION:Weekend deep-study target: 60 new SCORE questions\nSCORE phase:
+  Full question-bank pass\nWeekly topic: Abdominal Trauma\, Part 1 of 3\nTW
+ IS: Colon and Rectal Injury\; Duodenal and Pancreatic Injury\; Gastric and
+  Small Intestinal Injury\; Gastrointestinal Tract Injury Repair\nSCORE foc
+ us: Trauma\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nReview explanations and record the management detail that change
+ s the answer\nPreview this week's case: Penetrating abdominal trauma with
+  multiple hollow-viscus injuries
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1634,15 +1620,16 @@ DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:Weekly case review: Penetrating abdominal trauma with multiple holl
  ow-viscus injuries
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: Colon and Rectal I
- njury\; Duodenal and Pancreatic Injury\; Gastric and Small Intestinal Inju
- ry\; Gastrointestinal Tract Injury Repair\nAnki: 10 minutes\; make up to 3
-  cards from missed or guessed questions\nCase: Penetrating abdominal traum
- a with multiple hollow-viscus injuries\nOperation: Exploratory laparotomy
-  with gastrointestinal injury repair\nAnatomy: Retroperitoneal zones and d
- uodenopancreatic relationships\nComplication: Missed bowel injury\nAnswer:
-  What do I do first? What changes management? When do I call for help?\nCa
- pture one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nModules: Colon and Rectal Injury\; Duodenal and Pancreatic
+  Injury\; Gastric and Small Intestinal Injury\; Gastrointestinal Tract Inj
+ ury Repair\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
+ uestions\nCase: Penetrating abdominal trauma with multiple hollow-viscus i
+ njuries\nOperation: Exploratory laparotomy with gastrointestinal injury re
+ pair\nAnatomy: Retroperitoneal zones and duodenopancreatic relationships\n
+ Complication: Missed bowel injury\nAnswer: What do I do first? What change
+ s management? When do I call for help?\nCapture one pearl\, one uncertaint
+ y\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1659,12 +1646,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 SUMMARY:Study: Thyroid
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nTWIS
- : Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; H
- yperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSCORE focus:
-  Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
- uestions\nReview explanations and record the management detail that change
- s the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Thyroid\nTWIS: Thyroid Nodule\; Thyroid Ultra
+ sound\; Thyroid Cancer\; Thyroidectomy\; Hyperthyroidism\; Thyroiditis\; P
+ ostoperative Hypothyroidism\nSCORE focus: Endocrine\nAnki: 10 minutes\; ma
+ ke up to 3 cards from missed or guessed questions\nReview explanations and
+  record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1681,12 +1668,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:Study: Thyroid
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nTWIS
- : Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; H
- yperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSCORE focus:
-  Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
- uestions\nReview explanations and record the management detail that change
- s the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Thyroid\nTWIS: Thyroid Nodule\; Thyroid Ultra
+ sound\; Thyroid Cancer\; Thyroidectomy\; Hyperthyroidism\; Thyroiditis\; P
+ ostoperative Hypothyroidism\nSCORE focus: Endocrine\nAnki: 10 minutes\; ma
+ ke up to 3 cards from missed or guessed questions\nReview explanations and
+  record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1703,12 +1690,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Study: Thyroid
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nTWIS
- : Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; H
- yperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSCORE focus:
-  Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
- uestions\nReview explanations and record the management detail that change
- s the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Thyroid\nTWIS: Thyroid Nodule\; Thyroid Ultra
+ sound\; Thyroid Cancer\; Thyroidectomy\; Hyperthyroidism\; Thyroiditis\; P
+ ostoperative Hypothyroidism\nSCORE focus: Endocrine\nAnki: 10 minutes\; ma
+ ke up to 3 cards from missed or guessed questions\nReview explanations and
+  record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1725,12 +1712,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:Study: Thyroid
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nTWIS
- : Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; H
- yperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSCORE focus:
-  Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
- uestions\nReview explanations and record the management detail that change
- s the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Thyroid\nTWIS: Thyroid Nodule\; Thyroid Ultra
+ sound\; Thyroid Cancer\; Thyroidectomy\; Hyperthyroidism\; Thyroiditis\; P
+ ostoperative Hypothyroidism\nSCORE focus: Endocrine\nAnki: 10 minutes\; ma
+ ke up to 3 cards from missed or guessed questions\nReview explanations and
+  record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1753,12 +1740,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:Study: Thyroid
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Thyroid\nTWIS
- : Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; H
- yperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSCORE focus:
-  Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or guessed q
- uestions\nReview explanations and record the management detail that change
- s the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Thyroid\nTWIS: Thyroid Nodule\; Thyroid Ultra
+ sound\; Thyroid Cancer\; Thyroidectomy\; Hyperthyroidism\; Thyroiditis\; P
+ ostoperative Hypothyroidism\nSCORE focus: Endocrine\nAnki: 10 minutes\; ma
+ ke up to 3 cards from missed or guessed questions\nReview explanations and
+  record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1781,13 +1768,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:Deep study: Thyroid
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Th
- yroid\nTWIS: Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Cancer\; Thyroi
- dectomy\; Hyperthyroidism\; Thyroiditis\; Postoperative Hypothyroidism\nSC
- ORE focus: Endocrine\nAnki: 10 minutes\; make up to 3 cards from missed or
-  guessed questions\nReview explanations and record the management detail t
- hat changes the answer\nPreview this week's case: Papillary thyroid cancer
-  with suspicious central nodes
+DESCRIPTION:Weekend deep-study target: 60 new SCORE questions\nSCORE phase:
+  Full question-bank pass\nWeekly topic: Thyroid\nTWIS: Thyroid Nodule\; Th
+ yroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; Hyperthyroidism\; Thyr
+ oiditis\; Postoperative Hypothyroidism\nSCORE focus: Endocrine\nAnki: 10 m
+ inutes\; make up to 3 cards from missed or guessed questions\nReview expla
+ nations and record the management detail that changes the answer\nPreview
+  this week's case: Papillary thyroid cancer with suspicious central nodes
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1819,15 +1806,15 @@ DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:Weekly case review: Papillary thyroid cancer with suspicious centra
  l nodes
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: Thyroid Nodule\; T
- hyroid Ultrasound\; Thyroid Cancer\; Thyroidectomy\; Hyperthyroidism\; Thy
- roiditis\; Postoperative Hypothyroidism\nAnki: 10 minutes\; make up to 3 c
- ards from missed or guessed questions\nCase: Papillary thyroid cancer with
-  suspicious central nodes\nOperation: Total thyroidectomy\nAnatomy: Recurr
- ent laryngeal nerve and parathyroid blood supply\nComplication: Post-thyro
- idectomy hypocalcemia\nAnswer: What do I do first? What changes management
- ? When do I call for help?\nCapture one pearl\, one uncertainty\, and one
-  follow-up topic
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nModules: Thyroid Nodule\; Thyroid Ultrasound\; Thyroid Canc
+ er\; Thyroidectomy\; Hyperthyroidism\; Thyroiditis\; Postoperative Hypothy
+ roidism\nAnki: 10 minutes\; make up to 3 cards from missed or guessed ques
+ tions\nCase: Papillary thyroid cancer with suspicious central nodes\nOpera
+ tion: Total thyroidectomy\nAnatomy: Recurrent laryngeal nerve and parathyr
+ oid blood supply\nComplication: Post-thyroidectomy hypocalcemia\nAnswer: W
+ hat do I do first? What changes management? When do I call for help?\nCapt
+ ure one pearl\, one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1844,13 +1831,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:Study: Breast\, Part 2 of 3
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
-  2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; Here
- ditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures in
-  Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manageme
- nt of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Breast\, Part 2 of 3\nTWIS: Breast Invasive C
+ arcinoma\; Ductal Carcinoma In Situ\; Hereditary Breast Cancer\; Inflammat
+ ory Breast Cancer\; Axillary Procedures in Breast Cancer\; Percutaneous Br
+ east Biopsy and Cyst Aspiration\; Management of the Axilla in Breast Cance
+ r\nSCORE focus: Breast\nAnki: 10 minutes\; make up to 3 cards from missed
+  or guessed questions\nReview explanations and record the management detai
+ l that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1867,13 +1855,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:Study: Breast\, Part 2 of 3
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
-  2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; Here
- ditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures in
-  Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manageme
- nt of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Breast\, Part 2 of 3\nTWIS: Breast Invasive C
+ arcinoma\; Ductal Carcinoma In Situ\; Hereditary Breast Cancer\; Inflammat
+ ory Breast Cancer\; Axillary Procedures in Breast Cancer\; Percutaneous Br
+ east Biopsy and Cyst Aspiration\; Management of the Axilla in Breast Cance
+ r\nSCORE focus: Breast\nAnki: 10 minutes\; make up to 3 cards from missed
+  or guessed questions\nReview explanations and record the management detai
+ l that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1890,13 +1879,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Study: Breast\, Part 2 of 3
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
-  2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; Here
- ditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures in
-  Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manageme
- nt of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Breast\, Part 2 of 3\nTWIS: Breast Invasive C
+ arcinoma\; Ductal Carcinoma In Situ\; Hereditary Breast Cancer\; Inflammat
+ ory Breast Cancer\; Axillary Procedures in Breast Cancer\; Percutaneous Br
+ east Biopsy and Cyst Aspiration\; Management of the Axilla in Breast Cance
+ r\nSCORE focus: Breast\nAnki: 10 minutes\; make up to 3 cards from missed
+  or guessed questions\nReview explanations and record the management detai
+ l that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1913,13 +1903,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Study: Breast\, Part 2 of 3
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
-  2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; Here
- ditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures in
-  Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manageme
- nt of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Breast\, Part 2 of 3\nTWIS: Breast Invasive C
+ arcinoma\; Ductal Carcinoma In Situ\; Hereditary Breast Cancer\; Inflammat
+ ory Breast Cancer\; Axillary Procedures in Breast Cancer\; Percutaneous Br
+ east Biopsy and Cyst Aspiration\; Management of the Axilla in Breast Cance
+ r\nSCORE focus: Breast\nAnki: 10 minutes\; make up to 3 cards from missed
+  or guessed questions\nReview explanations and record the management detai
+ l that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1942,13 +1933,14 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Study: Breast\, Part 2 of 3
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Breast\, Part
-  2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In Situ\; Here
- ditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Procedures in
-  Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\; Manageme
- nt of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nWeekly topic: Breast\, Part 2 of 3\nTWIS: Breast Invasive C
+ arcinoma\; Ductal Carcinoma In Situ\; Hereditary Breast Cancer\; Inflammat
+ ory Breast Cancer\; Axillary Procedures in Breast Cancer\; Percutaneous Br
+ east Biopsy and Cyst Aspiration\; Management of the Axilla in Breast Cance
+ r\nSCORE focus: Breast\nAnki: 10 minutes\; make up to 3 cards from missed
+  or guessed questions\nReview explanations and record the management detai
+ l that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1971,15 +1963,15 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:Deep study: Breast\, Part 2 of 3
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Br
- east\, Part 2 of 3\nTWIS: Breast Invasive Carcinoma\; Ductal Carcinoma In
-  Situ\; Hereditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary P
- rocedures in Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiratio
- n\; Management of the Axilla in Breast Cancer\nSCORE focus: Breast\nAnki:
-  10 minutes\; make up to 3 cards from missed or guessed questions\nReview
-  explanations and record the management detail that changes the answer\nPr
- eview this week's case: Invasive breast carcinoma with a clinically negati
- ve axilla
+DESCRIPTION:Weekend deep-study target: 60 new SCORE questions\nSCORE phase:
+  Full question-bank pass\nWeekly topic: Breast\, Part 2 of 3\nTWIS: Breast
+  Invasive Carcinoma\; Ductal Carcinoma In Situ\; Hereditary Breast Cancer\
+ ; Inflammatory Breast Cancer\; Axillary Procedures in Breast Cancer\; Perc
+ utaneous Breast Biopsy and Cyst Aspiration\; Management of the Axilla in B
+ reast Cancer\nSCORE focus: Breast\nAnki: 10 minutes\; make up to 3 cards f
+ rom missed or guessed questions\nReview explanations and record the manage
+ ment detail that changes the answer\nPreview this week's case: Invasive br
+ east carcinoma with a clinically negative axilla
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2011,16 +2003,17 @@ DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Weekly case review: Invasive breast carcinoma with a clinically neg
  ative axilla
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: Breast Invasive Ca
- rcinoma\; Ductal Carcinoma In Situ\; Hereditary Breast Cancer\; Inflammato
- ry Breast Cancer\; Axillary Procedures in Breast Cancer\; Percutaneous Bre
- ast Biopsy and Cyst Aspiration\; Management of the Axilla in Breast Cancer
- \nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\n
- Case: Invasive breast carcinoma with a clinically negative axilla\nOperati
- on: Lumpectomy with sentinel lymph node biopsy\nAnatomy: Breast lymphatic
-  drainage and axillary levels\nComplication: Lymphedema\nAnswer: What do I
-  do first? What changes management? When do I call for help?\nCapture one
-  pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 35 new SCORE questions\nSCORE phase: Full quest
+ ion-bank pass\nModules: Breast Invasive Carcinoma\; Ductal Carcinoma In Si
+ tu\; Hereditary Breast Cancer\; Inflammatory Breast Cancer\; Axillary Proc
+ edures in Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspiration\;
+  Management of the Axilla in Breast Cancer\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nCase: Invasive breast carcinoma
+  with a clinically negative axilla\nOperation: Lumpectomy with sentinel ly
+ mph node biopsy\nAnatomy: Breast lymphatic drainage and axillary levels\nC
+ omplication: Lymphedema\nAnswer: What do I do first? What changes manageme
+ nt? When do I call for help?\nCapture one pearl\, one uncertainty\, and on
+ e follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2037,11 +2030,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:Study: Endoscopy
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nTW
- IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
- nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
-  3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Endoscopy\nTWIS: Esophago
+ gastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bronchoalveolar
+  Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to 3 cards fro
+ m missed or guessed questions\nReview explanations and record the manageme
+ nt detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2058,11 +2052,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:Study: Endoscopy
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nTW
- IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
- nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
-  3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Endoscopy\nTWIS: Esophago
+ gastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bronchoalveolar
+  Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to 3 cards fro
+ m missed or guessed questions\nReview explanations and record the manageme
+ nt detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2079,11 +2074,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:Study: Endoscopy
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nTW
- IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
- nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
-  3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Endoscopy\nTWIS: Esophago
+ gastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bronchoalveolar
+  Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to 3 cards fro
+ m missed or guessed questions\nReview explanations and record the manageme
+ nt detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2100,11 +2096,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:Study: Endoscopy
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nTW
- IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
- nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
-  3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Endoscopy\nTWIS: Esophago
+ gastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bronchoalveolar
+  Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to 3 cards fro
+ m missed or guessed questions\nReview explanations and record the manageme
+ nt detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2127,11 +2124,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Study: Endoscopy
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Endoscopy\nTW
- IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
- nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
-  3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Endoscopy\nTWIS: Esophago
+ gastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bronchoalveolar
+  Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to 3 cards fro
+ m missed or guessed questions\nReview explanations and record the manageme
+ nt detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2154,12 +2152,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Deep study: Endoscopy
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: En
- doscopy\nTWIS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchosc
- opy and Bronchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer\nPreview this we
- ek's case: Post-polypectomy bleeding
+DESCRIPTION:Weekend deep-study target: 25 missed\, guessed\, or weak-topic
+  SCORE questions\nSCORE phase: Focused review\nWeekly topic: Endoscopy\nTW
+ IS: Esophagogastroduodenoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bro
+ nchoalveolar Lavage\nSCORE focus: Endoscopy\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer\nPreview this week's case:
+  Post-polypectomy bleeding
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2202,14 +2201,15 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Weekly case review: Post-polypectomy bleeding
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: Esophagogastroduod
- enoscopy\; Lower GI Endoscopy\; Bronchoscopy and Bronchoalveolar Lavage\nA
- nki: 10 minutes\; make up to 3 cards from missed or guessed questions\nCas
- e: Post-polypectomy bleeding\nOperation: Colonoscopy with polypectomy\nAna
- tomy: Colonic fixation points and bronchial segment anatomy\nComplication:
-  Endoscopic perforation\nAnswer: What do I do first? What changes manageme
- nt? When do I call for help?\nCapture one pearl\, one uncertainty\, and on
- e follow-up topic
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nModules: Esophagogastroduodenoscopy\; L
+ ower GI Endoscopy\; Bronchoscopy and Bronchoalveolar Lavage\nAnki: 10 minu
+ tes\; make up to 3 cards from missed or guessed questions\nCase: Post-poly
+ pectomy bleeding\nOperation: Colonoscopy with polypectomy\nAnatomy: Coloni
+ c fixation points and bronchial segment anatomy\nComplication: Endoscopic
+  perforation\nAnswer: What do I do first? What changes management? When do
+  I call for help?\nCapture one pearl\, one uncertainty\, and one follow-up
+  topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2226,11 +2226,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:Study: Inflammatory Bowel Disease
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
-  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
- tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
- utes\; make up to 3 cards from missed or guessed questions\nReview explana
- tions and record the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Inflammatory Bowel Diseas
+ e\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcerative Colitis\
+ nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 minutes\; make u
+ p to 3 cards from missed or guessed questions\nReview explanations and rec
+ ord the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2247,11 +2248,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:Study: Inflammatory Bowel Disease
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
-  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
- tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
- utes\; make up to 3 cards from missed or guessed questions\nReview explana
- tions and record the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Inflammatory Bowel Diseas
+ e\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcerative Colitis\
+ nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 minutes\; make u
+ p to 3 cards from missed or guessed questions\nReview explanations and rec
+ ord the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2268,11 +2270,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:Study: Inflammatory Bowel Disease
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
-  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
- tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
- utes\; make up to 3 cards from missed or guessed questions\nReview explana
- tions and record the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Inflammatory Bowel Diseas
+ e\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcerative Colitis\
+ nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 minutes\; make u
+ p to 3 cards from missed or guessed questions\nReview explanations and rec
+ ord the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2289,11 +2292,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:Study: Inflammatory Bowel Disease
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
-  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
- tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
- utes\; make up to 3 cards from missed or guessed questions\nReview explana
- tions and record the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Inflammatory Bowel Diseas
+ e\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcerative Colitis\
+ nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 minutes\; make u
+ p to 3 cards from missed or guessed questions\nReview explanations and rec
+ ord the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2316,11 +2320,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Study: Inflammatory Bowel Disease
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Inflammatory
-  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
- tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
- utes\; make up to 3 cards from missed or guessed questions\nReview explana
- tions and record the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Inflammatory Bowel Diseas
+ e\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcerative Colitis\
+ nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 minutes\; make u
+ p to 3 cards from missed or guessed questions\nReview explanations and rec
+ ord the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2343,13 +2348,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Deep study: Inflammatory Bowel Disease
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: In
- flammatory Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures
-  for Ulcerative Colitis\nSCORE focus: Small Intestine\; Large Intestine\nA
- nki: 10 minutes\; make up to 3 cards from missed or guessed questions\nRev
- iew explanations and record the management detail that changes the answer\
- nPreview this week's case: Fulminant ulcerative colitis refractory to medi
- cal therapy
+DESCRIPTION:Weekend deep-study target: 25 missed\, guessed\, or weak-topic
+  SCORE questions\nSCORE phase: Focused review\nWeekly topic: Inflammatory
+  Bowel Disease\nTWIS: Procedures for Crohn Disease\; Procedures for Ulcera
+ tive Colitis\nSCORE focus: Small Intestine\; Large Intestine\nAnki: 10 min
+ utes\; make up to 3 cards from missed or guessed questions\nReview explana
+ tions and record the management detail that changes the answer\nPreview th
+ is week's case: Fulminant ulcerative colitis refractory to medical therapy
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2381,14 +2386,15 @@ DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Weekly case review: Fulminant ulcerative colitis refractory to medi
  cal therapy
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: Procedures for Cro
- hn Disease\; Procedures for Ulcerative Colitis\nAnki: 10 minutes\; make up
-  to 3 cards from missed or guessed questions\nCase: Fulminant ulcerative c
- olitis refractory to medical therapy\nOperation: Total abdominal colectomy
-  with end ileostomy\nAnatomy: Ileocolic mesentery and colonic blood supply
- \nComplication: High-output ileostomy\nAnswer: What do I do first? What ch
- anges management? When do I call for help?\nCapture one pearl\, one uncert
- ainty\, and one follow-up topic
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nModules: Procedures for Crohn Disease\;
+  Procedures for Ulcerative Colitis\nAnki: 10 minutes\; make up to 3 cards
+  from missed or guessed questions\nCase: Fulminant ulcerative colitis refr
+ actory to medical therapy\nOperation: Total abdominal colectomy with end i
+ leostomy\nAnatomy: Ileocolic mesentery and colonic blood supply\nComplicat
+ ion: High-output ileostomy\nAnswer: What do I do first? What changes manag
+ ement? When do I call for help?\nCapture one pearl\, one uncertainty\, and
+  one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2405,11 +2411,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Study: Miscellaneous Trauma
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
-  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
-  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
- o 3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Miscellaneous Trauma\nTWI
+ S: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\; Traumatic B
+ rain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fr
+ om missed or guessed questions\nReview explanations and record the managem
+ ent detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2426,11 +2433,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Study: Miscellaneous Trauma
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
-  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
-  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
- o 3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Miscellaneous Trauma\nTWI
+ S: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\; Traumatic B
+ rain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fr
+ om missed or guessed questions\nReview explanations and record the managem
+ ent detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2447,11 +2455,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Study: Miscellaneous Trauma
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
-  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
-  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
- o 3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Miscellaneous Trauma\nTWI
+ S: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\; Traumatic B
+ rain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fr
+ om missed or guessed questions\nReview explanations and record the managem
+ ent detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2468,11 +2477,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Study: Miscellaneous Trauma
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
-  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
-  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
- o 3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Miscellaneous Trauma\nTWI
+ S: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\; Traumatic B
+ rain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fr
+ om missed or guessed questions\nReview explanations and record the managem
+ ent detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2495,11 +2505,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Study: Miscellaneous Trauma
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Miscellaneous
-  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
-  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
- o 3 cards from missed or guessed questions\nReview explanations and record
-  the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Miscellaneous Trauma\nTWI
+ S: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\; Traumatic B
+ rain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up to 3 cards fr
+ om missed or guessed questions\nReview explanations and record the managem
+ ent detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2522,12 +2533,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:Deep study: Miscellaneous Trauma
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Mi
- scellaneous Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in
-  Pregnancy\; Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes
- \; make up to 3 cards from missed or guessed questions\nReview explanation
- s and record the management detail that changes the answer\nPreview this w
- eek's case: Anticoagulated geriatric patient after blunt trauma
+DESCRIPTION:Weekend deep-study target: 25 missed\, guessed\, or weak-topic
+  SCORE questions\nSCORE phase: Focused review\nWeekly topic: Miscellaneous
+  Trauma\nTWIS: Geriatric Trauma\; Pediatric Trauma\; Trauma in Pregnancy\;
+  Traumatic Brain Injury\nSCORE focus: Trauma\nAnki: 10 minutes\; make up t
+ o 3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer\nPreview this week's case:
+  Anticoagulated geriatric patient after blunt trauma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2559,14 +2571,15 @@ DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Weekly case review: Anticoagulated geriatric patient after blunt tr
  auma
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: Geriatric Trauma\;
-  Pediatric Trauma\; Trauma in Pregnancy\; Traumatic Brain Injury\nAnki: 10
-  minutes\; make up to 3 cards from missed or guessed questions\nCase: Anti
- coagulated geriatric patient after blunt trauma\nOperation: Trauma resusci
- tation adapted to a special population\nAnatomy: Age-related and pregnancy
- -related physiologic changes\nComplication: Delayed intracranial hemorrhag
- e\nAnswer: What do I do first? What changes management? When do I call for
-  help?\nCapture one pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nModules: Geriatric Trauma\; Pediatric T
+ rauma\; Trauma in Pregnancy\; Traumatic Brain Injury\nAnki: 10 minutes\; m
+ ake up to 3 cards from missed or guessed questions\nCase: Anticoagulated g
+ eriatric patient after blunt trauma\nOperation: Trauma resuscitation adapt
+ ed to a special population\nAnatomy: Age-related and pregnancy-related phy
+ siologic changes\nComplication: Delayed intracranial hemorrhage\nAnswer: W
+ hat do I do first? What changes management? When do I call for help?\nCapt
+ ure one pearl\, one uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2583,11 +2596,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:Study: Pancreatic Tumors
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
- mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
-  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Pancreatic Tumors\nTWIS:
+  Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\; Exocrine P
+ ancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2604,11 +2618,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Study: Pancreatic Tumors
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
- mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
-  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Pancreatic Tumors\nTWIS:
+  Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\; Exocrine P
+ ancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2625,11 +2640,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Study: Pancreatic Tumors
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
- mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
-  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Pancreatic Tumors\nTWIS:
+  Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\; Exocrine P
+ ancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2646,11 +2662,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Study: Pancreatic Tumors
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
- mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
-  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Pancreatic Tumors\nTWIS:
+  Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\; Exocrine P
+ ancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2673,11 +2690,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Study: Pancreatic Tumors
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Pancreatic Tu
- mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
-  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
-  make up to 3 cards from missed or guessed questions\nReview explanations
-  and record the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Pancreatic Tumors\nTWIS:
+  Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\; Exocrine P
+ ancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\; make up to
+  3 cards from missed or guessed questions\nReview explanations and record
+  the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2700,12 +2718,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Deep study: Pancreatic Tumors
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Pa
- ncreatic Tumors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic
-  Neoplasms\; Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 1
- 0 minutes\; make up to 3 cards from missed or guessed questions\nReview ex
- planations and record the management detail that changes the answer\nPrevi
- ew this week's case: Resectable pancreatic head adenocarcinoma
+DESCRIPTION:Weekend deep-study target: 25 missed\, guessed\, or weak-topic
+  SCORE questions\nSCORE phase: Focused review\nWeekly topic: Pancreatic Tu
+ mors\nTWIS: Pancreatic Cystic Neoplasms\; Endocrine Pancreatic Neoplasms\;
+  Exocrine Pancreatic Neoplasms\nSCORE focus: Pancreas\nAnki: 10 minutes\;
+  make up to 3 cards from missed or guessed questions\nReview explanations
+  and record the management detail that changes the answer\nPreview this we
+ ek's case: Resectable pancreatic head adenocarcinoma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2736,14 +2755,15 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:Weekly case review: Resectable pancreatic head adenocarcinoma
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: Pancreatic Cystic
-  Neoplasms\; Endocrine Pancreatic Neoplasms\; Exocrine Pancreatic Neoplasm
- s\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
- nCase: Resectable pancreatic head adenocarcinoma\nOperation: Pancreaticodu
- odenectomy\nAnatomy: SMA\, SMV\, portal vein\, and pancreatic neck relatio
- nships\nComplication: Postoperative pancreatic fistula\nAnswer: What do I
-  do first? What changes management? When do I call for help?\nCapture one
-  pearl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nModules: Pancreatic Cystic Neoplasms\;
+  Endocrine Pancreatic Neoplasms\; Exocrine Pancreatic Neoplasms\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nCase: Rese
+ ctable pancreatic head adenocarcinoma\nOperation: Pancreaticoduodenectomy\
+ nAnatomy: SMA\, SMV\, portal vein\, and pancreatic neck relationships\nCom
+ plication: Postoperative pancreatic fistula\nAnswer: What do I do first? W
+ hat changes management? When do I call for help?\nCapture one pearl\, one
+  uncertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2760,11 +2780,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:Study: Parathyroid
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
- TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
- ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
-  up to 3 cards from missed or guessed questions\nReview explanations and r
- ecord the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Parathyroid\nTWIS: Hyperp
+ arathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Cancer\; Parat
+ hyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2781,11 +2802,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Study: Parathyroid
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
- TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
- ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
-  up to 3 cards from missed or guessed questions\nReview explanations and r
- ecord the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Parathyroid\nTWIS: Hyperp
+ arathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Cancer\; Parat
+ hyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2802,11 +2824,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Study: Parathyroid
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
- TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
- ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
-  up to 3 cards from missed or guessed questions\nReview explanations and r
- ecord the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Parathyroid\nTWIS: Hyperp
+ arathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Cancer\; Parat
+ hyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2823,11 +2846,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Study: Parathyroid
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
- TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
- ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
-  up to 3 cards from missed or guessed questions\nReview explanations and r
- ecord the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Parathyroid\nTWIS: Hyperp
+ arathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Cancer\; Parat
+ hyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2850,11 +2874,12 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Study: Parathyroid
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Parathyroid\n
- TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
- ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
-  up to 3 cards from missed or guessed questions\nReview explanations and r
- ecord the management detail that changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Parathyroid\nTWIS: Hyperp
+ arathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Cancer\; Parat
+ hyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make up to 3 card
+ s from missed or guessed questions\nReview explanations and record the man
+ agement detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2877,12 +2902,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Deep study: Parathyroid
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: Pa
- rathyroid\nTWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Par
- athyroid Cancer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minu
- tes\; make up to 3 cards from missed or guessed questions\nReview explanat
- ions and record the management detail that changes the answer\nPreview thi
- s week's case: Primary hyperparathyroidism with discordant localization
+DESCRIPTION:Weekend deep-study target: 25 missed\, guessed\, or weak-topic
+  SCORE questions\nSCORE phase: Focused review\nWeekly topic: Parathyroid\n
+ TWIS: Hyperparathyroidism\; Multiple Endocrine Neoplasias\; Parathyroid Ca
+ ncer\; Parathyroidectomy\nSCORE focus: Endocrine\nAnki: 10 minutes\; make
+  up to 3 cards from missed or guessed questions\nReview explanations and r
+ ecord the management detail that changes the answer\nPreview this week's c
+ ase: Primary hyperparathyroidism with discordant localization
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2914,14 +2940,15 @@ DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Weekly case review: Primary hyperparathyroidism with discordant loc
  alization
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: Hyperparathyroidis
- m\; Multiple Endocrine Neoplasias\; Parathyroid Cancer\; Parathyroidectomy
- \nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\n
- Case: Primary hyperparathyroidism with discordant localization\nOperation:
-  Focused parathyroidectomy\nAnatomy: Parathyroid embryology and recurrent
-  laryngeal nerve\nComplication: Hungry bone syndrome\nAnswer: What do I do
-  first? What changes management? When do I call for help?\nCapture one pea
- rl\, one uncertainty\, and one follow-up topic
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nModules: Hyperparathyroidism\; Multiple
+  Endocrine Neoplasias\; Parathyroid Cancer\; Parathyroidectomy\nAnki: 10 m
+ inutes\; make up to 3 cards from missed or guessed questions\nCase: Primar
+ y hyperparathyroidism with discordant localization\nOperation: Focused par
+ athyroidectomy\nAnatomy: Parathyroid embryology and recurrent laryngeal ne
+ rve\nComplication: Hungry bone syndrome\nAnswer: What do I do first? What
+  changes management? When do I call for help?\nCapture one pearl\, one unc
+ ertainty\, and one follow-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2938,11 +2965,11 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Study: OFF - Thanksgiving
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
- iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
- l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
- nReview explanations and record the management detail that changes the ans
- wer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: OFF - Thanksgiving\nTWIS:
+  No assigned TWIS modules\nSCORE focus: Catch up only if useful\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
+ lanations and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2959,11 +2986,11 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Study: OFF - Thanksgiving
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
- iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
- l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
- nReview explanations and record the management detail that changes the ans
- wer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: OFF - Thanksgiving\nTWIS:
+  No assigned TWIS modules\nSCORE focus: Catch up only if useful\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
+ lanations and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2980,11 +3007,11 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Study: OFF - Thanksgiving
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
- iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
- l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
- nReview explanations and record the management detail that changes the ans
- wer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: OFF - Thanksgiving\nTWIS:
+  No assigned TWIS modules\nSCORE focus: Catch up only if useful\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
+ lanations and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3001,11 +3028,11 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Study: OFF - Thanksgiving
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
- iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
- l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
- nReview explanations and record the management detail that changes the ans
- wer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: OFF - Thanksgiving\nTWIS:
+  No assigned TWIS modules\nSCORE focus: Catch up only if useful\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
+ lanations and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3028,11 +3055,11 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Study: OFF - Thanksgiving
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: OFF - Thanksg
- iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
- l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
- nReview explanations and record the management detail that changes the ans
- wer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: OFF - Thanksgiving\nTWIS:
+  No assigned TWIS modules\nSCORE focus: Catch up only if useful\nAnki: 10
+  minutes\; make up to 3 cards from missed or guessed questions\nReview exp
+ lanations and record the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3055,12 +3082,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Deep study: OFF - Thanksgiving
-DESCRIPTION:Weekend deep-study target: 60 SCORE questions\nWeekly topic: OF
- F - Thanksgiving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up on
- ly if useful\nAnki: 10 minutes\; make up to 3 cards from missed or guessed
-  questions\nReview explanations and record the management detail that chan
- ges the answer\nPreview this week's case: Optional review of the most usef
- ul case from the prior month
+DESCRIPTION:Weekend deep-study target: 25 missed\, guessed\, or weak-topic
+  SCORE questions\nSCORE phase: Focused review\nWeekly topic: OFF - Thanksg
+ iving\nTWIS: No assigned TWIS modules\nSCORE focus: Catch up only if usefu
+ l\nAnki: 10 minutes\; make up to 3 cards from missed or guessed questions\
+ nReview explanations and record the management detail that changes the ans
+ wer\nPreview this week's case: Optional review of the most useful case fro
+ m the prior month
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3104,13 +3132,14 @@ DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Weekly case review: Optional review of the most useful case from th
  e prior month
-DESCRIPTION:Today's target: 35 SCORE questions\nModules: No assigned TWIS m
- odules\nAnki: 10 minutes\; make up to 3 cards from missed or guessed quest
- ions\nCase: Optional review of the most useful case from the prior month\n
- Operation: No assigned operation\nAnatomy: No assigned anatomy\nComplicati
- on: No assigned complication\nAnswer: What do I do first? What changes man
- agement? When do I call for help?\nCapture one pearl\, one uncertainty\, a
- nd one follow-up topic
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nModules: No assigned TWIS modules\nAnki
+ : 10 minutes\; make up to 3 cards from missed or guessed questions\nCase:
+  Optional review of the most useful case from the prior month\nOperation:
+  No assigned operation\nAnatomy: No assigned anatomy\nComplication: No ass
+ igned complication\nAnswer: What do I do first? What changes management? W
+ hen do I call for help?\nCapture one pearl\, one uncertainty\, and one fol
+ low-up topic
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3127,12 +3156,13 @@ DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Study: Soft Tissue Infection
-DESCRIPTION:Today's target: 35 SCORE questions\nWeekly topic: Soft Tissue I
- nfection\nTWIS: Soft Tissue Infections\; Hidradenitis Suppurativa\; Proced
- ures for Soft Tissue Infections\; Paronychia and Felon\nSCORE focus: Skin
-  and Soft Tissue\nAnki: 10 minutes\; make up to 3 cards from missed or gue
- ssed questions\nReview explanations and record the management detail that
-  changes the answer
+DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
+ ions\nSCORE phase: Focused review\nWeekly topic: Soft Tissue Infection\nTW
+ IS: Soft Tissue Infections\; Hidradenitis Suppurativa\; Procedures for Sof
+ t Tissue Infections\; Paronychia and Felon\nSCORE focus: Skin and Soft Tis
+ sue\nAnki: 10 minutes\; make up to 3 cards from missed or guessed question
+ s\nReview explanations and record the management detail that changes the a
+ nswer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -6070,5 +6100,43 @@ DESCRIPTION:Pike push-ups or handstand push-up progression - 4 x 8\nDips -
  eps before failure\nFinish: 10-minute BJJ flow - shrimp\, reverse shrimp\,
   bridges\, technical stand-ups\, sit-throughs\, sprawls\, and Granby rolls
 TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:sunday_planning-20270801@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:Plan the upcoming week
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:weight_training_back_and_arms-20270801@samos
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:Weight training: Back and arms
+DESCRIPTION:Weighted pull-ups - 5 x 5\nBodyweight pull-ups - 3 sets\, stopp
+ ing 1-2 reps before failure\nChest-supported rows - 4 x 8-12\nOne-arm dumb
+ bell rows - 3 x 10 each side\nFace pulls - 4 x 20\nLeaning lateral raises
+  - 5 x 15\nDead hangs - 3 x 60 seconds\nHanging leg raises - 3 x 15\nFinis
+ h: 10-minute BJJ flow - shrimp\, reverse shrimp\, bridges\, technical stan
+ d-ups\, sit-throughs\, sprawls\, and Granby rolls
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bjj_training-20270802@samos
+DTSTAMP:20000101T000000Z
+DTSTART:20270802T230000Z
+DTEND:20270803T003000Z
+SUMMARY:BJJ training
+LOCATION:Bushidokan Martial Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:bjj_training-20270803@samos
+DTSTAMP:20000101T000000Z
+DTSTART:20270803T230000Z
+DTEND:20270804T003000Z
+SUMMARY:BJJ training
+LOCATION:Bushidokan Martial Arts
 END:VEVENT
 END:VCALENDAR

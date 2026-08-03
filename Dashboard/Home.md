@@ -1,17 +1,18 @@
 # SamOS Dashboard
 
-**Today:** Friday, July 31, 2026
+**Today:** Monday, August 03, 2026
 
 > Read-only command center. Tell Codex what changed; generated files remain outputs.
 
 ## Today
 
 - **VA** (rotation)
-- [ ] Weight training: Legs and abs (90 min)
+- **On call** (call)
+- [ ] Optional study: Biliary Neoplasms and Jaundice (15 min)
 
 ## Study command center
 
-- **Starts August 3:** Biliary Neoplasms and Jaundice
+- **This week:** Biliary Neoplasms and Jaundice
 - **Assigned SCORE/TWIS modules:**
   - Benign Biliary Obstruction
   - Primary Biliary Neoplasms
@@ -23,21 +24,23 @@
 - **Anki:** 10 minutes; create up to 3 cards from missed or guessed questions
 - **Operation:** Extended cholecystectomy
 - **Case review:** Hilar cholangiocarcinoma with obstructive jaundice
-- SCORE Pass 1: `░░░░░░░░░░░░░░░░` 0/2200
-- SCORE Pass 2: `░░░░░░░░░░░░░░░░` 0/2200
+- SCORE full question bank: `░░░░░░░░░░░░░░░░` 0/2200
+- SCORE focused review: `░░░░░░░░░░░░░░░░` 0/700 maximum
 - TWIS weeks: `░░░░░░░░░░░░░░░░` 0/17
 - Case reviews: 0/18
-- Required average through November 30: **36 SCORE questions/day**
+- Full-pass plan through October 18: **35/day; 60 on Saturday**
+- Focused review from October 19 through November 30: **15/day; 25 on Saturday; stop when the flagged queue is complete**
+- Today's scheduled SCORE target: **5 questions** (full question-bank pass)
 
 ## This week
 
-- **Mon 07/27:** VA; BJJ training
-- **Tue 07/28:** VA; BJJ training
-- **Wed 07/29:** VA; Yoga
-- **Thu 07/30:** VA; BJJ training
-- **Fri 07/31:** VA; Weight training: Legs and abs
-- **Sat 08/01:** VA; Weight training: Chest and shoulders
-- **Sun 08/02:** VA; Plan the upcoming week; Weight training: Back and arms
+- **Mon 08/03:** VA; On call; Optional study: Biliary Neoplasms and Jaundice
+- **Tue 08/04:** VA; BJJ training
+- **Wed 08/05:** VA; Yoga; Study: Biliary Neoplasms and Jaundice
+- **Thu 08/06:** VA; BJJ training; Study: Biliary Neoplasms and Jaundice
+- **Fri 08/07:** VA; Weight training: Legs and abs; Study: Biliary Neoplasms and Jaundice
+- **Sat 08/08:** VA; On call; Optional study: Biliary Neoplasms and Jaundice
+- **Sun 08/09:** VA; Plan the upcoming week; Weight training: Chest and shoulders
 
 ## Upcoming reminders
 

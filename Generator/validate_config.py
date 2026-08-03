@@ -216,24 +216,53 @@ def validate_study_plan(data: dict) -> None:
         raise ValueError("Study/plan.yaml: end cannot be before start")
     require_fields(
         data["goals"],
-        ("score_questions_per_pass", "score_passes", "score_pass_1_due", "score_pass_2_due", "twis_passes", "twis_due"),
+        (
+            "score_full_pass_questions", "score_full_pass_due",
+            "score_focused_review_questions", "score_focused_review_start",
+            "score_focused_review_due", "score_focused_review_scope",
+            "twis_passes", "twis_due",
+        ),
         "Study/plan.yaml > goals",
     )
-    for field in ("score_questions_per_pass", "score_passes", "twis_passes"):
+    for field in ("score_full_pass_questions", "score_focused_review_questions", "twis_passes"):
         value = data["goals"][field]
         if not isinstance(value, int) or isinstance(value, bool) or value < 1:
             raise ValueError(f"Study/plan.yaml > goals > {field}: use a positive integer")
-    for field in ("score_pass_1_due", "score_pass_2_due", "twis_due"):
+    for field in (
+        "score_full_pass_due", "score_focused_review_start",
+        "score_focused_review_due", "twis_due",
+    ):
         if not isinstance(data["goals"][field], date):
             raise ValueError(f"Study/plan.yaml > goals > {field}: use a YYYY-MM-DD date")
+    if data["goals"]["score_focused_review_start"] <= data["goals"]["score_full_pass_due"]:
+        raise ValueError("Study/plan.yaml > goals: focused review must start after the full-pass due date")
+    if data["goals"]["score_focused_review_due"] < data["goals"]["score_focused_review_start"]:
+        raise ValueError("Study/plan.yaml > goals: focused review cannot end before it starts")
+    scope = data["goals"]["score_focused_review_scope"]
+    if not isinstance(scope, str) or not scope.strip():
+        raise ValueError("Study/plan.yaml > goals > score_focused_review_scope: use non-empty text")
 
     targets = data["daily_targets"]
-    target_fields = (
+    question_target_fields = (
         "weekday_score_questions", "deep_study_score_questions", "vacation_score_questions",
-        "call_score_questions", "anki_minutes", "anki_new_cards_cap", "twis_minutes",
+        "call_score_questions",
     )
-    require_fields(targets, target_fields + ("deep_study_day", "case_review_day"), "Study/plan.yaml > daily_targets")
-    for field in target_fields:
+    require_fields(
+        targets,
+        ("full_pass", "focused_review", "anki_minutes", "anki_new_cards_cap", "twis_minutes",
+         "deep_study_day", "case_review_day"),
+        "Study/plan.yaml > daily_targets",
+    )
+    for phase in ("full_pass", "focused_review"):
+        location = f"Study/plan.yaml > daily_targets > {phase}"
+        if not isinstance(targets[phase], dict):
+            raise ValueError(f"{location}: use a mapping of question targets")
+        require_fields(targets[phase], question_target_fields, location)
+        for field in question_target_fields:
+            value = targets[phase][field]
+            if not isinstance(value, int) or isinstance(value, bool) or value < 0:
+                raise ValueError(f"{location} > {field}: use a non-negative integer")
+    for field in ("anki_minutes", "anki_new_cards_cap", "twis_minutes"):
         if not isinstance(targets[field], int) or isinstance(targets[field], bool) or targets[field] < 0:
             raise ValueError(f"Study/plan.yaml > daily_targets > {field}: use a non-negative integer")
     for field in ("deep_study_day", "case_review_day"):
@@ -263,7 +292,7 @@ def validate_study_plan(data: dict) -> None:
 def validate_study_progress(data: dict) -> None:
     require_fields(data, ("score", "twis", "reviews", "last_updated"), "Study/progress.yaml")
     values = (
-        data["score"].get("pass_1_completed"), data["score"].get("pass_2_completed"),
+        data["score"].get("full_pass_completed"), data["score"].get("focused_review_completed"),
         data["twis"].get("weeks_completed"), data["reviews"].get("operations_completed"),
         data["reviews"].get("cases_completed"),
     )
