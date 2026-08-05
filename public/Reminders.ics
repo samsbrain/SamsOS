@@ -5,6 +5,60 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:SamOS Reminders
 BEGIN:VEVENT
+UID:kick_off_mirna_birthday_planning_2026_08_09-30@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:Reminder: Choose Mirna's party format\, budget\, and guest list
+DESCRIPTION:Due in 30 days - due 2026-08-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kick_off_mirna_birthday_planning_2026_08_09-14@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:Reminder: Choose Mirna's party format\, budget\, and guest list
+DESCRIPTION:Due in 14 days - due 2026-08-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kick_off_mirna_birthday_planning_2026_08_09-7@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:Reminder: Choose Mirna's party format\, budget\, and guest list
+DESCRIPTION:Due in 7 days - due 2026-08-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kick_off_mirna_birthday_planning_2026_08_09-3@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+SUMMARY:Reminder: Choose Mirna's party format\, budget\, and guest list
+DESCRIPTION:Due in 3 days - due 2026-08-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kick_off_mirna_birthday_planning_2026_08_09-1@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+SUMMARY:Reminder: Choose Mirna's party format\, budget\, and guest list
+DESCRIPTION:Due in 1 day - due 2026-08-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:kick_off_mirna_birthday_planning_2026_08_09-0@samos-reminders
+DTSTAMP:20000101T000000Z
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+SUMMARY:Reminder: Choose Mirna's party format\, budget\, and guest list
+DESCRIPTION:Due today - due 2026-08-09
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:complete_va_case_conference_2026_08_07-30@samos-reminders
 DTSTAMP:20000101T000000Z
 DTSTART;VALUE=DATE:20260708
