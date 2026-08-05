@@ -251,6 +251,7 @@ def validate_study_plan(data: dict) -> None:
         targets,
         ("full_pass", "focused_review", "anki_minutes", "anki_new_cards_cap", "twis_minutes",
          "twis_days", "anatomy_review_day", "anatomy_review_minutes",
+         "twis_preferred_day", "twis_preferred_day_bonus_modules",
          "operation_review_day", "operation_review_minutes", "deep_study_day",
          "case_review_day", "case_review_minutes"),
         "Study/plan.yaml > daily_targets",
@@ -266,6 +267,7 @@ def validate_study_plan(data: dict) -> None:
                 raise ValueError(f"{location} > {field}: use a non-negative integer")
     for field in (
         "anki_minutes", "anki_new_cards_cap", "twis_minutes",
+        "twis_preferred_day_bonus_modules",
         "anatomy_review_minutes", "operation_review_minutes", "case_review_minutes",
     ):
         if not isinstance(targets[field], int) or isinstance(targets[field], bool) or targets[field] < 0:
@@ -277,6 +279,10 @@ def validate_study_plan(data: dict) -> None:
         or set(targets["twis_days"]) - DAYS
     ):
         raise ValueError("Study/plan.yaml > daily_targets > twis_days: use unique lowercase weekdays")
+    if targets["twis_preferred_day"] not in targets["twis_days"]:
+        raise ValueError(
+            "Study/plan.yaml > daily_targets > twis_preferred_day: choose one of twis_days"
+        )
     for field in (
         "anatomy_review_day", "operation_review_day", "deep_study_day", "case_review_day",
     ):
