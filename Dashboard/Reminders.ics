@@ -192,12 +192,12 @@ DTEND;VALUE=DATE:20260806
 SUMMARY:SCORE full pass: 35 questions - Biliary Neoplasms and Jaundice
 DESCRIPTION:Today's target: 35 new SCORE questions\nPhase: Full question-ba
  nk pass\nScope: New SCORE questions with full explanation review\nWeekly t
- opic: Biliary Neoplasms and Jaundice\nTWIS today: Gallbladder Neoplasms\;
-  Procedures for Bile Duct Cancer\; Extended Cholecystectomy for Gallbladde
- r Cancer\nAnki: 10 minutes\; create up to 3 cards from missed or guessed q
- uestions\nReview explanations and capture the management detail that chang
- es the answer\nAnatomy review (20 min): Extrahepatic biliary tree and hila
- r vascular relationships
+ opic: Biliary Neoplasms and Jaundice\nTWIS today: Extended Cholecystectomy
+  for Gallbladder Cancer\; Gallbladder Neoplasms\; Procedures for Bile Duct
+  Cancer\nAnki: 10 minutes\; create up to 3 cards from missed or guessed qu
+ estions\nReview explanations and capture the management detail that change
+ s the answer\nAnatomy review (20 min): Extrahepatic biliary tree and hilar
+  vascular relationships
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -208,8 +208,8 @@ DTEND;VALUE=DATE:20260807
 SUMMARY:SCORE full pass: 35 questions - Biliary Neoplasms and Jaundice
 DESCRIPTION:Today's target: 35 new SCORE questions\nPhase: Full question-ba
  nk pass\nScope: New SCORE questions with full explanation review\nWeekly t
- opic: Biliary Neoplasms and Jaundice\nTWIS today: Procedures for Bile Duct
-  Neoplasm\; Primary Biliary Neoplasms\nAnki: 10 minutes\; create up to 3 c
+ opic: Biliary Neoplasms and Jaundice\nTWIS today: Primary Biliary Neoplasm
+ s\; Procedures for Bile Duct Neoplasm\nAnki: 10 minutes\; create up to 3 c
  ards from missed or guessed questions\nReview explanations and capture the
   management detail that changes the answer
 TRANSP:TRANSPARENT
@@ -373,10 +373,10 @@ SUMMARY:SCORE full pass: 10 questions (vacation) - Benign Anorectal\, Part
 DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nP
  hase: Full question-bank pass\nScope: New SCORE questions with full explan
  ation review\nWeekly topic: Benign Anorectal\, Part 2 of 2\nTWIS today: An
- al Dysplasia and STDs\; Perianal Condylomas Excision\nAnki: 10 minutes\; c
- reate up to 3 cards from missed or guessed questions\nReview explanations
-  and capture the management detail that changes the answer\nAnatomy review
-  (20 min): Anal canal\, sphincter complex\, and hemorrhoidal columns
+ al Dysplasia and STDs\nAnki: 10 minutes\; create up to 3 cards from missed
+  or guessed questions\nReview explanations and capture the management deta
+ il that changes the answer\nAnatomy review (20 min): Anal canal\, sphincte
+ r complex\, and hemorrhoidal columns
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -388,10 +388,10 @@ SUMMARY:SCORE full pass: 10 questions (vacation) - Benign Anorectal\, Part
   2 of 2
 DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nP
  hase: Full question-bank pass\nScope: New SCORE questions with full explan
- ation review\nWeekly topic: Benign Anorectal\, Part 2 of 2\nTWIS today: Fe
- cal Incontinence\; Rectal Prolapse\nAnki: 10 minutes\; create up to 3 card
- s from missed or guessed questions\nReview explanations and capture the ma
- nagement detail that changes the answer
+ ation review\nWeekly topic: Benign Anorectal\, Part 2 of 2\nTWIS today: Pe
+ rianal Condylomas Excision\; Fecal Incontinence\; Rectal Prolapse\nAnki: 1
+ 0 minutes\; create up to 3 cards from missed or guessed questions\nReview
+  explanations and capture the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -477,11 +477,10 @@ SUMMARY:SCORE full pass: 35 questions - Liver Neoplasms and Portal Hyperten
  sion
 DESCRIPTION:Today's target: 35 new SCORE questions\nPhase: Full question-ba
  nk pass\nScope: New SCORE questions with full explanation review\nWeekly t
- opic: Liver Neoplasms and Portal Hypertension\nTWIS today: Metastatic Hepa
- tic Neoplasms\nAnki: 10 minutes\; create up to 3 cards from missed or gues
- sed questions\nReview explanations and capture the management detail that
-  changes the answer\nAnatomy review (20 min): Couinaud segments and hepati
- c inflow/outflow
+ opic: Liver Neoplasms and Portal Hypertension\nAnki: 10 minutes\; create u
+ p to 3 cards from missed or guessed questions\nReview explanations and cap
+ ture the management detail that changes the answer\nAnatomy review (20 min
+ ): Couinaud segments and hepatic inflow/outflow
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -493,10 +492,10 @@ SUMMARY:Optional SCORE full pass: 5 questions (call) - Liver Neoplasms and
   Portal Hypertension
 DESCRIPTION:Only if patient care allows: 5 new SCORE questions\nPhase: Full
   question-bank pass\nScope: New SCORE questions with full explanation revi
- ew\nWeekly topic: Liver Neoplasms and Portal Hypertension\nTWIS today: Seg
- mentectomy and Lobectomy\nAnki: 10 minutes\; create up to 3 cards from mis
- sed or guessed questions\nReview explanations and capture the management d
- etail that changes the answer
+ ew\nWeekly topic: Liver Neoplasms and Portal Hypertension\nTWIS today: Met
+ astatic Hepatic Neoplasms\; Segmentectomy and Lobectomy\nAnki: 10 minutes\
+ ; create up to 3 cards from missed or guessed questions\nReview explanatio
+ ns and capture the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -661,9 +660,9 @@ SUMMARY:SCORE full pass: 10 questions (vacation) - Stomach\, Part 1 of 2
 DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nP
  hase: Full question-bank pass\nScope: New SCORE questions with full explan
  ation review\nWeekly topic: Stomach\, Part 1 of 2\nTWIS today: Gastrectomy
- \; Vagotomy and Drainage\nAnki: 10 minutes\; create up to 3 cards from mis
- sed or guessed questions\nReview explanations and capture the management d
- etail that changes the answer
+ \nAnki: 10 minutes\; create up to 3 cards from missed or guessed questions
+ \nReview explanations and capture the management detail that changes the a
+ nswer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -674,11 +673,11 @@ DTEND;VALUE=DATE:20260909
 SUMMARY:SCORE full pass: 10 questions (vacation) - Stomach\, Part 1 of 2
 DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nP
  hase: Full question-bank pass\nScope: New SCORE questions with full explan
- ation review\nWeekly topic: Stomach\, Part 1 of 2\nTWIS today: Gastric Ade
- nocarcinoma\; Peptic Ulcer Disease\nAnki: 10 minutes\; create up to 3 card
- s from missed or guessed questions\nReview explanations and capture the ma
- nagement detail that changes the answer\nAnatomy review (20 min): Gastric
-  blood supply\, vagal trunks\, and lymphatic stations
+ ation review\nWeekly topic: Stomach\, Part 1 of 2\nTWIS today: Vagotomy an
+ d Drainage\nAnki: 10 minutes\; create up to 3 cards from missed or guessed
+  questions\nReview explanations and capture the management detail that cha
+ nges the answer\nAnatomy review (20 min): Gastric blood supply\, vagal tru
+ nks\, and lymphatic stations
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -689,10 +688,11 @@ DTEND;VALUE=DATE:20260910
 SUMMARY:SCORE full pass: 10 questions (vacation) - Stomach\, Part 1 of 2
 DESCRIPTION:Vacation target: 10 new SCORE questions\, then enjoy the day\nP
  hase: Full question-bank pass\nScope: New SCORE questions with full explan
- ation review\nWeekly topic: Stomach\, Part 1 of 2\nTWIS today: Gastroduode
- nal Perforation Repair\nAnki: 10 minutes\; create up to 3 cards from misse
- d or guessed questions\nReview explanations and capture the management det
- ail that changes the answer
+ ation review\nWeekly topic: Stomach\, Part 1 of 2\nTWIS today: Gastric Ade
+ nocarcinoma\; Peptic Ulcer Disease\; Gastroduodenal Perforation Repair\nAn
+ ki: 10 minutes\; create up to 3 cards from missed or guessed questions\nRe
+ view explanations and capture the management detail that changes the answe
+ r
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -759,9 +759,9 @@ SUMMARY:SCORE full pass: 35 questions - Small Intestine\, Part 2 of 2
 DESCRIPTION:Today's target: 35 new SCORE questions\nPhase: Full question-ba
  nk pass\nScope: New SCORE questions with full explanation review\nWeekly t
  opic: Small Intestine\, Part 2 of 2\nTWIS today: Ileostomy and Ileostomy C
- losure\; Meckel Diverticulum\nAnki: 10 minutes\; create up to 3 cards from
-  missed or guessed questions\nReview explanations and capture the manageme
- nt detail that changes the answer
+ losure\nAnki: 10 minutes\; create up to 3 cards from missed or guessed que
+ stions\nReview explanations and capture the management detail that changes
+  the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -772,11 +772,11 @@ DTEND;VALUE=DATE:20260916
 SUMMARY:SCORE full pass: 35 questions - Small Intestine\, Part 2 of 2
 DESCRIPTION:Today's target: 35 new SCORE questions\nPhase: Full question-ba
  nk pass\nScope: New SCORE questions with full explanation review\nWeekly t
- opic: Small Intestine\, Part 2 of 2\nTWIS today: Enteric Infections and Bl
- ind Loop Syndrome\; Small Intestinal Neoplasms\nAnki: 10 minutes\; create
-  up to 3 cards from missed or guessed questions\nReview explanations and c
- apture the management detail that changes the answer\nAnatomy review (20 m
- in): SMA branches and small-bowel collateral circulation
+ opic: Small Intestine\, Part 2 of 2\nTWIS today: Meckel Diverticulum\nAnki
+ : 10 minutes\; create up to 3 cards from missed or guessed questions\nRevi
+ ew explanations and capture the management detail that changes the answer\
+ nAnatomy review (20 min): SMA branches and small-bowel collateral circulat
+ ion
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -787,7 +787,8 @@ DTEND;VALUE=DATE:20260917
 SUMMARY:SCORE full pass: 35 questions - Small Intestine\, Part 2 of 2
 DESCRIPTION:Today's target: 35 new SCORE questions\nPhase: Full question-ba
  nk pass\nScope: New SCORE questions with full explanation review\nWeekly t
- opic: Small Intestine\, Part 2 of 2\nTWIS today: Acute Mesenteric Ischemia
+ opic: Small Intestine\, Part 2 of 2\nTWIS today: Enteric Infections and Bl
+ ind Loop Syndrome\; Small Intestinal Neoplasms\; Acute Mesenteric Ischemia
  \nAnki: 10 minutes\; create up to 3 cards from missed or guessed questions
  \nReview explanations and capture the management detail that changes the a
  nswer
@@ -872,10 +873,10 @@ SUMMARY:SCORE full pass: 35 questions - Systems-Based Practice
 DESCRIPTION:Today's target: 35 new SCORE questions\nPhase: Full question-ba
  nk pass\nScope: New SCORE questions with full explanation review\nWeekly t
  opic: Systems-Based Practice\nTWIS today: Cost Awareness and Risk-Benefit
-  Analysis\; Identifying Systems Errors - Root Cause Analysis\nAnki: 10 min
- utes\; create up to 3 cards from missed or guessed questions\nReview expla
- nations and capture the management detail that changes the answer\nAnatomy
-  review (20 min): Care escalation pathways and handoff interfaces
+  Analysis\nAnki: 10 minutes\; create up to 3 cards from missed or guessed
+  questions\nReview explanations and capture the management detail that cha
+ nges the answer\nAnatomy review (20 min): Care escalation pathways and han
+ doff interfaces
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -886,11 +887,11 @@ DTEND;VALUE=DATE:20260924
 SUMMARY:SCORE full pass: 35 questions - Systems-Based Practice
 DESCRIPTION:Today's target: 35 new SCORE questions\nPhase: Full question-ba
  nk pass\nScope: New SCORE questions with full explanation review\nWeekly t
- opic: Systems-Based Practice\nTWIS today: Working Effectively in Various H
- ealthcare Delivery Settings and Systems\; Working in Interprofessional Tea
- ms\nAnki: 10 minutes\; create up to 3 cards from missed or guessed questio
- ns\nReview explanations and capture the management detail that changes the
-  answer
+ opic: Systems-Based Practice\nTWIS today: Identifying Systems Errors - Roo
+ t Cause Analysis\; Working Effectively in Various Healthcare Delivery Sett
+ ings and Systems\; Working in Interprofessional Teams\nAnki: 10 minutes\;
+  create up to 3 cards from missed or guessed questions\nReview explanation
+ s and capture the management detail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1068,10 +1069,10 @@ DTEND;VALUE=DATE:20261007
 SUMMARY:SCORE full pass: 35 questions - Thyroid
 DESCRIPTION:Today's target: 35 new SCORE questions\nPhase: Full question-ba
  nk pass\nScope: New SCORE questions with full explanation review\nWeekly t
- opic: Thyroid\nTWIS today: Thyroid Cancer\; Thyroidectomy\nAnki: 10 minute
- s\; create up to 3 cards from missed or guessed questions\nReview explanat
- ions and capture the management detail that changes the answer\nAnatomy re
- view (20 min): Recurrent laryngeal nerve and parathyroid blood supply
+ opic: Thyroid\nTWIS today: Thyroid Cancer\nAnki: 10 minutes\; create up to
+  3 cards from missed or guessed questions\nReview explanations and capture
+  the management detail that changes the answer\nAnatomy review (20 min): R
+ ecurrent laryngeal nerve and parathyroid blood supply
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1082,9 +1083,10 @@ DTEND;VALUE=DATE:20261008
 SUMMARY:SCORE full pass: 35 questions - Thyroid
 DESCRIPTION:Today's target: 35 new SCORE questions\nPhase: Full question-ba
  nk pass\nScope: New SCORE questions with full explanation review\nWeekly t
- opic: Thyroid\nTWIS today: Hyperthyroidism\; Thyroiditis\nAnki: 10 minutes
- \; create up to 3 cards from missed or guessed questions\nReview explanati
- ons and capture the management detail that changes the answer
+ opic: Thyroid\nTWIS today: Thyroidectomy\; Hyperthyroidism\; Thyroiditis\n
+ Anki: 10 minutes\; create up to 3 cards from missed or guessed questions\n
+ Review explanations and capture the management detail that changes the ans
+ wer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1162,11 +1164,10 @@ DTEND;VALUE=DATE:20261014
 SUMMARY:SCORE full pass: 35 questions - Breast\, Part 2 of 3
 DESCRIPTION:Today's target: 35 new SCORE questions\nPhase: Full question-ba
  nk pass\nScope: New SCORE questions with full explanation review\nWeekly t
- opic: Breast\, Part 2 of 3\nTWIS today: Hereditary Breast Cancer\; Inflamm
- atory Breast Cancer\nAnki: 10 minutes\; create up to 3 cards from missed o
- r guessed questions\nReview explanations and capture the management detail
-  that changes the answer\nAnatomy review (20 min): Breast lymphatic draina
- ge and axillary levels
+ opic: Breast\, Part 2 of 3\nTWIS today: Hereditary Breast Cancer\nAnki: 10
+  minutes\; create up to 3 cards from missed or guessed questions\nReview e
+ xplanations and capture the management detail that changes the answer\nAna
+ tomy review (20 min): Breast lymphatic drainage and axillary levels
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1177,10 +1178,11 @@ DTEND;VALUE=DATE:20261015
 SUMMARY:SCORE full pass: 35 questions - Breast\, Part 2 of 3
 DESCRIPTION:Today's target: 35 new SCORE questions\nPhase: Full question-ba
  nk pass\nScope: New SCORE questions with full explanation review\nWeekly t
- opic: Breast\, Part 2 of 3\nTWIS today: Axillary Procedures in Breast Canc
- er\; Percutaneous Breast Biopsy and Cyst Aspiration\nAnki: 10 minutes\; cr
- eate up to 3 cards from missed or guessed questions\nReview explanations a
- nd capture the management detail that changes the answer
+ opic: Breast\, Part 2 of 3\nTWIS today: Inflammatory Breast Cancer\; Axill
+ ary Procedures in Breast Cancer\; Percutaneous Breast Biopsy and Cyst Aspi
+ ration\nAnki: 10 minutes\; create up to 3 cards from missed or guessed que
+ stions\nReview explanations and capture the management detail that changes
+  the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1261,10 +1263,10 @@ SUMMARY:Focused SCORE review: 15 questions - Endoscopy
 DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
  ions\nPhase: Focused review\nScope: Missed\, guessed\, and weak-topic ques
  tions only\; stop when the flagged queue is complete\nWeekly topic: Endosc
- opy\nTWIS today: Lower GI Endoscopy\nAnki: 10 minutes\; create up to 3 car
- ds from missed or guessed questions\nReview explanations and capture the m
- anagement detail that changes the answer\nAnatomy review (20 min): Colonic
-  fixation points and bronchial segment anatomy
+ opy\nAnki: 10 minutes\; create up to 3 cards from missed or guessed questi
+ ons\nReview explanations and capture the management detail that changes th
+ e answer\nAnatomy review (20 min): Colonic fixation points and bronchial s
+ egment anatomy
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1276,9 +1278,10 @@ SUMMARY:Focused SCORE review: 15 questions - Endoscopy
 DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
  ions\nPhase: Focused review\nScope: Missed\, guessed\, and weak-topic ques
  tions only\; stop when the flagged queue is complete\nWeekly topic: Endosc
- opy\nTWIS today: Bronchoscopy and Bronchoalveolar Lavage\nAnki: 10 minutes
- \; create up to 3 cards from missed or guessed questions\nReview explanati
- ons and capture the management detail that changes the answer
+ opy\nTWIS today: Lower GI Endoscopy\; Bronchoscopy and Bronchoalveolar Lav
+ age\nAnki: 10 minutes\; create up to 3 cards from missed or guessed questi
+ ons\nReview explanations and capture the management detail that changes th
+ e answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1346,9 +1349,9 @@ SUMMARY:Focused SCORE review: 15 questions - Inflammatory Bowel Disease
 DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
  ions\nPhase: Focused review\nScope: Missed\, guessed\, and weak-topic ques
  tions only\; stop when the flagged queue is complete\nWeekly topic: Inflam
- matory Bowel Disease\nTWIS today: Procedures for Crohn Disease\nAnki: 10 m
- inutes\; create up to 3 cards from missed or guessed questions\nReview exp
- lanations and capture the management detail that changes the answer
+ matory Bowel Disease\nAnki: 10 minutes\; create up to 3 cards from missed
+  or guessed questions\nReview explanations and capture the management deta
+ il that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1360,10 +1363,10 @@ SUMMARY:Focused SCORE review: 15 questions - Inflammatory Bowel Disease
 DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
  ions\nPhase: Focused review\nScope: Missed\, guessed\, and weak-topic ques
  tions only\; stop when the flagged queue is complete\nWeekly topic: Inflam
- matory Bowel Disease\nTWIS today: Procedures for Ulcerative Colitis\nAnki:
-  10 minutes\; create up to 3 cards from missed or guessed questions\nRevie
- w explanations and capture the management detail that changes the answer\n
- Anatomy review (20 min): Ileocolic mesentery and colonic blood supply
+ matory Bowel Disease\nAnki: 10 minutes\; create up to 3 cards from missed
+  or guessed questions\nReview explanations and capture the management deta
+ il that changes the answer\nAnatomy review (20 min): Ileocolic mesentery a
+ nd colonic blood supply
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1375,9 +1378,10 @@ SUMMARY:Focused SCORE review: 15 questions - Inflammatory Bowel Disease
 DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
  ions\nPhase: Focused review\nScope: Missed\, guessed\, and weak-topic ques
  tions only\; stop when the flagged queue is complete\nWeekly topic: Inflam
- matory Bowel Disease\nAnki: 10 minutes\; create up to 3 cards from missed
-  or guessed questions\nReview explanations and capture the management deta
- il that changes the answer
+ matory Bowel Disease\nTWIS today: Procedures for Crohn Disease\; Procedure
+ s for Ulcerative Colitis\nAnki: 10 minutes\; create up to 3 cards from mis
+ sed or guessed questions\nReview explanations and capture the management d
+ etail that changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1564,10 +1568,10 @@ SUMMARY:Focused SCORE review: 15 questions - Pancreatic Tumors
 DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
  ions\nPhase: Focused review\nScope: Missed\, guessed\, and weak-topic ques
  tions only\; stop when the flagged queue is complete\nWeekly topic: Pancre
- atic Tumors\nTWIS today: Endocrine Pancreatic Neoplasms\nAnki: 10 minutes\
- ; create up to 3 cards from missed or guessed questions\nReview explanatio
- ns and capture the management detail that changes the answer\nAnatomy revi
- ew (20 min): SMA\, SMV\, portal vein\, and pancreatic neck relationships
+ atic Tumors\nAnki: 10 minutes\; create up to 3 cards from missed or guesse
+ d questions\nReview explanations and capture the management detail that ch
+ anges the answer\nAnatomy review (20 min): SMA\, SMV\, portal vein\, and p
+ ancreatic neck relationships
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1579,9 +1583,10 @@ SUMMARY:Focused SCORE review: 15 questions - Pancreatic Tumors
 DESCRIPTION:Today's target: 15 missed\, guessed\, or weak-topic SCORE quest
  ions\nPhase: Focused review\nScope: Missed\, guessed\, and weak-topic ques
  tions only\; stop when the flagged queue is complete\nWeekly topic: Pancre
- atic Tumors\nTWIS today: Exocrine Pancreatic Neoplasms\nAnki: 10 minutes\;
-  create up to 3 cards from missed or guessed questions\nReview explanation
- s and capture the management detail that changes the answer
+ atic Tumors\nTWIS today: Endocrine Pancreatic Neoplasms\; Exocrine Pancrea
+ tic Neoplasms\nAnki: 10 minutes\; create up to 3 cards from missed or gues
+ sed questions\nReview explanations and capture the management detail that
+  changes the answer
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

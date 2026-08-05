@@ -33,6 +33,8 @@ daily_targets:
     - tuesday
     - wednesday
     - thursday
+  twis_preferred_day: wednesday
+  twis_preferred_day_bonus_modules: 2
   anatomy_review_day: tuesday
   anatomy_review_minutes: 20
   operation_review_day: friday

@@ -135,10 +135,33 @@ def study_assignments_for_week(plan: dict, week: dict, events: list[dict]) -> di
         if day.strftime("%A").lower() in targets["twis_days"]
     ]
     module_count = len(week["twis"])
-    base, remainder = divmod(module_count, len(twis_days))
+    preferred_day = next(
+        day for day in twis_days
+        if day.strftime("%A").lower() == targets["twis_preferred_day"]
+    )
+    counts = {day: 0 for day in twis_days}
+    remaining = module_count
+    if module_count >= len(twis_days):
+        for day in twis_days:
+            counts[day] = 1
+        remaining -= len(twis_days)
+
+    other_days = [day for day in twis_days if day != preferred_day]
+    priority = (
+        [preferred_day] * targets["twis_preferred_day_bonus_modules"]
+        + other_days
+        + [preferred_day]
+    )
+    while remaining:
+        for day in priority:
+            if not remaining:
+                break
+            counts[day] += 1
+            remaining -= 1
+
     module_index = 0
-    for index, day in enumerate(twis_days):
-        count = base + (1 if index < remainder else 0)
+    for day in twis_days:
+        count = counts[day]
         assignments[day]["twis"] = week["twis"][module_index:module_index + count]
         module_index += count
 
@@ -158,6 +181,9 @@ def study_assignments_for_week(plan: dict, week: dict, events: list[dict]) -> di
                 ),
             )
             assignments[destination]["twis"].append(module)
+    module_order = {module: index for index, module in enumerate(week["twis"])}
+    for day in twis_days:
+        assignments[day]["twis"].sort(key=module_order.get)
 
     reviews = [
         {

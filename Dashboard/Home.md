@@ -1,23 +1,25 @@
 # SamOS Dashboard
 
-**Today:** Monday, August 03, 2026
+**Today:** Wednesday, August 05, 2026
 
 > Read-only command center. Tell Codex what changed; generated files remain outputs.
 
 ## Today
 
 - **VA** (rotation)
-- **On call** (call)
-- [ ] Optional study: Biliary Neoplasms and Jaundice (60 min)
+- [ ] Yoga (60 min)
+- [ ] Study: Biliary Neoplasms and Jaundice — 3 TWIS, Anatomy review (110 min)
 
 ## Study command center
 
 - **This week:** Biliary Neoplasms and Jaundice
 - **Today's checklist:**
-  - [x] SCORE: 5/5 questions
-  - [x] Anki: 10 minutes
-  - [x] TWIS: Benign Biliary Obstruction
-  - [x] TWIS: CBD Exploration & Choledochoscopy
+  - [ ] SCORE: 0/35 questions
+  - [ ] Anki: 10 minutes
+  - [ ] TWIS: Extended Cholecystectomy for Gallbladder Cancer
+  - [ ] TWIS: Gallbladder Neoplasms
+  - [ ] TWIS: Procedures for Bile Duct Cancer
+  - [ ] Anatomy review: Extrahepatic biliary tree and hilar vascular relationships
 - **TWIS modules this week:**
   - [x] Mon — Benign Biliary Obstruction
   - [x] Mon — CBD Exploration & Choledochoscopy
@@ -36,7 +38,7 @@
 - Case reviews: 0/17
 - Full-pass plan through October 18: **35/day; 60 on Saturday**
 - Focused review from October 19 through November 30: **15/day; 25 on Saturday; stop when the flagged queue is complete**
-- Today's scheduled SCORE target: **5 questions** (full question-bank pass)
+- Today's scheduled SCORE target: **35 questions** (full question-bank pass)
 
 ## This week
 

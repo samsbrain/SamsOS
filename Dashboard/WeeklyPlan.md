@@ -52,7 +52,7 @@
   - Today's target: 35 new SCORE questions
   - SCORE phase: Full question-bank pass
   - Weekly topic: Biliary Neoplasms and Jaundice
-  - TWIS today: Gallbladder Neoplasms; Procedures for Bile Duct Cancer; Extended Cholecystectomy for Gallbladder Cancer
+  - TWIS today: Extended Cholecystectomy for Gallbladder Cancer; Gallbladder Neoplasms; Procedures for Bile Duct Cancer
   - Anatomy review (20 min): Extrahepatic biliary tree and hilar vascular relationships
   - SCORE focus: Biliary
   - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
@@ -66,7 +66,7 @@
   - Today's target: 35 new SCORE questions
   - SCORE phase: Full question-bank pass
   - Weekly topic: Biliary Neoplasms and Jaundice
-  - TWIS today: Procedures for Bile Duct Neoplasm; Primary Biliary Neoplasms
+  - TWIS today: Primary Biliary Neoplasms; Procedures for Bile Duct Neoplasm
   - SCORE focus: Biliary
   - Anki: 10 minutes; make up to 3 cards from missed or guessed questions
   - Review explanations and record the management detail that changes the answer
