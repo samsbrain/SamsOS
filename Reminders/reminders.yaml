@@ -7,6 +7,12 @@
 #     status: active
 
 reminders:
+  - id: kick_off_mirna_birthday_planning_2026_08_09
+    title: Choose Mirna's party format, budget, and guest list
+    category: general
+    due: 2026-08-09
+    status: active
+
   - id: complete_va_case_conference_2026_08_07
     title: Complete VA case conference
     category: general

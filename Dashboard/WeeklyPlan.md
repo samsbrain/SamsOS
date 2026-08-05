@@ -21,7 +21,7 @@
 ## Project next actions
 
 - [ ] **Complete this week's trauma review:** Choose and review one trauma topic
-- [ ] **Plan Mirna's 13 Going on 30 birthday party:** Confirm the party date, budget, and guest list
+- [ ] **Plan Mirna's 13 Going on 30 birthday party:** Choose the party format or venue, set the budget ceiling, and draft the guest list by August 9
 - [ ] **Complete one SCORE pass, focused review, and one TWIS pass before December:** Complete today's full-pass or focused-review study assignment
 
 ## Daily plan

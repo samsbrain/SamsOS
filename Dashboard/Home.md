@@ -53,6 +53,7 @@
 ## Upcoming reminders
 
 - **Aug 07:** Complete VA case conference
+- **Aug 09:** Choose Mirna's party format, budget, and guest list
 - **Aug 31:** Schedule FLS and FES
 - **Sep 16:** Prepare for M&M presentation
 
